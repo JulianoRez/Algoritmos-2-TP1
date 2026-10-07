@@ -15,6 +15,11 @@ def test_codificar_valores_conhecidos(lat, lon, esperado):
     assert geohash.codificar(lat, lon, len(esperado)) == esperado
 
 
+def test_precisao_limitada():
+    with pytest.raises(ValueError):
+        geohash.codificar(0, 0, 9)
+
+
 def test_caixa_contem_o_ponto_e_tem_o_tamanho_da_precisao():
     rng = random.Random(1)
     for _ in range(2000):

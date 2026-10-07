@@ -4,6 +4,8 @@ PRECISAO_MAXIMA = 8
 
 
 def codificar(lat, lon, precisao=PRECISAO_MAXIMA):
+    if not 1 <= precisao <= PRECISAO_MAXIMA:
+        raise ValueError(f"precisão deve estar entre 1 e {PRECISAO_MAXIMA}")
     lat_ini, lat_fim = -90.0, 90.0
     lon_ini, lon_fim = -180.0, 180.0
     caracteres = []
