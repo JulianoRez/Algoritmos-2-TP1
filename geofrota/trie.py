@@ -58,6 +58,12 @@ class TrieCompacta:
             if filho is None:
                 return []
             resto = prefixo[i:]
+            if len(resto) <= len(filho.rotulo):
+                # O prefixo termina dentro deste rótulo.
+                if not filho.rotulo.startswith(resto):
+                    return []
+                no = filho
+                break
             if not resto.startswith(filho.rotulo):
                 return []
             no = filho
