@@ -36,6 +36,19 @@ def test_valores_repetidos_na_mesma_chave():
     assert len(t) == 2
 
 
+def test_compacta_nao_tem_no_interno_com_um_filho_so():
+    rng = random.Random(0)
+    t = TrieCompacta()
+    for i in range(3000):
+        t.inserir("".join(rng.choice("0123456789bcdefg") for _ in range(8)), i)
+    pilha = list(t.raiz.filhos.values())
+    while pilha:
+        no = pilha.pop()
+        assert no.rotulo
+        assert no.valores or len(no.filhos) >= 2
+        pilha.extend(no.filhos.values())
+
+
 def test_igual_a_busca_por_forca_bruta():
     rng = random.Random(42)
     alfabeto = "0123456789bcdefghjkmnpqrstuvwxyz"
@@ -46,3 +59,11 @@ def test_igual_a_busca_por_forca_bruta():
     for _ in range(500):
         p = rng.choice(chaves)[: rng.randint(0, 8)]
         assert sorted(t.buscar_prefixo(p)) == [i for i, c in enumerate(chaves) if c.startswith(p)]
+
+
+def test_limpar():
+    t = TrieCompacta()
+    t.inserir("abc", 1)
+    t.limpar()
+    assert len(t) == 0
+    assert t.buscar_prefixo("") == []

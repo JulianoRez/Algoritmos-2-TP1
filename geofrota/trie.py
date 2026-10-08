@@ -25,6 +25,10 @@ class TrieCompacta:
     def __len__(self):
         return self._tamanho
 
+    def limpar(self):
+        self.raiz = No()
+        self._tamanho = 0
+
     def inserir(self, chave, valor):
         no = self.raiz
         i = 0
@@ -78,3 +82,12 @@ class TrieCompacta:
             encontrados.extend(atual.valores)
             pilha.extend(atual.filhos.values())
         return encontrados
+
+    def contar_nos(self):
+        total = 0
+        pilha = [self.raiz]
+        while pilha:
+            atual = pilha.pop()
+            total += 1
+            pilha.extend(atual.filhos.values())
+        return total
