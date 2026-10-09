@@ -35,7 +35,7 @@ ROMANOS = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"}
 
 def normalizar(texto):
     texto = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode()
-    return " ".join(texto.upper().split())
+    return " ".join(texto.upper().replace("-", " ").split())
 
 
 def titulo(texto):
