@@ -38,12 +38,12 @@ def normalizar(texto):
     return " ".join(texto.upper().replace("-", " ").split())
 
 
-def titulo(texto):
+def titulo(texto, inicio_de_frase=True):
     palavras = []
     for i, p in enumerate(texto.split()):
         if p in ROMANOS:
             palavras.append(p)
-        elif i > 0 and p in MINUSCULAS:
+        elif (i > 0 or not inicio_de_frase) and p in MINUSCULAS:
             palavras.append(p.lower())
         else:
             palavras.append(p.capitalize())
@@ -122,7 +122,7 @@ def main():
             bairro, x, y = achado
             lon, lat = utm_para_geo.transform(x, y)
             tipo = TIPOS.get(bar["DESC_LOGRADOURO"], bar["DESC_LOGRADOURO"].title())
-            via = f"{tipo} {titulo(bar['NOME_LOGRADOURO'])}"
+            via = f"{tipo} {titulo(bar['NOME_LOGRADOURO'], False)}"
             saida.append({
                 "id": bar["_id"],
                 "nome": nome_exibicao(bar["NOME_FANTASIA"], bar["NOME"]),
