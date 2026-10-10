@@ -13,7 +13,13 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 def caixa_envolvente(lat, lon, raio_m):
-    """Retângulo lat/lon que contém o círculo de raio `raio_m` em torno do ponto."""
-    dlat = degrees(raio_m / RAIO_TERRA_M)
-    dlon = dlat / cos(radians(lat))
+    """Menor retângulo lat/lon que contém o círculo de raio `raio_m` em torno do ponto.
+
+    Em latitude o círculo se estende exatamente raio/R radianos. Em longitude o
+    ponto mais a leste do círculo fica em asin(sin(d) / cos(lat)), um pouco mais
+    que d / cos(lat) (não vale perto dos polos, o que não é problema em BH).
+    """
+    d = raio_m / RAIO_TERRA_M
+    dlat = degrees(d)
+    dlon = degrees(asin(min(1.0, sin(d) / cos(radians(lat)))))
     return lat - dlat, lat + dlat, lon - dlon, lon + dlon
