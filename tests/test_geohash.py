@@ -3,6 +3,7 @@ import random
 import pytest
 
 from geofrota import geohash
+from geofrota.geo import caixa_envolvente, haversine
 
 
 @pytest.mark.parametrize("lat, lon, esperado", [
@@ -37,3 +38,26 @@ def test_prefixo_corresponde_a_celula_maior():
     gh = geohash.codificar(-19.92, -43.94)
     for p in range(1, 8):
         assert geohash.codificar(-19.92, -43.94, p) == gh[:p]
+
+
+def test_cobertura_de_retangulo_dentro_de_uma_celula():
+    lat, lon = geohash.decodificar("7h2wn8")
+    celulas = geohash.cobertura(lat - 1e-5, lat + 1e-5, lon - 1e-5, lon + 1e-5, 6)
+    assert celulas == ["7h2wn8"]
+
+
+def test_cobertura_nao_perde_pontos_do_circulo():
+    rng = random.Random(2)
+    for _ in range(300):
+        lat0 = rng.uniform(-20.05, -19.78)
+        lon0 = rng.uniform(-44.06, -43.86)
+        raio = rng.uniform(50, 5000)
+        p = rng.randint(4, 7)
+        celulas = set(geohash.cobertura(*caixa_envolvente(lat0, lon0, raio), p))
+        assert len(celulas) == geohash.tamanho_cobertura(*caixa_envolvente(lat0, lon0, raio), p)
+        for _ in range(30):
+            # Ponto aleatório no círculo, perto da borda de propósito.
+            lat = lat0 + rng.uniform(-1, 1) * raio / 111_000
+            lon = lon0 + rng.uniform(-1, 1) * raio / 104_000
+            if haversine(lat0, lon0, lat, lon) <= raio:
+                assert geohash.codificar(lat, lon, p) in celulas
