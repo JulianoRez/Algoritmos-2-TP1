@@ -1,6 +1,24 @@
 from math import asin, cos, degrees, radians, sin, sqrt
 
+from pyproj import Transformer
+
 RAIO_TERRA_M = 6_371_008.8
+# SIRGAS 2000 / UTM 23S: coordenadas em metros, usadas para gerar e projetar pontos.
+CRS_UTM = "EPSG:31983"
+
+_para_utm = Transformer.from_crs("EPSG:4326", CRS_UTM, always_xy=True)
+_para_geo = Transformer.from_crs(CRS_UTM, "EPSG:4326", always_xy=True)
+
+
+def para_utm(lat, lon):
+    """(lat, lon) -> (x, y). Aceita escalares ou arrays."""
+    return _para_utm.transform(lon, lat)
+
+
+def para_geo(x, y):
+    """(x, y) -> (lat, lon). Aceita escalares ou arrays."""
+    lon, lat = _para_geo.transform(x, y)
+    return lat, lon
 
 
 def haversine(lat1, lon1, lat2, lon2):
