@@ -152,9 +152,8 @@ mapa = html.Div(className="mapa", children=[
         id="mapa", center=CENTRO_BH, zoom=12, preferCanvas=True, style={"height": "100%"},
         children=[
             dl.TileLayer(
-                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
-                            '&copy; <a href="https://carto.com/attributions">CARTO</a>',
+                url="https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                 maxZoom=19,
             ),
             dl.GeoJSON(id="celulas",

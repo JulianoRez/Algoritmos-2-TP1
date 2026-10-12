@@ -247,6 +247,11 @@ code {
   min-height: 0;
 }
 
+/* Tons do OSM atenuados para os pinos se destacarem. */
+.leaflet-tile-pane {
+  filter: saturate(0.3) brightness(1.03);
+}
+
 .pino {
   background: none;
   border: 0;
