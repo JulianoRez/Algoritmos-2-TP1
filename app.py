@@ -1,3 +1,4 @@
+import json
 import os
 from pathlib import Path
 from statistics import mean
@@ -20,8 +21,10 @@ CENTRO_BH = [-19.918, -43.946]
 
 malha = Malha(DADOS / "malha_bh.graphml.gz")
 restaurantes = Restaurantes(DADOS / "restaurantes.csv")
-frota = Frota(malha, restaurantes)
+frota = Frota(malha, restaurantes, DADOS / "limite_bh.geojson")
 frota.gerar(N_INICIAL, DISPERSAO_INICIAL, semente=2026)
+with open(DADOS / "limite_bh.geojson", encoding="utf-8") as f:
+    LIMITE_BH = json.load(f)
 
 
 def numero(valor, casas=0):
@@ -157,6 +160,8 @@ mapa = html.Div(className="mapa", children=[
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
                 maxZoom=19,
             ),
+            dl.GeoJSON(data=LIMITE_BH, interactive=False,
+                       style={"color": "#5f5d57", "weight": 1.2, "dashArray": "4 4", "fill": False}),
             dl.GeoJSON(id="celulas",
                        style={"color": "#3d5a80", "weight": 1, "opacity": 0.6, "fillOpacity": 0.04}),
             dl.LayerGroup(id="raio-camada"),

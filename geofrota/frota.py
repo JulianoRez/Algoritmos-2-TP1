@@ -1,7 +1,9 @@
+import json
 from dataclasses import dataclass
 from time import perf_counter
 
 import numpy as np
+import shapely
 
 from . import geohash
 from .geo import caixa_envolvente, haversine, para_geo, para_utm
@@ -43,12 +45,25 @@ def escolher_precisao(caixa):
     return 1
 
 
+def carregar_limite_utm(caminho_geojson):
+    with open(caminho_geojson, encoding="utf-8") as f:
+        geometria = json.load(f)["features"][0]["geometry"]
+
+    def para_metros(coords):
+        x, y = para_utm(coords[:, 1], coords[:, 0])
+        return np.column_stack([x, y])
+
+    return shapely.transform(shapely.geometry.shape(geometria), para_metros)
+
+
 class Frota:
-    def __init__(self, malha, restaurantes):
+    def __init__(self, malha, restaurantes, caminho_limite):
         self.malha = malha
         lat = np.array([r.lat for r in restaurantes.lista])
         lon = np.array([r.lon for r in restaurantes.lista])
         self._centro_x, self._centro_y = para_utm(lat, lon)
+        self._limite = carregar_limite_utm(caminho_limite)
+        shapely.prepare(self._limite)
 
         self.indice = TrieCompacta()
         self.ids = []
@@ -67,13 +82,21 @@ class Frota:
         Cada entregador recebe um restaurante como centro (os centros são uma
         permutação aleatória repetida, então nenhum recebe mais que um entregador
         a mais que outro) e uma posição normal em torno dele, com desvio padrão
-        `dispersao_m` em cada eixo. O ponto final é projetado na via mais próxima.
+        `dispersao_m` em cada eixo. Pontos fora do município são sorteados de novo,
+        e o ponto final é projetado na via mais próxima.
         """
         rng = np.random.default_rng(semente)
         total_centros = len(self._centro_x)
         centros = rng.permutation(total_centros)[np.arange(n) % total_centros]
         x = self._centro_x[centros] + rng.normal(0, dispersao_m, n)
         y = self._centro_y[centros] + rng.normal(0, dispersao_m, n)
+        for _ in range(50):
+            fora = ~shapely.contains_xy(self._limite, x, y)
+            if not fora.any():
+                break
+            k = int(fora.sum())
+            x[fora] = self._centro_x[centros[fora]] + rng.normal(0, dispersao_m, k)
+            y[fora] = self._centro_y[centros[fora]] + rng.normal(0, dispersao_m, k)
 
         x, y, aresta, desloc = self.malha.projetar(x, y)
         lat, lon = para_geo(x, y)
