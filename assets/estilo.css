@@ -163,23 +163,6 @@ body {
   transform: translateY(1px);
 }
 
-.opcao-nome,
-.opcao-endereco {
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.opcao-nome {
-  font-weight: 500;
-}
-
-.opcao-endereco {
-  color: var(--texto-suave);
-  font-size: 12px;
-}
-
 .restaurante-detalhe:not(:empty) {
   margin-top: 12px;
   padding-left: 10px;

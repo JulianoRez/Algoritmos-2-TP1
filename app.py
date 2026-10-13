@@ -66,10 +66,7 @@ def retangulos(celulas):
 def opcao(r):
     return {
         "value": r.id,
-        "label": html.Div([
-            html.Span(r.nome, className="opcao-nome"),
-            html.Span(f"{r.endereco} · {r.bairro}", className="opcao-endereco"),
-        ]),
+        "label": f"{r.nome} — {r.endereco} · {r.bairro}",
         "search": f"{r.nome} {r.endereco} {r.bairro}",
     }
 
