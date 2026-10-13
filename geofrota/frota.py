@@ -7,15 +7,19 @@ from . import geohash
 from .geo import caixa_envolvente, haversine, para_geo, para_utm
 from .trie import TrieCompacta
 
+VELOCIDADE_MEDIA_KMH = 25
 MAX_CELULAS = 16
 
 
 @dataclass
 class Atendimento:
     id: str
+    via: str
     lat: float
     lon: float
     distancia_m: float
+    distancia_rua_m: float
+    minutos: float
 
 
 @dataclass
@@ -51,6 +55,8 @@ class Frota:
         self.lat = []
         self.lon = []
         self.geohashes = []
+        self._aresta = np.empty(0, dtype=int)
+        self._desloc = np.empty(0)
 
     def __len__(self):
         return len(self.ids)
@@ -69,7 +75,7 @@ class Frota:
         x = self._centro_x[centros] + rng.normal(0, dispersao_m, n)
         y = self._centro_y[centros] + rng.normal(0, dispersao_m, n)
 
-        x, y, _, _ = self.malha.projetar(x, y)
+        x, y, aresta, desloc = self.malha.projetar(x, y)
         lat, lon = para_geo(x, y)
         lat, lon = lat.tolist(), lon.tolist()
         largura = len(str(n))
@@ -80,6 +86,7 @@ class Frota:
         for i, gh in enumerate(geohashes):
             self.indice.inserir(gh, i)
         self.ids, self.lat, self.lon, self.geohashes = ids, lat, lon, geohashes
+        self._aresta, self._desloc = aresta, desloc
 
     def buscar(self, lat, lon, raio_m, precisao=None):
         """Entregadores a até `raio_m` metros (em linha reta) do ponto.
@@ -95,12 +102,26 @@ class Frota:
             candidatos.extend(self.indice.buscar_prefixo(celula))
         fim_trie = perf_counter()
 
-        atendem = []
+        dentro = []
         for i in candidatos:
             d = haversine(lat, lon, self.lat[i], self.lon[i])
             if d <= raio_m:
-                atendem.append(Atendimento(self.ids[i], self.lat[i], self.lon[i], d))
-        atendem.sort(key=lambda a: a.distancia_m)
+                dentro.append((i, d))
+        fim_filtro = perf_counter()
+
+        atendem = []
+        if dentro:
+            x, y = para_utm(lat, lon)
+            _, _, aresta, desloc = self.malha.projetar([x], [y])
+            indices = np.array([i for i, _ in dentro])
+            rua = self.malha.distancias_ate(
+                aresta[0], desloc[0], self._aresta[indices], self._desloc[indices]
+            )
+            for (i, d), r in zip(dentro, rua.tolist()):
+                minutos = r / 1000 / VELOCIDADE_MEDIA_KMH * 60
+                via = self.malha.nomes[self._aresta[i]]
+                atendem.append(Atendimento(self.ids[i], via, self.lat[i], self.lon[i], d, r, minutos))
+            atendem.sort(key=lambda a: a.distancia_rua_m)
         fim = perf_counter()
 
         return Resultado(
@@ -110,7 +131,8 @@ class Frota:
             atendem=atendem,
             tempos_ms={
                 "trie": 1000 * (fim_trie - inicio),
-                "filtro": 1000 * (fim - fim_trie),
+                "filtro": 1000 * (fim_filtro - fim_trie),
+                "rotas": 1000 * (fim - fim_filtro),
                 "total": 1000 * (fim - inicio),
             },
         )

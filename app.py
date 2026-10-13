@@ -7,7 +7,7 @@ import dash_leaflet as dl
 from dash import Dash, Input, Output, State, ctx, dcc, html, no_update
 
 from geofrota import geohash
-from geofrota.frota import Frota
+from geofrota.frota import VELOCIDADE_MEDIA_KMH, Frota
 from geofrota.geo import caixa_envolvente
 from geofrota.malha import Malha
 from geofrota.restaurantes import Restaurantes
@@ -33,6 +33,10 @@ def distancia(metros):
     if metros < 1000:
         return f"{numero(metros)} m"
     return f"{numero(metros / 1000, 1)} km"
+
+
+def minutos(valor):
+    return "< 1 min" if valor < 1 else f"{numero(valor)} min"
 
 
 def pontos(itens):
@@ -248,19 +252,25 @@ def tabela(r, raio_km, atendem):
     cabecalho = html.Tr([
         html.Th("#", scope="col", className="num"),
         html.Th("Entregador", scope="col"),
-        html.Th("Distância", scope="col", className="num"),
+        html.Th("Onde está", scope="col"),
+        html.Th("Linha reta", scope="col", className="num"),
+        html.Th("Pela rua", scope="col", className="num"),
+        html.Th("Chegada", scope="col", className="num"),
     ])
     linhas = [
         html.Tr([
             html.Td(i, className="num"),
             html.Td(a.id, className="id"),
+            html.Td(a.via or "—"),
             html.Td(distancia(a.distancia_m), className="num"),
+            html.Td(distancia(a.distancia_rua_m), className="num"),
+            html.Td(minutos(a.minutos), className="num"),
         ])
         for i, a in enumerate(atendem, start=1)
     ]
     return html.Table([
         html.Caption(f"{numero(len(atendem))} entregadores a até {numero(raio_km, 1)} km de {r.nome}, "
-                     f"do mais perto ao mais longe"),
+                     f"do que chega primeiro ao último"),
         html.Thead(cabecalho),
         html.Tbody(linhas),
     ])
@@ -272,8 +282,9 @@ def resumo(resultado, total):
     itens = [estatistica("No raio", f"{numero(len(atendem))} de {numero(total)}")]
     if atendem:
         itens += [
-            estatistica("Mais perto", distancia(atendem[0].distancia_m), atendem[0].id),
-            estatistica("Distância média", distancia(mean(a.distancia_m for a in atendem))),
+            estatistica("Primeira chegada", minutos(atendem[0].minutos), atendem[0].id),
+            estatistica("Chegada média", minutos(mean(a.minutos for a in atendem))),
+            estatistica("Distância média", distancia(mean(a.distancia_rua_m for a in atendem)), "pela rua"),
         ]
     itens += [
         estatistica(
@@ -282,10 +293,14 @@ def resumo(resultado, total):
         ),
         estatistica(
             "Tempo da consulta", f"{numero(t['total'], 1)} ms",
-            f"Trie {numero(t['trie'], 2)} · filtro {numero(t['filtro'], 2)}",
+            f"Trie {numero(t['trie'], 2)} · filtro {numero(t['filtro'], 2)} · rotas {numero(t['rotas'], 1)}",
         ),
     ]
-    return html.Dl(itens, className="estatisticas")
+    return [
+        html.Dl(itens, className="estatisticas"),
+        html.P(f"Chegada estimada a {VELOCIDADE_MEDIA_KMH} km/h pelo menor caminho na malha viária.",
+               className="ajuda"),
+    ]
 
 
 @app.callback(
@@ -316,7 +331,8 @@ def consultar(restaurante_id, raio_km, _):
 
     no_raio = {a.id for a in resultado.atendem}
     atendem = pontos(
-        (a.lat, a.lon, f"<b>{a.id}</b><br>{distancia(a.distancia_m)}")
+        (a.lat, a.lon, f"<b>{a.id}</b><br>{a.via or 'sem nome'}<br>"
+                       f"{distancia(a.distancia_rua_m)} pela rua · {minutos(a.minutos)}")
         for a in resultado.atendem
     )
     descartados = pontos(
