@@ -35,8 +35,15 @@ class Malha:
 
         # Matriz de adjacência invertida (v -> u): um Dijkstra a partir do destino
         # nela dá a distância de todos os nós ATÉ o destino no grafo original.
+        # Entre arestas paralelas fica a mais curta, porque a csr_matrix somaria.
+        ordem = np.lexsort((self.comprimento, self.destino, self.origem))
+        u, v, c = self.origem[ordem], self.destino[ordem], self.comprimento[ordem]
+        primeira = np.ones(len(u), dtype=bool)
+        primeira[1:] = (u[1:] != u[:-1]) | (v[1:] != v[:-1])
         n = len(posicao)
-        self._reverso = csr_matrix((self.comprimento, (self.destino, self.origem)), shape=(n, n))
+        self._reverso = csr_matrix(
+            (np.maximum(c[primeira], 0.01), (v[primeira], u[primeira])), shape=(n, n)
+        )
 
     def __len__(self):
         return len(self.geometrias)
