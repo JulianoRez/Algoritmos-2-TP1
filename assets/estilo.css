@@ -82,7 +82,7 @@ body {
 
 .corpo {
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr);
+  grid-template-columns: 360px minmax(0, 1fr);
   min-height: 0;
 }
 
