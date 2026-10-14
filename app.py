@@ -70,11 +70,13 @@ def retangulos(celulas):
     return {"type": "FeatureCollection", "features": features}
 
 
-def opcao(r):
+def opcao(r, busca=""):
     return {
         "value": r.id,
         "label": f"{r.nome} — {r.endereco} · {r.bairro}",
-        "search": f"{r.nome} {r.endereco} {r.bairro}",
+        # O dropdown filtra de novo no navegador; repetir a busca aqui garante que
+        # os resultados do servidor (que ignora acentos e a ordem das palavras) apareçam.
+        "search": f"{busca} {r.nome} {r.endereco} {r.bairro}",
     }
 
 
@@ -100,11 +102,11 @@ def resumo_indice():
 painel = html.Aside(className="painel", children=[
     secao(
         "Restaurante",
-        html.Label("Buscar restaurante pelo nome", htmlFor="restaurante", className="rotulo"),
+        html.Label("Buscar por nome, rua ou bairro", htmlFor="restaurante", className="rotulo"),
         dcc.Dropdown(
             id="restaurante",
             options=[],
-            placeholder="Ex.: Xapuri",
+            placeholder="Ex.: Xapuri, Rua da Bahia, Savassi",
             labels={
                 "search": "Digite pelo menos 2 letras",
                 "no_options_found": "Nenhum restaurante encontrado",
@@ -209,11 +211,9 @@ app.layout = html.Div(className="app", children=[
 def sugerir(busca, atual):
     opcoes = []
     if busca and len(busca.strip()) >= 2:
-        termo = busca.strip().lower()
-        achados = [r for r in restaurantes.lista if termo in r.nome.lower()][:30]
-        opcoes = [opcao(r) for r in achados]
+        opcoes = [opcao(r, busca) for r in restaurantes.buscar(busca)]
     if atual and atual not in {o["value"] for o in opcoes}:
-        opcoes.insert(0, opcao(restaurantes.por_id[atual]))
+        opcoes.insert(0, opcao(restaurantes.por_id[atual], busca or ""))
     return opcoes
 
 
