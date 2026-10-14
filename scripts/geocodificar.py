@@ -31,7 +31,7 @@ TIPOS = {
     "BEC": "Beco", "ALA": "Alameda", "EST": "Estrada", "TRV": "Travessa",
     "VIA": "Via", "VDP": "Via de Pedestre",
 }
-MINUSCULAS = {"DE", "DA", "DO", "DAS", "DOS", "E"}
+MINUSCULAS = {"DE", "DA", "DO", "DAS", "DOS", "E", "COM", "EM", "NA", "NO", "NAS", "NOS"}
 ROMANOS = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"}
 
 

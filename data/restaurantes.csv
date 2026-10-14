@@ -57,7 +57,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 2154,Magic Cook,Restaurante,"Rua Passa Tempo, 62",Anchieta,-19.946235,-43.928758
 2158,Lanchonete Orion Ltda,Lanchonete,"Rua Padre Eustáquio, 1465",Carlos Prates,-19.913223,-43.966614
 2172,Planeta Sabor Ltda,Restaurante,"Rua Matias Cardoso, 63",Santo Agostinho,-19.932977,-43.951777
-2222,Lombinho Com Cachaca,Lanchonete,"Rua Coração Eucarístico de Jesus, 159",Coração Eucarístico,-19.926073,-43.989556
+2222,Lombinho com Cachaca,Lanchonete,"Rua Coração Eucarístico de Jesus, 159",Coração Eucarístico,-19.926073,-43.989556
 2229,Quintal da Carne Ltda,Restaurante,"Rua Sabinópolis, 172",Carlos Prates,-19.910448,-43.960250
 2258,Julio Cesar Palhares,Lanchonete,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
 2279,Pam Organizacoes Alimenticias Ltda,Restaurante,"Avenida Presidente Carlos Luz, 3001",Caiçaras,-19.890514,-43.966838
@@ -137,7 +137,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 4639,Chale da Mata Restaurante Ltda,Restaurante,"Avenida Engenheiro Carlos Goulart, 1123",Buritis,-19.971793,-43.959737
 4814,Pop e Alimentos Ltda,Lanchonete,"Avenida Presidente Carlos Luz, 3001",Caiçaras,-19.890514,-43.966838
 4830,Ki Pastel,Lanchonete,"Avenida Parana, 38",Centro,-19.916248,-43.941678
-4865,Agua Na Boca,Lanchonete,"Rua dos Guajajaras, 277",Lourdes,-19.926199,-43.936759
+4865,Agua na Boca,Lanchonete,"Rua dos Guajajaras, 277",Lourdes,-19.926199,-43.936759
 4874,Rodrigo Catao Ribeiro,Lanchonete,"Rua Mármore, 30",Santa Tereza,-19.915406,-43.922190
 4998,-,Restaurante,"Rua Cláudio Manoel, 460",Savassi,-19.934297,-43.929581
 5015,Paulino Vieira Comercio Ltda,Restaurante,"Rua Pium i, 653",Anchieta,-19.945306,-43.930574
@@ -152,7 +152,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 5841,Bar Tematico de Santa Tereza,Bar,"Rua Pirite, 187",Santa Tereza,-19.911749,-43.911078
 5844,Braga & Peixoto Comercial Ltda,Lanchonete,"Rua dos Tupis, 515",Centro,-19.921060,-43.941775
 5896,Bola & Cia,Bar,"Praça Irajá, 20",Concórdia,-19.898459,-43.944454
-5914,Agua Na Boca,Lanchonete,"Rua Goiás, 296",Boa Viagem,-19.926165,-43.935439
+5914,Agua na Boca,Lanchonete,"Rua Goiás, 296",Boa Viagem,-19.926165,-43.935439
 5968,Henry Mendes Loureiro,Restaurante,"Avenida Olegário Maciel, 742",Centro,-19.920399,-43.944698
 6090,Bar e Rest. Tonel da Pinga,Restaurante,"Rua Sergipe, 129",Boa Viagem,-19.927613,-43.935325
 6106,Pequim 2000,Restaurante,"Avenida Olegário Maciel, 1600",Santo Agostinho,-19.928219,-43.946824
@@ -161,7 +161,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 6125,Gr Servicos e Alimentacao Ltda.,Lanchonete,"Avenida Churchill, 36",Santa Efigênia,-19.922439,-43.917919
 6126,Gr Servicos e Alimentacao Ltda.,Lanchonete,"Rua Dona Luiza, 311",Milionários,-19.986089,-44.006428
 6167,Telma Aparecida Martins Ribeiro,Restaurante,"Rua dos Timbiras, 2967",Barro Preto,-19.924072,-43.950824
-6175,Agua Na Boca Produtos Caseiros Ltda,Lanchonete,"Rua Conde de Palma, 459",Cabana do Pai Tomás,-19.949670,-44.002060
+6175,Agua na Boca Produtos Caseiros Ltda,Lanchonete,"Rua Conde de Palma, 459",Cabana do Pai Tomás,-19.949670,-44.002060
 6294,Graos Restaurante,Restaurante,"Rua Coelho de Souza, 181",Santo Agostinho,-19.934153,-43.950370
 6313,Boneca de Lili,Restaurante,"Rua Outono, 487",Cruzeiro,-19.942336,-43.929593
 6365,Restaurante Madureira,Restaurante,"Rua Leonil Prata, 10",Alípio de Melo,-19.897355,-44.005907
@@ -304,7 +304,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 9070,Arena Ataide,Bar,"Avenida Dom Pedro II, 5102",Jardim Montanhês,-19.904895,-43.986065
 9227,Sorveteria Doce Cascao,Lanchonete,"Rua Jacuí, 2955",Ipiranga,-19.887399,-43.935879
 9238,Self Service Tia Fatima,Lanchonete,"Avenida Nossa Senhora do Carmo, 1650",São Pedro,-19.952706,-43.938842
-9313,Cafe e Presentes Com Arte,Lanchonete,"Rodovia Br Trezentos e Cinquenta e Seis, 2500",Santa Lúcia,-19.963389,-43.939860
+9313,Cafe e Presentes com Arte,Lanchonete,"Rodovia Br Trezentos e Cinquenta e Seis, 2500",Santa Lúcia,-19.963389,-43.939860
 9321,La Pizzabella,Restaurante,"Avenida Francisco Sá, 663",Prado,-19.928102,-43.959578
 9342,Boca do Forno,Lanchonete,"Praça Deputado Renato Azeredo, 36",Sion,-19.957107,-43.934128
 9398,Pomodori Produtos Alimenticios Ltda,Restaurante,"Rua Almirante Alexandrino, 201",Gutierrez,-19.933476,-43.956238
@@ -340,7 +340,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 11063,Bmb Park,Lanchonete,"Avenida Raja Gabaglia, 4987",Santa Lúcia,-19.971720,-43.948694
 11125,Donna Margherita,Restaurante,"Avenida Carandaí, 840",Santa Efigênia,-19.927533,-43.930247
 11223,Graciliano Paes Ltda,Restaurante,"Avenida Luiz Paulo Franco, 721",Belvedere,-19.975041,-43.942647
-11242,Venda Nova Tudo No Espeto Ltda,Restaurante,"Avenida Vilarinho, 1740",Minascaixa,-19.813224,-43.957249
+11242,Venda Nova Tudo no Espeto Ltda,Restaurante,"Avenida Vilarinho, 1740",Minascaixa,-19.813224,-43.957249
 11278,Buffet Tagarela,Restaurante,"Rua Guaicuí, 596",Luxemburgo,-19.947278,-43.954564
 11297,Em 2 Bar e Restaurante Ltda,Restaurante,"Rua Paru, 1067",Nova Floresta,-19.889542,-43.935320
 11312,Guerra Alimentacao Ltda,Restaurante,"Avenida Gildo Macedo Lacerda, 300",Braúnas,-19.849981,-44.007800
@@ -661,7 +661,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 21776,Organizacoes Dona Preta Ltda,Restaurante,"Rua Joaquim Francisco da Silveira, 745",Ipiranga,-19.878984,-43.932268
 21812,Churraskin do Bankin,Bar,"Rua Francisco Magalhães Gomes, 21",Manacás,-19.893562,-43.999327
 21861,Ponto da Empada,Lanchonete,"Avenida Augusto de Lima, 566",Centro,-19.923393,-43.941819
-21866,Tudo Na Brasa,Restaurante,"Avenida dos Engenheiros, 1104",Castelo,-19.888758,-44.002273
+21866,Tudo na Brasa,Restaurante,"Avenida dos Engenheiros, 1104",Castelo,-19.888758,-44.002273
 21867,Mister Rock Bar Ltda,Bar,"Avenida Teresa Cristina, 295",Prado,-19.919194,-43.959476
 21872,Bar da Bene Ltda,Bar,"Rua Pintor Atahyde, 380",Tupi B,-19.840580,-43.915876
 21885,Sabor A Quilo,Restaurante,"Rua da Bahia, 2684",Lourdes,-19.938428,-43.941266
@@ -826,7 +826,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 26123,Vanessa de Souza Araujo das Dores,Lanchonete,"Rua Conde D'eu, 674",Saudade,-19.911502,-43.896847
 26137,Restaurante Cheiro e Sabor,Restaurante,"Rua dos Tupis, 1795",Barro Preto,-19.918148,-43.953705
 26139,Empada,Lanchonete,"Avenida General Olímpio Mourão Filho, 1640",Itapoã,-19.835258,-43.955730
-26140,Cafe Com Arte,Lanchonete,"Rua Lagoa Dourada, 290",Prado,-19.925493,-43.961220
+26140,Cafe com Arte,Lanchonete,"Rua Lagoa Dourada, 290",Prado,-19.925493,-43.961220
 26141,Tele Refeicoes do Vale Ltda,Restaurante,"Avenida Djalma Vieira Cristo, 746",Vale do Jatobá,-20.009857,-44.039366
 26166,Ki Fome Lanches Ltda,Restaurante,"Avenida Mem de Sá, 753",Paraíso,-19.923695,-43.910779
 26197,Nosso Quintal Comercio Ltda,Restaurante,"Rua Sebastião Antônio Carlos, 350",Bandeirantes,-19.859032,-43.999152
@@ -907,7 +907,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 27893,Cia. do Brinde.com,Lanchonete,"Avenida Risoleta Neves, 2051",Aarão Reis,-19.847807,-43.917960
 27993,Bar e Lanchonete Tia Lourdes Ltda,Lanchonete,"Rua São Manoel, 197",Floresta,-19.907600,-43.930775
 28055,Bandeco,Restaurante,"Avenida Edgar da Mata Machado, 1060",Dom Cabral,-19.926270,-43.993610
-28097,Cafe Com Bolo,Lanchonete,"Rua Waldomiro Lobo, 483",Aarão Reis,-19.844570,-43.923197
+28097,Cafe com Bolo,Lanchonete,"Rua Waldomiro Lobo, 483",Aarão Reis,-19.844570,-43.923197
 28121,Casa da Lua Lanches Ltda,Restaurante,"Avenida Presidente Antônio Carlos, 6627",Campus UFMG,-19.866002,-43.957199
 28122,Casa da Lua Lanches Ltda,Restaurante,"Avenida Presidente Antônio Carlos, 6627",Campus UFMG,-19.866002,-43.957199
 28145,Lessania Patricia Mendes Neves,Bar,"Rua Conde D'eu, 647",Vera Cruz,-19.911201,-43.896772
@@ -1210,14 +1210,14 @@ id,nome,categoria,endereco,bairro,lat,lon
 35871,Milton Jose de Pinho,Bar,"Rua Professora Gabriela Varela, 250",Tupi A,-19.834006,-43.930397
 35908,Wellington Mauricio Silva,Bar,"Rua dos Americanos, 341",Milionários,-19.980999,-44.004362
 35909,Mukesh Kumar Sah,Lanchonete,"Rua Maria Ferreira Santos, 17",Planalto,-19.839407,-43.951501
-35912,Cafe Com Letras,Restaurante,"Rua Antônio de Albuquerque, 781",Savassi,-19.937693,-43.937849
+35912,Cafe com Letras,Restaurante,"Rua Antônio de Albuquerque, 781",Savassi,-19.937693,-43.937849
 36041,Robson Bessa da Silva,Lanchonete,"Rua Armando Ribeiro dos Santos, 159",São Bernardo,-19.849052,-43.939122
 36061,Sorveteria Era do Gelo Ltda,Lanchonete,"Rua José Carlos Matamachado, 194",Bairro das Indústrias I,-19.956989,-44.007617
 36099,Simone de Oliveira Gaspar,Lanchonete,"Rua Absintio, 35",Paulo VI,-19.836146,-43.891299
 36103,Mac Dola's Lanches,Lanchonete,"Rua Lago, 89",São Marcos,-19.867871,-43.911259
 36118,Sebastiao de Paula Mauro,Restaurante,"Rua Padre Quintiliano Borges, 36",Santa Mônica,-19.828155,-43.974075
 36126,Wa Sushi,Restaurante,"Avenida Getúlio Vargas, 1300",Savassi,-19.937664,-43.935010
-36140,Suco Na Floresta,Lanchonete,"Rua Curvelo, 100",Floresta,-19.912627,-43.929411
+36140,Suco na Floresta,Lanchonete,"Rua Curvelo, 100",Floresta,-19.912627,-43.929411
 36169,Cristiene Dutra Xavier,Bar,"Rua Hespéria, 278",Aparecida,-19.889842,-43.951090
 36181,Cozinha Mineira Ltda,Restaurante,"Rua Domingos Grosso, 97",Venda Nova,-19.816200,-43.954305
 36187,Valtemir Jose da Silva,Bar,"Rua Monsenhor Nogueira Duarte, 594",Santa Terezinha,-19.869240,-44.010361
@@ -1237,7 +1237,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 36467,Demostenes Carneiro Ramos,Bar,"Rua Patrício Barbosa, 221",Conjunto Califórnia II,-19.919788,-44.011554
 36471,Cia do Boi,Restaurante,"Rodovia Br Trezentos e Cinquenta e Seis, 3049",Belvedere,-19.974544,-43.946185
 36474,Selma Ciriaco Francisco de Paula,Bar,"Rua Ipê Florido, 10",Santa Cecília,-20.002476,-44.034001
-36494,Vida Solucao Em Alimentos e Representacoes Ltda,Lanchonete,"Avenida Professor Cândido Holanda, 165",São Bento,-19.954027,-43.952027
+36494,Vida Solucao em Alimentos e Representacoes Ltda,Lanchonete,"Avenida Professor Cândido Holanda, 165",São Bento,-19.954027,-43.952027
 36500,R & M Ponto dos Amigos,Bar,"Avenida Brasil, 1626",Boa Viagem,-19.930841,-43.933951
 36510,Restaurante Japan Sushi Ltda,Restaurante,"Rua Izabel Bueno, 1103",Jaraguá,-19.859166,-43.950389
 36542,Bar Total Bier Ltda,Bar,"Rua Anapurus, 216",São Gabriel,-19.855955,-43.918474
@@ -1559,7 +1559,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 46868,Abdala e Souza Ltda,Restaurante,"Rua Paraíba, 1064",Savassi,-19.935881,-43.933655
 47094,Dona Ilma Ltda,Restaurante,"Avenida Portugal, 1241",Santa Amélia,-19.846342,-43.985513
 47121,La Farina Ltda,Restaurante,"Rua Pium i, 339",Cruzeiro,-19.942673,-43.929838
-47193,Cook Empreendimentos Em Alimentacao Coletiva Ltda.,Restaurante,"Rua Almirante Alexandrino, 277",Gutierrez,-19.934143,-43.956422
+47193,Cook Empreendimentos em Alimentacao Coletiva Ltda.,Restaurante,"Rua Almirante Alexandrino, 277",Gutierrez,-19.934143,-43.956422
 47219,Bar e Aperitivos Valadares Ltda,Bar,"Rua Waldomiro Lobo, 1010",Guarani,-19.844375,-43.928208
 47310,Germano Burger,Restaurante,"Rua Real Madrid, 65",São Salvador,-19.893082,-44.011438
 47377,Bar Praca Quinze Ltda,Bar,"Praça Quinze de Junho, 17",Bonfim,-19.907125,-43.951149
@@ -1567,7 +1567,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 47658,Silvana Miceli Pascoal,Bar,"Rua Silva Alvarenga, 614",São Geraldo,-19.898545,-43.898149
 47750,Lanches da Pat,Lanchonete,"Rua Póvoa de Varzim, 315",Paquetá,-19.870188,-43.993416
 47812,Pastelouco Lanches,Lanchonete,"Avenida Sinfrônio Brochado, 196",Barreiro,-19.975660,-44.014414
-47879,Tudo No Espeto,Lanchonete,"Rua Curitiba, 1950",Lourdes,-19.929895,-43.944440
+47879,Tudo no Espeto,Lanchonete,"Rua Curitiba, 1950",Lourdes,-19.929895,-43.944440
 47894,Wanderley Rodrigues Simao,Bar,"Rua Presidente Costa e Silva, 15",Bairro das Indústrias I,-19.959762,-44.012178
 47940,Bar Geraldo e Zezinho Ltda,Lanchonete,"Rua Henrique Dias, 737",Ermelinda,-19.887319,-43.959355
 47948,Restaurante Japones Sushi Naka Ltda,Restaurante,"Avenida Afonso Pena, 2828",Savassi,-19.936175,-43.928284
@@ -1697,7 +1697,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 51370,Cantinho da Lagoa,Restaurante,"Rua Coração Eucarístico de Jesus, 66",Coração Eucarístico,-19.926593,-43.988589
 51483,Tia Ady Lanches,Lanchonete,"Avenida Américo Vespúcio, 1227",Nova Esperança,-19.894730,-43.959974
 51484,Bar e Restaurante Joao Bosco Ltda,Restaurante,"Rua General Durval, 657",Lindéia,-19.973763,-44.062144
-51498,Pam Surubim Na Brasa,Restaurante,"Rua São Romão, 176",Santo Antônio,-19.945252,-43.939131
+51498,Pam Surubim na Brasa,Restaurante,"Rua São Romão, 176",Santo Antônio,-19.945252,-43.939131
 51504,Gae Comercio de Alimentos Ltda,Restaurante,"Rua Bárbara Heliodora, 54",Lourdes,-19.931318,-43.943966
 51522,Ipanema Alimentos Ltda,Lanchonete,"Avenida Coronel José Dias Bicalho, 899",São José,-19.859820,-43.967546
 51529,Samadi Bar Ltda,Lanchonete,"Rua Aarão Reis, 500",Centro,-19.919178,-43.934512
@@ -1879,7 +1879,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 55440,Bar da Lora,Bar,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
 55452,Pizzarella,Restaurante,"Avenida Olegário Maciel, 2280",Santo Agostinho,-19.933990,-43.948396
 55502,Bar e Restaurante Itatiaia Ltda,Restaurante,"Rua Geraldo Teixeira da Costa, 212",Floresta,-19.919740,-43.931951
-55507,Agua Na Boca Santo Agostinho Ltda,Lanchonete,"Rua Rodrigues Caldas, 166",Santo Agostinho,-19.931653,-43.951053
+55507,Agua na Boca Santo Agostinho Ltda,Lanchonete,"Rua Rodrigues Caldas, 166",Santo Agostinho,-19.931653,-43.951053
 55512,Bar do Salomao,Restaurante,"Rua do Ouro, 895",Serra,-19.938845,-43.919949
 55513,Cafe e Leiteria Nice Ltda,Lanchonete,"Avenida Afonso Pena, 727",Centro,-19.919543,-43.938087
 55514,Bar Auad Ltda,Bar,"Rua Níquel, 246",Serra,-19.942174,-43.917223
@@ -2023,7 +2023,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 59202,Carlos Roberto Vieira dos Santos,Lanchonete,"Rua Maria Aparecida, 201",São Marcos,-19.869578,-43.911971
 59287,Arabesco,Restaurante,"Rua Muzambinho, 571",Serra,-19.944941,-43.920482
 59363,Spoleto Minas Shopping,Restaurante,"Avenida Cristiano Machado, 4000",União,-19.874300,-43.927370
-59377,La Em Casa Restaurante,Restaurante,"Rua Pacífico Mascarenhas, 26",Santa Efigênia,-19.921643,-43.921265
+59377,La em Casa Restaurante,Restaurante,"Rua Pacífico Mascarenhas, 26",Santa Efigênia,-19.921643,-43.921265
 59427,Mauricio Francisco Paes,Lanchonete,"Rua Lignito, 119",Santa Efigênia,-19.924665,-43.911731
 59453,Rafael Miranda Xavier,Lanchonete,"Rua Bolivar, 385",União,-19.878802,-43.922918
 59525,Gutenbergue Santos Silva,Lanchonete,"Avenida José Cândido da Silveira, 2914",Santa Inês,-19.876799,-43.909997
@@ -2436,8 +2436,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 68824,Rosilane Lopes da Rosa,Restaurante,"Rua José Felix Martins, 925",Mantiqueira,-19.796968,-43.984359
 68862,Pomar do Acai Restaurante e Lanchonete,Restaurante,"Rua dos Otoni, 710",Santa Efigênia,-19.925794,-43.926962
 68870,Maria de Fatima Pereira Couto,Restaurante,"Rua do Marinhos, 58",Nova Suissa,-19.927542,-43.972381
-68880,Um Trem Na Chapa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
-68881,Um Trem Na Chapa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
+68880,Um Trem na Chapa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
+68881,Um Trem na Chapa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
 68884,Wedson Jose Mendes,Lanchonete,"Rua das Petúnias, 137",Lindéia,-19.975131,-44.046907
 68886,Francisco da Silva Gomes,Lanchonete,"Rua Boaventura, 406",Indaiá,-19.868072,-43.951684
 68895,Alex Sandro Bertoldo Gomes,Bar,"Rua Augusta Sacchetto Scalzo, 221",Jardim Getsemani,-19.850802,-43.878642
@@ -2910,7 +2910,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 78989,Julia Aparecida da Silva,Lanchonete,"Rua Teresina, 107",Santo André,-19.900352,-43.954264
 79023,Tallita Brum Alves de Oliveira Morato,Lanchonete,"Rua Marechal Foch, 81",Grajaú,-19.942161,-43.964517
 79037,Cleber Jose Coelho,Bar,"Avenida dos Andradas, 8220",Alto Vera Cruz,-19.905380,-43.888865
-79078,To Em Casa Bar,Lanchonete,"Rua Anhembi, 166",Piratininga,-19.811612,-43.992977
+79078,To em Casa Bar,Lanchonete,"Rua Anhembi, 166",Piratininga,-19.811612,-43.992977
 79107,Davidson Cypriano Barbosa de Souza,Bar,"Rua Padre Café, 498",Saudade,-19.913606,-43.896714
 79109,Renato Teixeira de Almeida,Lanchonete,"Rua João Neiva, 420",Mariano de Abreu,-19.895468,-43.892040
 79148,Ridalto Lucio da Silva Oliveira,Bar,"Rua Bela Emília, 27",Olaria,-19.991682,-44.032620
@@ -3087,14 +3087,14 @@ id,nome,categoria,endereco,bairro,lat,lon
 83202,Restaurante da Bia,Restaurante,"Rua Christina Maria Assis, 205",Califórnia,-19.929880,-44.016498
 83212,Maria Tereza de Almeida Barbosa,Restaurante,"Avenida Sinfrônio Brochado, 1445",Barreiro,-19.978346,-44.026075
 83213,Bierhaus Savassi,Bar,"Rua Antônio de Albuquerque, 397",Savassi,-19.938530,-43.934415
-83225,Tudo Na Brasa,Restaurante,"Avenida dos Engenheiros, 1110",Castelo,-19.888684,-44.002355
+83225,Tudo na Brasa,Restaurante,"Avenida dos Engenheiros, 1110",Castelo,-19.888684,-44.002355
 83269,Romeu Rodrigues da Costa,Restaurante,"Rua Engenheiro Navarro, 274",Providência,-19.851651,-43.926060
 83282,Claudiney Olimpio Amancio da Silva,Restaurante,"Rua Cachoeirinha, 531",Santa Cruz,-19.882632,-43.942630
 83316,Maria Aparecida Neris dos Santos,Restaurante,"Rua Rayner de Souza, 119",Conjunto Jatobá,-20.003126,-44.043320
 83328,Marinez Rodrigues Santos,Lanchonete,"Avenida Bernardo de Vasconcelos, 1217",Santa Cruz,-19.883497,-43.940747
 83357,Cintia Soares D Assumpcao,Bar,"Rua Itaí, 115",Paraíso,-19.921439,-43.910098
 83361,Kenzo,Restaurante,"Avenida Miguel Perrela, 630",Castelo,-19.877392,-43.995712
-83372,Espeto Na Veia,Bar,"Rua Rio Grande do Sul, 1323",Santo Agostinho,-19.927194,-43.947630
+83372,Espeto na Veia,Bar,"Rua Rio Grande do Sul, 1323",Santo Agostinho,-19.927194,-43.947630
 83387,Renato Lacerda Santos,Lanchonete,"Avenida Manoel Salles Barbosa, 174",Cardoso,-19.998298,-44.008555
 83422,Mmg Restaurante Ltda,Restaurante,"Avenida Getúlio Vargas, 236",Funcionários,-19.932867,-43.926391
 83437,Adauto Cesar Diniz Souza,Bar,"Avenida Altamiro Avelino Soares, 260",Castelo,-19.883781,-43.996959
@@ -3114,7 +3114,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 83739,Charles Dias Damasceno,Bar,"Rua Itapetinga, 1942",Vila Nova Cachoeirinha IV,-19.883646,-43.948098
 83741,Geraldo Antonio Pereira,Bar,"Avenida Padre Jose Mauricio, 518",Vila Vista Alegre,-19.952695,-43.993167
 83766,Dolores Caetana da Cruz Bento,Restaurante,"Rua Guimarães, 868",São Francisco,-19.879703,-43.961966
-83771,Juntos e Misturados Espetos e Frango No Balde Ltda,Restaurante,"Rua Úrsula Paulino, 1321",Estrela do Oriente,-19.958575,-43.987541
+83771,Juntos e Misturados Espetos e Frango no Balde Ltda,Restaurante,"Rua Úrsula Paulino, 1321",Estrela do Oriente,-19.958575,-43.987541
 83791,Maria de Lourdes Marques Pinheiro,Lanchonete,"Rua Ministro Oliveira Salazar, 1078",Santa Mônica,-19.818691,-43.973966
 83826,Conceicao da Costa,Restaurante,"Rua Carmelito Moreira dos Reis, 196",Cenáculo,-19.804025,-43.962016
 83877,Bar do Pardal,Bar,"Rua dos Psicólogos, 286",Alípio de Melo,-19.890559,-44.002692
@@ -3348,7 +3348,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 88615,Juracy Silva da Luz,Lanchonete,"Rua Flor de Maio, 147",Nossa Senhora de Fátima,-19.939804,-43.906663
 88652,Vinicius de Paula Drumond,Lanchonete,"Rua Júlio de Castilho, 844",Cinquentenário,-19.962473,-43.980317
 88657,Edvania Boaventura Carvalho de Jesus,Lanchonete,"Rua São Clemente, 1033",Aparecida,-19.892089,-43.953632
-88710,Stilo Na Brasa,Restaurante,"Avenida Silva Lobo, 1833",Grajaú,-19.940206,-43.967157
+88710,Stilo na Brasa,Restaurante,"Avenida Silva Lobo, 1833",Grajaú,-19.940206,-43.967157
 88763,Grazielle Dias da Silva,Bar,"Rua Leopoldo Gomes, 977",Vera Cruz,-19.911228,-43.899057
 88770,Restaurante Meritissimo,Restaurante,"Avenida Raja Gabaglia, 2000",Alpes,-19.953897,-43.959633
 88771,Cine Lanches Ltda,Lanchonete,"Avenida Otacílio Negrão de Lima, 3333",São Luíz,-19.859745,-43.978189
@@ -3525,7 +3525,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 92446,Ze Coxinha,Lanchonete,"Rua São Paulo, 1431",Lourdes,-19.926327,-43.941882
 92478,Hot Dog W Negao,Lanchonete,"Rua das Petúnias, 871",Lindéia,-19.974966,-44.055982
 92480,Coreu Burguer,Lanchonete,"Rua Coração Eucarístico de Jesus, 397",Coração Eucarístico,-19.924883,-43.991060
-92490,Batata Show No Cone,Lanchonete,"Rua Padre Pedro Pinto, 1534",Venda Nova,-19.812734,-43.963315
+92490,Batata Show no Cone,Lanchonete,"Rua Padre Pedro Pinto, 1534",Venda Nova,-19.812734,-43.963315
 92500,Acai Club,Lanchonete,"Rua Padre Café, 961",Alto Vera Cruz,-19.912719,-43.892876
 92536,Burgueria Vitoria,Lanchonete,"Rua Paris, 38",Copacabana,-19.835768,-43.988318
 92540,Bentos,Lanchonete,"Avenida Amazonas, 121",Centro,-19.918011,-43.936309
@@ -3534,7 +3534,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 92618,Dona Tapioca,Lanchonete,"Rua Dona Leonidia Leite, 3",Floresta,-19.911675,-43.931157
 92634,Wiliam Luiz Pereira,Restaurante,"Rua Turquesa, 501",Prado,-19.927313,-43.962790
 92644,Happy Burguer Delivery,Restaurante,"Rua Flor da Paixão, 232",Jardim Alvorada,-19.898772,-43.987120
-92697,Bocado Em Casa,Lanchonete,"Rua Maria Martins, 520",Juliana,-19.815548,-43.941880
+92697,Bocado em Casa,Lanchonete,"Rua Maria Martins, 520",Juliana,-19.815548,-43.941880
 92757,Jose do Porto Simoes Aguiar,Bar,"Avenida dos Andradas, 395",Centro,-19.918452,-43.934692
 92791,Waldete Augusta Pereira da Silva,Restaurante,"Rua Frederico Bracher Júnior, 267",Carlos Prates,-19.916771,-43.967793
 92797,Pimentinha's Bar e Restaurante,Restaurante,"Rua Bernardino Oliveira Pena, 240",São João Batista,-19.820652,-43.966178
@@ -3571,7 +3571,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 93366,Wanderley Paulo dos Santos,Bar,"Rua Professor Rubens Guelli, 206",Jardim Guanabara,-19.824222,-43.935026
 93383,Pacai Sucos e Vitaminas,Lanchonete,"Rua Walter Ianni, 255",São Gabriel,-19.859248,-43.919173
 93389,Phosforo Producao de Eventos Ltda,Bar,"Avenida Cristóvão Colombo, 519",Savassi,-19.935863,-43.937189
-93422,Lanches Na Midia,Lanchonete,"Rua Absintio, 282",Paulo VI,-19.833558,-43.891063
+93422,Lanches na Midia,Lanchonete,"Rua Absintio, 282",Paulo VI,-19.833558,-43.891063
 93455,Trem Mineiro,Restaurante,"Rua Magnólia, 393",Caiçaras,-19.906608,-43.959914
 93477,Rey da Pizza,Restaurante,"Rua Mônica de Faria, 37",Mantiqueira,-19.787636,-43.981130
 93478,Bar e Restaurante do Bira,Bar,"Rua Bom Jesus da Penha, 224",Santa Terezinha,-19.869482,-44.005173
@@ -3594,7 +3594,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 93868,Maria Betania Goncalves,Lanchonete,"Avenida Padre Jose Mauricio, 590",Vila Vista Alegre,-19.953218,-43.993653
 93870,Neyde Salgados,Lanchonete,"Rua São Fidélis, 830",Nova Vista,-19.888196,-43.895621
 93932,Moinho de Esteira,Bar,"Avenida Mem de Sá, 968",Santa Efigênia,-19.924357,-43.908748
-93936,Surubim Na Brasa,Restaurante,"Rua Alagoas, 601",Savassi,-19.932276,-43.935225
+93936,Surubim na Brasa,Restaurante,"Rua Alagoas, 601",Savassi,-19.932276,-43.935225
 93939,Bar da Saideira,Bar,"Rua Frei Otto, 385",Santa Mônica,-19.825269,-43.978720
 93946,Sanduiches Rei da Picanha,Lanchonete,"Rua Maura, 490",Ipiranga,-19.879499,-43.932504
 93951,Bar da Garagem,Bar,"Rua Bandonion, 1670",Marçola,-19.941981,-43.907883
@@ -3787,7 +3787,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 113915,Sorveteria Almeida,Lanchonete,"Rua Sabinópolis, 25",Carlos Prates,-19.911917,-43.960812
 113917,Emporio Minas Caixa Ltda,Restaurante,"Rua Edgard Torres, 767",Minascaixa,-19.808433,-43.955289
 113955,Welt Peixoto de Souza Filho,Bar,"Rua Antônio Eustáquio Piazza, 14",João Paulo II,-19.984026,-44.034059
-113972,Restaurante Prazer Em Comer Ltda,Restaurante,"Rua Paraíba, 1306",Savassi,-19.937988,-43.934235
+113972,Restaurante Prazer em Comer Ltda,Restaurante,"Rua Paraíba, 1306",Savassi,-19.937988,-43.934235
 113973,Graciliano,Restaurante,"Rua Curitiba, 2457",Lourdes,-19.934275,-43.945425
 113980,Restaurante e Lanchonete Souza Coelho Ltda,Restaurante,"Rua Flor do Baile, 205",Jardim Alvorada,-19.898384,-43.985994
 113985,Lobos Grill,Restaurante,"Avenida Silva Lobo, 1397",Alto Barroca,-19.936453,-43.970145
@@ -3814,8 +3814,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 114391,Guns Lanchonete Café,Lanchonete,"Avenida Francisco Sales, 345",Floresta,-19.918058,-43.930313
 114402,Tomate Verde Lanchonete Ltda,Lanchonete,"Rua Joaquim de Figueiredo, 125",Barreiro,-19.973994,-44.016940
 114493,Bar e Lanchonete Cassios Beer Ltda,Restaurante,"Avenida Bias Fortes, 837",Lourdes,-19.926286,-43.943140
-114515,Restaurante Salada Com Castanha Ltda,Restaurante,"Rua Waldomiro Lobo, 790",Guarani,-19.844155,-43.926011
-114516,Restaurante Salada Com Castanha Ltda,Restaurante,"Rua Waldomiro Lobo, 790",Guarani,-19.844155,-43.926011
+114515,Restaurante Salada com Castanha Ltda,Restaurante,"Rua Waldomiro Lobo, 790",Guarani,-19.844155,-43.926011
+114516,Restaurante Salada com Castanha Ltda,Restaurante,"Rua Waldomiro Lobo, 790",Guarani,-19.844155,-43.926011
 114532,Pardinhos Bar e Restaurante Ltda,Restaurante,"Avenida Amazonas, 3520",Prado,-19.930977,-43.965353
 114566,Bar e Restaurante Jessika,Restaurante,"Avenida do Contorno, 5821",Carmo,-19.939884,-43.931783
 114570,Sabor do Dia Restaurante Ltda,Restaurante,"Rua Piauí, 230",Santa Efigênia,-19.923645,-43.924764
@@ -3964,7 +3964,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 117477,Horizonte Restaurante Ltda,Restaurante,"Rodovia Br Trezentos e Cinquenta e Seis, 3049",Belvedere,-19.974544,-43.946185
 117498,Fernanda Fonseca Turismo e Gastronomia,Restaurante,"Rua Grão Mogol, 99",Carmo,-19.940891,-43.932078
 117501,Gruta Metropole,Restaurante,"Rua da Bahia, 1060",Centro,-19.924376,-43.937417
-117502,Minas Burguer O Bom Em Sanduiches,Lanchonete,"Rua Lupércio Paixão, 145",Tirol,-19.993180,-44.045129
+117502,Minas Burguer O Bom em Sanduiches,Lanchonete,"Rua Lupércio Paixão, 145",Tirol,-19.993180,-44.045129
 117527,Anicelia Francisca Coelho,Restaurante,"Rua das Perpétuas, 25",Lindéia,-19.974491,-44.047650
 117536,Maria de Fatima Ferreira dos Santos,Restaurante,"Rua Maria Ignez Abijaudi, 225",Castanheira,-19.996888,-44.032482
 117541,Marlon Tavares Nunes,Restaurante,"Rua Elvira Augusta, 721",Nova Vista,-19.889845,-43.899163
@@ -3980,7 +3980,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 117767,Jose Antonio Teixeira,Bar,"Rua Pintor Renato Lima, 625",Lajedo,-19.837720,-43.910607
 117825,A L de Lana Duarte,Bar,"Rua Padre Belchior, 301",Centro,-19.923122,-43.941519
 117858,Celio Fernandes Alves,Restaurante,"Rua Recreio, 120",Betânia,-19.949820,-43.983887
-117866,Restaurante Bifao No Prato,Restaurante,"Rua Antônio José de Carvalho, 95",Caiçaras,-19.889891,-43.970491
+117866,Restaurante Bifao no Prato,Restaurante,"Rua Antônio José de Carvalho, 95",Caiçaras,-19.889891,-43.970491
 117891,Alexandre dos Anjos Silva,Bar,"Rua Quiari, 360",Vila Boa Vista,-19.893428,-43.894409
 117898,Restaurante Dona Preta Ltda,Restaurante,"Rua Senador Lemos, 199",Vista Alegre,-19.955954,-43.998505
 117927,Roberto Hilario dos Santos,Lanchonete,"Rua Maria de Lourdes Carreira, 36",São João Batista,-19.817576,-43.966675
@@ -4145,7 +4145,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 122016,Francisca Raimunda da Silva Barbosa,Lanchonete,"Rua dos Guaranis, 148",Centro,-19.916115,-43.942456
 122044,Azenildo Moura de Lima Lamounier,Restaurante,"Rua Junquilhos, 887",Nova Suissa,-19.935515,-43.973721
 122050,Dom Kichoop,Bar,"Rua José Cleto, 200",Palmares,-19.875399,-43.933016
-122098,Cafe Com Frutas,Restaurante,"Rua José Sérgio de Paula, 237",Fernão Dias,-19.872489,-43.921274
+122098,Cafe com Frutas,Restaurante,"Rua José Sérgio de Paula, 237",Fernão Dias,-19.872489,-43.921274
 122113,Raniere Nunes Gomes,Lanchonete,"Estrada do Cercadinho, 2034",Ventosa,-19.951595,-43.973433
 122147,Taiza Rubia Duarte Ferreira Rodrigues,Bar,"Rua Alga Azul, 145",Jardim Guanabara,-19.828782,-43.938988
 122188,Izabel Acacia de Castro Rodrigues,Lanchonete,"Avenida Jequitinhonha, 218",Vera Cruz,-19.906944,-43.895032
@@ -4716,7 +4716,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 135135,Margarida Aparecida da Silva,Lanchonete,"Rua Marfim, 726",Pindorama,-19.907517,-44.024392
 135161,Pratos de Minas,Restaurante,"Rua Alagoas, 864",Savassi,-19.934556,-43.936056
 135168,Carlos Silvon da Silva,Restaurante,"Avenida Vilarinho, 4470",Vila SESC,-19.802100,-43.976558
-135182,Sabor No Pote,Lanchonete,"Rua Alcântara, 101",Nova Granada,-19.938550,-43.970868
+135182,Sabor no Pote,Lanchonete,"Rua Alcântara, 101",Nova Granada,-19.938550,-43.970868
 135189,Sergio Mariano de Oliveira,Restaurante,"Rua Bandeira do Sul, 94",Araguaia,-19.988754,-43.998205
 135223,Saborear,Lanchonete,"Rua Professor José Vieira de Mendonça, 11",Engenho Nogueira,-19.892112,-43.977594
 135224,Saborear Cafeteria & Lanchonete,Lanchonete,"Avenida Barão Homem de Melo, 3296",Estoril,-19.964662,-43.962383
@@ -4886,7 +4886,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 138377,Cia do Suco,Lanchonete,"Avenida Dom Pedro II, 2881",Carlos Prates,-19.911184,-43.967832
 138379,Docelitta Confeitaria e Buffet,Lanchonete,"Rua Euclides da Cunha, 103",Santa Mônica,-19.818168,-43.975822
 138393,O Batatao,Bar,"Avenida Raul Mourão Guimarães, 433",Palmeiras,-19.967610,-43.978773
-138412,Espeto Com Prosa,Bar,"Rua Professor Milton Lage, 1992",Aparecida,-19.894364,-43.959539
+138412,Espeto com Prosa,Bar,"Rua Professor Milton Lage, 1992",Aparecida,-19.894364,-43.959539
 138422,Churrascaria Sabor Supremo Ltda,Restaurante,"Rua José Cleto, 235",Santa Cruz,-19.875413,-43.933594
 138457,Bar do Boso,Bar,"Rua Ave do Paraiso, 230",Flávio Marques Lisboa,-19.995828,-44.000089
 138525,Katto's Bar,Bar,"Rua Cambuquira, 680",Carlos Prates,-19.909965,-43.961401
@@ -4896,7 +4896,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 138555,Mercearia da Carla,Bar,"Rua Horizontal, 140",Sagrada Família,-19.904571,-43.920328
 138615,Mp Produtos Alimenticios Ltda,Restaurante,"Avenida Cristiano Machado, 11833",Vila Clóris,-19.821519,-43.945933
 138623,Casa da Madrinha,Bar,"Avenida Barbacena, 212",Barro Preto,-19.920724,-43.955377
-138640,La No Boteco,Bar,"Rua Rúbia Mara Barbosa, 120",Diamante,-19.990266,-44.022604
+138640,La no Boteco,Bar,"Rua Rúbia Mara Barbosa, 120",Diamante,-19.990266,-44.022604
 138658,Restaurante Santa Branca,Restaurante,"Rua Ramalho Ortigão, 659",Santa Branca,-19.832948,-43.966671
 138666,Cia do Assado,Restaurante,"Avenida Raul Mourão Guimarães, 511",Palmeiras,-19.967385,-43.977843
 138690,Pastello Pastelaria Ltda,Lanchonete,"Avenida João XXIII, 196",Alípio de Melo,-19.898559,-44.003960
@@ -4935,7 +4935,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 139195,Bar e Mercearia Jl,Bar,"Avenida Professor Edmundo Fontenelle, 98",Independência,-20.020529,-44.036625
 139216,Prosa Boa,Bar,"Avenida Doutor Cristiano Guimarães, 1480",Planalto,-19.833448,-43.955921
 139243,Devairio da Silveira Carolino,Bar,"Rua Universo, 450",Copacabana,-19.832959,-43.984735
-139255,Restaurante No Quintal,Restaurante,"Rua Jose Nunes Carvalho, 50",Camargos,-19.940521,-44.018920
+139255,Restaurante no Quintal,Restaurante,"Rua Jose Nunes Carvalho, 50",Camargos,-19.940521,-44.018920
 139269,Bh Acai,Lanchonete,"Rua Antônio Araujo Penido, 140",Diamante,-19.995628,-44.019327
 139279,Flip Flop,Lanchonete,"Rua Contagem, 531",Santa Inês,-19.891935,-43.907910
 139293,Bar da Praca Tiguinho,Bar,"Rua Padre Argemiro Moreira, 91",Beira-Linha,-19.832166,-43.890112
@@ -4956,7 +4956,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 139457,D. A. Acai & Creperia,Bar,"Avenida Fleming, 700",Ouro Preto,-19.867569,-43.985180
 139467,Bar Tudo Legal,Restaurante,"Rua Kepler, 131",Santa Lúcia,-19.961045,-43.949944
 139469,Rizoma Restaurante,Restaurante,"Rua Adriano Chaves e Matos, 100",Olhos d'Água,-19.989290,-43.956704
-139476,La No Bar,Lanchonete,"Avenida Silva Lobo, 2009",Grajaú,-19.941082,-43.966166
+139476,La no Bar,Lanchonete,"Avenida Silva Lobo, 2009",Grajaú,-19.941082,-43.966166
 139478,Adriano's Bar,Bar,"Rua Pitomba, 480",Milionários,-19.982812,-43.998344
 139491,Bar do Lorin,Bar,"Rua Bráulio Gomes Nogueira, 1420",Itaipu,-19.991293,-44.046527
 139536,Waydson Coelho,Lanchonete,"Avenida Otacílio Negrão de Lima, 4288",Bandeirantes,-19.853938,-43.980977
@@ -5102,7 +5102,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 142744,Bar do Ted,Bar,"Rua Piracema, 344",Suzana,-19.863524,-43.933949
 142760,Ivo Grill,Bar,"Rua Professor Tristao da Cunha, 183",Planalto,-19.837607,-43.947595
 142783,Cassiocar Bar,Bar,"Rua Salinas, 2351",Santa Tereza,-19.913342,-43.913363
-142817,Frango's No Balde,Restaurante,"Rua Paraíba, 1485",Savassi,-19.939405,-43.934421
+142817,Frango's no Balde,Restaurante,"Rua Paraíba, 1485",Savassi,-19.939405,-43.934421
 142838,Pracai,Lanchonete,"Rua Flávio Marquês Lisboa, 252",Barreiro,-19.974302,-44.015222
 142860,Sorveteria Almeida,Lanchonete,"Rua Palmira, 816",Serra,-19.939701,-43.917862
 142861,Sorveteria Almeida,Lanchonete,"Rua Vitório Marçola, 233",Cruzeiro,-19.945094,-43.927870
@@ -5139,7 +5139,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 143775,Sabu Bar & Distribuidora,Bar,"Rua Professora Gabriela Varela, 250",Tupi A,-19.834006,-43.930397
 143783,Restaurante Moria Jardim Ltda,Restaurante,"Rua Capitão Enéas, 199",Araguaia,-19.990050,-44.000599
 143784,Bar do Lulu,Bar,"Rua Nossa Senhora D'ajuda, 11",Horto Florestal,-19.901150,-43.912513
-143814,Feito Em Casa da Carol,Restaurante,"Rua Jose Angelo Custodio, 140",Conjunto Jatobá,-20.003921,-44.039151
+143814,Feito em Casa da Carol,Restaurante,"Rua Jose Angelo Custodio, 140",Conjunto Jatobá,-20.003921,-44.039151
 143815,Bar Espetinho do Magayver,Bar,"Avenida Serrana, 650",Serrano,-19.880243,-44.011514
 143822,Bh Top Drinks,Bar,"Rua Zumbi, 69",São Gabriel,-19.854079,-43.918647
 143859,Homer Lanches,Lanchonete,"Avenida Salamanca, 786",Europa,-19.802158,-43.961671
@@ -5211,8 +5211,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 145550,Assacabrasa,Restaurante,"Rua Paraíba, 1332",Savassi,-19.938158,-43.934280
 145551,Refeicoes Marcinha,Lanchonete,"Rua Flor da Redenção, 19",Jardim Alvorada,-19.901793,-43.986700
 145554,Jhon Castro Producoes,Bar,"Rua Érico Veríssimo, 1321",Santa Mônica,-19.815607,-43.974997
-145570,Tudo Na Chapa Sanduiches e Espaguetes.,Restaurante,"Rua Quinhentos e Dezenove, 15",Montes Claros,-19.831675,-43.890161
-145593,Lanchonete e Restaurante Cafe Com Leite,Lanchonete,"Rua Pouso Alegre, 447",Colégio Batista,-19.911454,-43.935357
+145570,Tudo na Chapa Sanduiches e Espaguetes.,Restaurante,"Rua Quinhentos e Dezenove, 15",Montes Claros,-19.831675,-43.890161
+145593,Lanchonete e Restaurante Cafe com Leite,Lanchonete,"Rua Pouso Alegre, 447",Colégio Batista,-19.911454,-43.935357
 145594,Theu's Burguer,Lanchonete,"Rua Peçanha, 108",Carlos Prates,-19.913652,-43.946186
 145631,Comercial Carlinhos Bar Ltda,Bar,"Rua José Flausino, 243",Jardim Vitória,-19.856249,-43.882228
 145641,Frutos de Goias,Lanchonete,"Avenida Miguel Perrela, 289",Castelo,-19.879974,-43.998123
@@ -5330,7 +5330,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 147941,Cantina Piaget,Lanchonete,"Rua Senador Milton Campos, 1000",Santa Maria,-19.933737,-44.011082
 147969,Meatz Bh Burger,Restaurante,"Avenida Prudente de Morais, 401",Santo Antônio,-19.939159,-43.947616
 147983,Potatofreak Mio do Mundo,Lanchonete,"Rua Conselheiro Lafaiete, 636",Sagrada Família,-19.906533,-43.924411
-147994,Cafe Com Flores,Lanchonete,"Avenida Presidente Carlos Luz, 850",Caiçaras,-19.896735,-43.965734
+147994,Cafe com Flores,Lanchonete,"Avenida Presidente Carlos Luz, 850",Caiçaras,-19.896735,-43.965734
 147998,Jucilene Nunes Rodrigues,Restaurante,"Rua Catumbi, 283",Caiçaras,-19.904212,-43.964339
 148001,Bar do Coroa,Bar,"Rua Sete de Setembro, 424",Cabana do Pai Tomás,-19.946112,-44.000704
 148032,Amaral Refeicoes,Lanchonete,"Rua Carlos Peixoto, 342",Santa Efigênia,-19.926594,-43.915462
@@ -5354,7 +5354,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 148704,Acai Point Betania,Lanchonete,"Rua Úrsula Paulino, 387",Cinquentenário,-19.953283,-43.982777
 148713,Bar do Luiz,Bar,"Rua São Tomaz de Aquino, 595",Santa Rita de Cássia,-19.953260,-43.941239
 148718,Bar e Mercearia Jacob,Bar,"Rua Lassance, 711",São Geraldo,-19.897112,-43.893893
-148761,Restaurante do No,Restaurante,"Rua Augusto Ferreira dos Santos, 119",Serra Verde,-19.804104,-43.952951
+148761,Restaurante do no,Restaurante,"Rua Augusto Ferreira dos Santos, 119",Serra Verde,-19.804104,-43.952951
 148828,Telepizza e Sanduiches Fornalha,Lanchonete,"Estrada do Cercadinho, 2647",Ventosa,-19.954236,-43.970618
 148832,Chupechup Acai,Lanchonete,"Rua Guernica, 216",Europa,-19.807245,-43.967211
 148844,Bird's Acai Burger,Lanchonete,"Rua Joaquim Nabuco, 357",Nova Suissa,-19.934070,-43.977502
@@ -5446,7 +5446,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 151028,Eva Maria Alberto,Bar,"Rua Cleanto, 36",Nazaré,-19.847871,-43.899425
 151040,Sem Semente,Lanchonete,"Avenida Álvares Cabral, 725",Lourdes,-19.928130,-43.941449
 151055,Antonio Ribeiro da Fonseca,Lanchonete,"Rua Leme, 23",Lagoinha Leblon,-19.803525,-43.993914
-151063,Fantiny Design Em Joias,Lanchonete,"Rua Dalva de Matos, 572",Rio Branco,-19.814016,-43.988089
+151063,Fantiny Design em Joias,Lanchonete,"Rua Dalva de Matos, 572",Rio Branco,-19.814016,-43.988089
 151108,Pinga Pinga Bar,Bar,"Rua Morrinhos, 340",Caetano Furquim,-19.902299,-43.886733
 151110,Grumo Cafe,Restaurante,"Rua Rio Grande do Sul, 940",Santo Agostinho,-19.924640,-43.947145
 151113,Grok Food Delivery e Bufet Ltda,Restaurante,"Avenida Professor Mário Werneck, 500",Estoril,-19.968538,-43.957671
@@ -5563,7 +5563,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 153415,Espeteria e Restaurante Rei Arthur,Bar,"Rua Conde de Bobadela, 139",Nova Cachoeirinha,-19.883693,-43.954095
 153440,Bel Lanches,Bar,"Avenida Ivaí, 128",Dom Bosco,-19.913830,-43.994721
 153473,Churrasquinho do Osvaldo,Bar,"Rua Agenor de Paula Estrela, 1194",Jaqueline,-19.800808,-43.935541
-153474,Murilo's Tudo Em Saude,Lanchonete,"Rua José Soares, 181",Floramar,-19.839750,-43.931584
+153474,Murilo's Tudo em Saude,Lanchonete,"Rua José Soares, 181",Floramar,-19.839750,-43.931584
 153519,Bar do Filhao,Bar,"Rua Junquilhos, 498",Nova Suissa,-19.932549,-43.973472
 153538,Sabor da Fruta Acai e Vitaminas,Lanchonete,"Avenida Dom Pedro I, 1300",Itapoã,-19.833469,-43.963585
 153550,Ricardo Alexandre da Silva,Restaurante,"Rua Herci Euclides Ferreira, 408",Maria Helena,-19.802407,-43.994811
@@ -5693,10 +5693,10 @@ id,nome,categoria,endereco,bairro,lat,lon
 156614,Bar do Goiaba,Bar,"Rua Marechal Henrique Lott, 86",Tupi A,-19.835070,-43.924276
 156657,Manhattan Cafes Especiais Ltda,Lanchonete,"Rua Sergipe, 1236",Savassi,-19.937261,-43.938187
 156688,Burguer Arte,Lanchonete,"Rua N, 134",Conjunto Minascaixa,-19.803052,-43.960748
-156715,Batata Show No Cone - Unidade Savassi,Lanchonete,"Rua Pernambuco, 1172",Savassi,-19.937556,-43.935495
+156715,Batata Show no Cone - Unidade Savassi,Lanchonete,"Rua Pernambuco, 1172",Savassi,-19.937556,-43.935495
 156726,Eva - Cucina Originale Belvedere Restaurante,Restaurante,"Avenida Luiz Paulo Franco, 301",Belvedere,-19.974070,-43.939911
 156741,Welinton Augusto dos Santos,Restaurante,"Rua Nova Suissa, 60",Conjunto Taquaril,-19.919271,-43.878595
-156746,Hamburgueria Sabor Na Chapa Beer,Lanchonete,"Rua Leopoldino de Oliveira, 1260",Nova Esperança,-19.901142,-43.956855
+156746,Hamburgueria Sabor na Chapa Beer,Lanchonete,"Rua Leopoldino de Oliveira, 1260",Nova Esperança,-19.901142,-43.956855
 156750,Bolacha Bebidas e Consultoria Ltda.,Bar,"Avenida Amazonas, 1049",Centro,-19.922230,-43.943918
 156755,Marcio da Silva Cardoso,Bar,"Rua Antônio Clemente, 388",Santa Cruz,-19.873283,-43.944742
 156780,Restaurante e Churrascaria Santissimo Gourmet Sociedade Unipessoal Ltda,Restaurante,"Rua Teodomira Diniz Lara, 10",Sagrada Família,-19.904057,-43.930270
@@ -5782,7 +5782,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 158570,Emporio do Frango,Restaurante,"Avenida dos Andradas, 3540",Santa Efigênia,-19.918194,-43.911342
 158583,Xandy Dellivery,Lanchonete,"Rua Marco Aurélio, 51",Nazaré,-19.850746,-43.898723
 158584,Xandy Dellivery,Lanchonete,"Rua Julio Cezar, 27",Nazaré,-19.851208,-43.897080
-158611,Cozinha Nos Fundos,Restaurante,"Rua Juarez, 237",União,-19.877906,-43.924700
+158611,Cozinha nos Fundos,Restaurante,"Rua Juarez, 237",União,-19.877906,-43.924700
 158691,Bar do Dilson,Bar,"Rua Ludgero Felipe Ferreira, 195",Conjunto Taquaril,-19.919398,-43.873888
 158694,Nilzete Dias dos Santos,Lanchonete,"Rua Ocidente, 100",Padre Eustáquio,-19.911274,-43.987613
 158696,Bar do Baixinho,Bar,"Rua Quinhentos e Dezessete, 220",Montes Claros,-19.830159,-43.890676
@@ -5808,7 +5808,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 159008,Barbearia Santos,Restaurante,"Beco das Amoras, 21",Ventosa,-19.950235,-43.974173
 159019,Daniel da Silva Furtado,Bar,"Avenida Amazonas, 57",Centro,-19.917640,-43.935662
 159033,Viviane Romagnoli Conforte Silva,Lanchonete,"Rua Guacira, 91",Pindorama,-19.907681,-44.018918
-159048,Um Em Mil,Bar,"Rua Rodolfo Jacob, 287",Barreiro,-19.977269,-44.014756
+159048,Um em Mil,Bar,"Rua Rodolfo Jacob, 287",Barreiro,-19.977269,-44.014756
 159099,Wakanda Burguer,Restaurante,"Rua Lajedo, 347",São Gabriel,-19.851921,-43.907742
 159130,Massas Madonina Ltda,Restaurante,"Avenida Ministro Guilhermino de Oliveira, 325",Santa Amélia,-19.843468,-43.973415
 159151,Maia,Lanchonete,"Avenida Olegário Maciel, 366",Centro,-19.917659,-43.943933
@@ -5832,7 +5832,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 159626,Bar Camila e Regi,Bar,"Rua Samuel Peres Siqueira, 151",Conjunto Jatobá,-20.003581,-44.039326
 159638,"Gordinho Bar, Restaurante e Lanchonete",Bar,"Rua Alvino Ferreira Felipe, 21",Novo Aarão Reis,-19.840195,-43.907744
 159698,Raimundo Medrado Santos,Bar,"Rua Paraisópolis, 757",Santa Tereza,-19.915610,-43.912447
-159722,Tudo No Espeto,Bar,"Avenida do Contorno, 4366",Funcionários,-19.932402,-43.924495
+159722,Tudo no Espeto,Bar,"Avenida do Contorno, 4366",Funcionários,-19.932402,-43.924495
 159727,Rinu S Bar e Restaurante,Restaurante,"Rua Ilacir Pereira Lima, 195",Silveira,-19.892452,-43.929285
 159767,Almanaque,Restaurante,"Rua Alagoas, 626",Savassi,-19.932555,-43.935508
 159794,La Cremeria Veneziana,Lanchonete,"Rua Rio de Janeiro, 910",Centro,-19.922236,-43.939585
@@ -5862,7 +5862,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 160412,Bar das Meninas,Bar,"Rua João Gualberto de Abreu, 82",Vila São João Batista,-19.819787,-43.960909
 160438,Nosso Spetim,Bar,"Rua dos Astecas, 3219",Santa Mônica,-19.831725,-43.977237
 160450,Organizacao Santo Expedito,Bar,"Rua Caldas da Rainha, 2575",Ermelinda,-19.884810,-43.964450
-160469,Sonhos Em Sabores,Restaurante,"Rua Teodoro de Abreu, 175",Nova Suissa,-19.933122,-43.979446
+160469,Sonhos em Sabores,Restaurante,"Rua Teodoro de Abreu, 175",Nova Suissa,-19.933122,-43.979446
 160620,Restaurante Fino Sabor,Restaurante,"Rua Vereador Geraldo Pereira, 757",Padre Eustáquio,-19.921912,-43.980161
 160624,Jv Comercio Dona Clara Ltda,Bar,"Avenida Sebastião de Brito, 713",Dona Clara,-19.861945,-43.940145
 160629,V & R Lanches Ltda,Bar,"Avenida Parana, 504",Centro,-19.920273,-43.942783
@@ -5897,7 +5897,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 161445,Sushi Japa Lourdes,Restaurante,"Rua Curitiba, 2227",Lourdes,-19.932278,-43.944880
 161475,Restaurante Mistura Fina,Restaurante,"Avenida do Contorno, 3293",Santa Efigênia,-19.923518,-43.918942
 161488,Vm Japa Alimentos Ltda,Restaurante,"Avenida Olinto Meireles, 1420",Santa Helena,-19.983353,-44.009943
-161496,Cafe Com Arte,Lanchonete,"Rua Wilson Tavares Ribeiro, 475",Teixeira Dias,-19.986744,-44.019350
+161496,Cafe com Arte,Lanchonete,"Rua Wilson Tavares Ribeiro, 475",Teixeira Dias,-19.986744,-44.019350
 161581,Central Burguer,Lanchonete,"Rua Central, 218",Copacabana,-19.838165,-43.987214
 161649,Pizzas Burguer,Restaurante,"Rua Castro Alves, 470",Copacabana,-19.834699,-43.987795
 161654,Makacu's Bar,Bar,"Rua Doutor Camilo Antonio Nogueira, 202",Nossa Senhora da Conceição,-19.934455,-43.916045
@@ -5958,7 +5958,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 162928,Cuca Libre,Restaurante,"Rua José Rodrigues Pereira, 740",Estoril,-19.968983,-43.960098
 162958,Raimundus Bar,Bar,"Avenida Santos Dumont, 260",Centro,-19.916093,-43.936177
 163028,Delicias Lanches,Lanchonete,"Rua Maria Conceição Bonfim, 1555",Goiânia,-19.866084,-43.901784
-163047,Espeteria Na Garagem,Bar,"Rua Ipanema, 62",Bom Jesus,-19.898094,-43.953760
+163047,Espeteria na Garagem,Bar,"Rua Ipanema, 62",Bom Jesus,-19.898094,-43.953760
 163081,Point do Espetinho,Bar,"Rua Professor Carlos Tunes, 40",Palmeiras,-19.967696,-43.979517
 163087,Telepizza Burguer da Rena,Lanchonete,"Rua Marco Aurélio, 85",Nazaré,-19.850765,-43.897312
 163110,Bar do Pardal,Bar,"Rua dos Advogados, 300",Alípio de Melo,-19.891232,-44.002579
@@ -6128,7 +6128,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 167064,Vivacai Sucos e Vitaminas,Lanchonete,"Avenida Afonso Pena, 4144",Cruzeiro,-19.946520,-43.921763
 167134,Deck Beer's,Bar,"Avenida Sinfrônio Brochado, 1201",Barreiro,-19.977864,-44.023821
 167147,Iago Soares Carvalho,Bar,"Rua Pedra Sabão, 514",Letícia,-19.809425,-43.983266
-167154,Na Brasa e Na Chapa,Bar,"Rua Malaquito, 69",Paraíso,-19.924935,-43.907108
+167154,Na Brasa e na Chapa,Bar,"Rua Malaquito, 69",Paraíso,-19.924935,-43.907108
 167155,Vino Di Fiori Finas Fatias Restaurantes Ltda,Restaurante,"Rua Monte Alegre, 827",São Lucas,-19.931564,-43.920151
 167221,Mercearia da Amrcia,Bar,"Rua Marcazita, 400",Pedreira Prado Lopes,-19.900547,-43.948596
 167230,Restaurante Estacao 10,Restaurante,"Avenida João Rolla Filho, 10",Diamante,-19.993359,-44.023711
@@ -6186,7 +6186,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 168404,Nosso Pao,Bar,"Rua Sambeatiba, 88",Santa Cruz,-19.883621,-43.941881
 168431,Bar do Chaves,Bar,"Rua Vicente Sollares, 179",Vila Nova Gameleira II,-19.939621,-43.992567
 168437,Morena Bar,Bar,"Rua Licínio Porto, 154",Tirol,-19.990946,-44.045852
-168452,Restaurante Na Panelinha,Restaurante,"Rua Bráulio Gomes Nogueira, 16",Itaipu,-19.993171,-44.045962
+168452,Restaurante na Panelinha,Restaurante,"Rua Bráulio Gomes Nogueira, 16",Itaipu,-19.993171,-44.045962
 168483,Gbg Cervejaria Industria e Comercio de Bebidas Ltda,Bar,"Avenida Cristóvão Colombo, 282",Savassi,-19.937511,-43.935760
 168484,Inspetor Sands Cervejaria Industria e Comercio de Bebidas Ltda,Bar,"Rua Alagoas, 1468",Savassi,-19.939825,-43.937500
 168530,Chico Spino Bar,Bar,"Rua Francisco Spino, 96",São Bernardo,-19.845559,-43.944594
@@ -6331,7 +6331,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 171735,Virlan Simoes de Oliveira,Lanchonete,"Rua Arcos, 230",Vera Cruz,-19.910570,-43.898028
 171760,Bella Acai e Hamburgueria,Lanchonete,"Rua Joviniano Lucas de Almeida, 369",Céu Azul,-19.823363,-44.006880
 171787,Nosso Acai,Lanchonete,"Avenida da Rede, 223",Vila Esplanada,-19.852581,-43.918752
-171807,Trem Na Brasa,Restaurante,"Avenida General Carlos Guedes, 22",Planalto,-19.839941,-43.950590
+171807,Trem na Brasa,Restaurante,"Avenida General Carlos Guedes, 22",Planalto,-19.839941,-43.950590
 171906,Amanda Monteiro,Lanchonete,"Rua Guido Leão, 441",Serra Verde,-19.795870,-43.954635
 171924,Bom Apetite,Restaurante,"Rua Primeiro de Julho, 117",Aparecida,-19.893691,-43.957580
 171949,Master Lanches e Cafe Ltda,Lanchonete,"Rua dos Guajajaras, 1635",Barro Preto,-19.923175,-43.949110
@@ -6374,7 +6374,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 172800,Horta 31,Restaurante,"Rodovia Papa João Paulo II, 4143",Serra Verde,-19.781432,-43.949095
 172828,Pertenser,Lanchonete,"Rua Azul, 116",Vitória,-19.860134,-43.882789
 172834,Sorveteria Popota,Lanchonete,"Rua Aporé, 115",Aparecida,-19.887968,-43.951401
-172842,Bar To Na Esquina,Bar,"Rua Carvalho, 309",Marajó,-19.959822,-43.980665
+172842,Bar To na Esquina,Bar,"Rua Carvalho, 309",Marajó,-19.959822,-43.980665
 172862,Restaurante e Hamburgueria da Dona Arlete,Restaurante,"Rua Dona Judith de Morais e Barros, 43",Lindéia,-19.974154,-44.060923
 172875,Cantina da Serra,Restaurante,"Rua Monte Alegre, 145",Serra,-19.936235,-43.924076
 172877,Aroma Caffe Gelato,Lanchonete,"Rua Barão de Coromandel, 246",Barreiro,-19.974706,-44.015466
@@ -6474,8 +6474,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 174594,Jf Lanches,Lanchonete,"Rua Santa Cruz, 133",Venda Nova,-19.815003,-43.961143
 174627,Polo do Acai - Sucos,Lanchonete,"Rua Pernambuco, 189",Funcionários,-19.928840,-43.932927
 174628,Polo do Acai Suco Ltda,Lanchonete,"Avenida Nossa Senhora do Carmo, 687",Sion,-19.946588,-43.934640
-174638,Ad Reformas Em Geral,Restaurante,"Rua Victor Sanches Dumont, 148",Vila Santa Mônica,-19.816987,-43.994806
-174657,To Na Broca Hotdog,Lanchonete,"Rua Manoel Miranda dos Santos, 86",Serra Verde,-19.798373,-43.955752
+174638,Ad Reformas em Geral,Restaurante,"Rua Victor Sanches Dumont, 148",Vila Santa Mônica,-19.816987,-43.994806
+174657,To na Broca Hotdog,Lanchonete,"Rua Manoel Miranda dos Santos, 86",Serra Verde,-19.798373,-43.955752
 174663,Jose Caetano de Oliveira,Bar,"Avenida Sideral, 359",Madre Gertrudes,-19.953272,-44.003353
 174684,Acai Lanches Magalhaes,Lanchonete,"Avenida Henfil, 578",Santa Terezinha,-19.877041,-44.010732
 174704,Frennick Arrison de Souza Costa,Lanchonete,"Avenida Leontino Francisco Alves, 760",Serra Verde,-19.799896,-43.958108
@@ -6531,7 +6531,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 175654,Italo de Almeida Barbosa,Bar,"Rua Piúma, 424",São Salvador,-19.894158,-44.018728
 175661,Hot Dog da Titi,Lanchonete,"Rua Clotilde Ribeiro Costa, 37",Vila São João Batista,-19.822237,-43.961538
 175675,Churrasco do Baiano,Restaurante,"Rua Alto Guandu, 115",São Paulo,-19.870356,-43.925485
-175686,Tudo No Box,Restaurante,"Rua Campos Elíseos, 819",Alto Barroca,-19.933664,-43.970798
+175686,Tudo no Box,Restaurante,"Rua Campos Elíseos, 819",Alto Barroca,-19.933664,-43.970798
 175698,Maycon Castro Correa,Bar,"Rua Escorpião, 715",Ribeiro de Abreu,-19.829458,-43.901049
 175702,Bar e Restaurante 3 Irmaos,Restaurante,"Rua Zélia, 37",Piratininga,-19.814313,-43.992747
 175719,Lambicados Bar Ltda,Bar,"Rua Conselheiro Lafaiete, 936",Sagrada Família,-19.903873,-43.923937
@@ -6574,7 +6574,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 176582,Liberty Cafe,Lanchonete,"Rua Alagoas, 604",Savassi,-19.932150,-43.935398
 176606,Bar do Claudio,Bar,"Rua Anhembi, 166",Piratininga,-19.811612,-43.992977
 176607,Ovinho Burguer,Lanchonete,"Rua Jorge Francisco dos Santos, 185",Vila Primeiro de Maio,-19.860743,-43.931853
-176611,La Na Boia,Lanchonete,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
+176611,La na Boia,Lanchonete,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
 176648,Naturallis Sqn,Lanchonete,"Rua São Clemente, 270",Santo André,-19.898865,-43.952960
 176649,Jhow Lanches,Lanchonete,"Rua Cirilo Gaspar de Araújo, 519",Aparecida Sétima Seção,-19.890703,-43.964205
 176662,Raquel Maria dos Santos Silva Filha,Lanchonete,"Rua Doutor Cristiano Rezende, 2614",Araguaia,-19.989512,-43.997973
@@ -6596,7 +6596,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 176984,Bar da Lora,Bar,"Rua José Evangélico, 60",Jaqueline,-19.800229,-43.936457
 177002,Comercio de Sorvetes Torre Forte Ltda,Lanchonete,"Avenida do Contorno, 6061",São Pedro,-19.940123,-43.933969
 177017,Bar do Paulo,Bar,"Rua Serenata, 70",Santana do Cafezal,-19.935680,-43.910085
-177024,Frango No Papo,Bar,"Rua Jeronimo Monteiro, 27",Boa Vista,-19.894037,-43.906229
+177024,Frango no Papo,Bar,"Rua Jeronimo Monteiro, 27",Boa Vista,-19.894037,-43.906229
 177091,Los Mex Cocina Mexicana,Restaurante,"Avenida Fleming, 212",Ouro Preto,-19.872176,-43.986907
 177105,Rei da Estufa,Restaurante,"Avenida Olegário Maciel, 742",Centro,-19.920399,-43.944698
 177161,Rafoso Burgueria,Restaurante,"Rua Edimburgo, 102",Europa,-19.801228,-43.966955
@@ -6641,7 +6641,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 177870,Restaurante Resenhas Bar,Restaurante,"Rua Geraldo Silva, 159",Rio Branco,-19.814603,-43.982640
 177881,Vagalume Center Show,Bar,"Avenida Olegário Maciel, 579",Centro,-19.919642,-43.944119
 177899,Maiara Brito,Lanchonete,"Avenida Jefferson Coelho da Silva, 740",Nossa Senhora de Fátima,-19.939674,-43.909104
-177915,Restaurante Sabor Na Floresta,Restaurante,"Rua Itajubá, 586",Floresta,-19.911504,-43.929572
+177915,Restaurante Sabor na Floresta,Restaurante,"Rua Itajubá, 586",Floresta,-19.911504,-43.929572
 177916,Jardim Gastro,Restaurante,"Rua Levindo Lopes, 124",Savassi,-19.937024,-43.939499
 177963,Bar do Postinho,Bar,"Avenida Santa Terezinha, 620",Santa Terezinha,-19.870308,-44.001352
 178000,Restaurante Almoce Comigo,Restaurante,"Rua Canaan, 662",Alto Barroca,-19.936116,-43.968012
@@ -6649,7 +6649,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 178050,Top Lanches,Lanchonete,"Rua Caldas da Rainha, 1826",São Francisco,-19.879643,-43.959669
 178063,Seixas Turismo,Restaurante,"Rua Colonita, 359",Santa Terezinha,-19.867338,-44.002632
 178079,La Kattaleya,Restaurante,"Rua Benedito Neves, 255",Nazaré,-19.851450,-43.892342
-178085,Burgueria Katchup Com Mostarda,Lanchonete,"Rua Waldomiro Lobo, 1020",Guarani,-19.844434,-43.928436
+178085,Burgueria Katchup com Mostarda,Lanchonete,"Rua Waldomiro Lobo, 1020",Guarani,-19.844434,-43.928436
 178111,Alberto Estevao Costa,Bar,"Rua Expedito Ribeiro Silva, 310",Suzana,-19.865261,-43.933164
 178133,Trietto Doceria Ltda,Lanchonete,"Rua Desembargador Arthur Albino, 50",Floramar,-19.834439,-43.934802
 178168,Acai do Dero,Lanchonete,"Rua Ponta Grossa, 899",Milionários,-19.980590,-43.998778
@@ -6816,11 +6816,11 @@ id,nome,categoria,endereco,bairro,lat,lon
 182242,Bar e Restaurante Agora Que Sao Elas,Bar,"Rua Guararapes, 1405",Pindorama,-19.908942,-44.018802
 182270,Dpc Culinaria Japonesa Ltda,Restaurante,"Rua Pium i, 1122",Sion,-19.948923,-43.931198
 182271,Dpc Culinaria Japonesa Ltda,Restaurante,"Rua Tomaz Gonzaga, 388",Lourdes,-19.932392,-43.942661
-182276,Cafe Com Biscoito,Lanchonete,"Avenida Amazonas, 3933",Alto Barroca,-19.931166,-43.969811
+182276,Cafe com Biscoito,Lanchonete,"Avenida Amazonas, 3933",Alto Barroca,-19.931166,-43.969811
 182284,Tres Amigos Bar e Restaurante Ltda,Bar,"Rua Francisco Deslandes, 104",Anchieta,-19.944769,-43.929811
 182303,Aparecida Antonia Rosa Campos Alves,Restaurante,"Rua Lago, 694",São Marcos,-19.873248,-43.908841
 182351,Lanchonete e Distribuidora da Lu,Lanchonete,"Avenida Menelick de Carvalho, 60",Flávio Marques Lisboa,-19.995097,-44.003872
-182400,Churrascaria Gaucho Na Barao,Restaurante,"Avenida Barão Homem de Melo, 2871",Estoril,-19.961222,-43.964122
+182400,Churrascaria Gaucho na Barao,Restaurante,"Avenida Barão Homem de Melo, 2871",Estoril,-19.961222,-43.964122
 182421,Cantina da Bia,Restaurante,"Rua Rodrigues do Prado, 60",Ermelinda,-19.884884,-43.961285
 182450,La Vinicola Buritis,Bar,"Rua Henrique Badaró Portugal, 143",Buritis,-19.975298,-43.976553
 182461,Bom D+ Lanches,Lanchonete,"Rua Florença, 274",Bandeirantes,-19.866475,-43.999754
@@ -6965,7 +6965,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 185787,Mercearia Lanchonete & Restaurante dos Amigos,Bar,"Avenida Senador Levindo Coelho, 4689",Vila Independência I,-20.017931,-44.030396
 185890,Jose Salvador da Silva,Restaurante,"Rua Lúcia Miguel Pereira, 384",Tupi A,-19.836467,-43.925528
 185908,Bar do Arvoredo,Bar,"Rua Barão de Guaxupé, 735",Alto dos Pinheiros,-19.932167,-44.001351
-185930,Quase Tudo No Espeto,Restaurante,"Rua Maria Angelina Miranda, 43",Maria Goretti,-19.859908,-43.910680
+185930,Quase Tudo no Espeto,Restaurante,"Rua Maria Angelina Miranda, 43",Maria Goretti,-19.859908,-43.910680
 186024,Delicia Gourmet Lanches e Sobremesas,Lanchonete,"Rua Porto Seguro, 588",Nova Vista,-19.886313,-43.901402
 186025,102 Burger Delivery,Lanchonete,"Rua Santo Inácio, 290",São Marcos,-19.867174,-43.913501
 186046,Dogao do Sidao,Restaurante,"Rua Flor da Romã, 263",Vila Jardim Alvorada,-19.894153,-43.986553
@@ -7003,7 +7003,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 186840,Cantinho do Sabor,Restaurante,"Rua Faisão, 1031",Flávio Marques Lisboa,-19.997855,-43.992867
 186868,Anima Producoes Cinematograficas Ltda,Lanchonete,"Avenida Cristiano Machado, 4000",União,-19.874300,-43.927370
 186889,Seu Vieira Bar,Bar,"Rua Contagem, 815",Santa Inês,-19.889897,-43.906109
-186890,Lanchonete Churros Agua Na Boca,Restaurante,"Rua Ilha de Malta, 534",São Gabriel,-19.854908,-43.915054
+186890,Lanchonete Churros Agua na Boca,Restaurante,"Rua Ilha de Malta, 534",São Gabriel,-19.854908,-43.915054
 186894,Md Lanches,Lanchonete,"Rua Sebastião Cassimiro Campos, 100",Vila Vista Alegre,-19.951912,-43.991409
 186896,Bar do Normal,Bar,"Avenida Afonso Pena, 3924",Cruzeiro,-19.944942,-43.922756
 186917,Planet Espetos,Bar,"Rua Crisanto Muniz, 257",Rio Branco,-19.812577,-43.980616
@@ -7086,7 +7086,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 188648,Alexsander Sergio Goulart de Paula,Restaurante,"Rua Nossa Senhora da Glória, 96",Primeiro de Maio,-19.860398,-43.928943
 188649,Cabana,Restaurante,"Rua Padre Eustáquio, 2027",Padre Eustáquio,-19.915282,-43.971837
 188652,N&o Lanches,Lanchonete,"Avenida do Contorno, 1341",Floresta,-19.913282,-43.931347
-188672,Companhia Pao Com Carne,Lanchonete,"Avenida Deputado Antônio Lunardi, 434",Brasil Industrial,-19.999945,-44.015153
+188672,Companhia Pao com Carne,Lanchonete,"Avenida Deputado Antônio Lunardi, 434",Brasil Industrial,-19.999945,-44.015153
 188690,Cantinho Gospel Caverna de Adulao,Bar,"Rua David Rabelo, 488",Jardim São José,-19.905915,-43.996973
 188720,Prime Emporium,Restaurante,"Rua Tres de Maio, 149",Santa Helena,-19.983444,-44.013250
 188734,Pilpas Burguer e Acai,Lanchonete,"Rua Nossa Senhora da Consolacao, 100",Ouro Minas,-19.846503,-43.906645
@@ -7232,7 +7232,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 191953,Hamburgueria Os Travessos,Restaurante,"Rua José Benevides da Silveira, 340",Letícia,-19.807515,-43.980811
 191995,Fabricia Alves Azevedo,Bar,"Beco Sao Rafael, 64",Vila Califórnia,-19.918611,-44.007485
 192001,Cantina & Emporio da Dani,Restaurante,"Rua Camões, 636",Copacabana,-19.834010,-43.987281
-192002,Lanchonete Em Familia,Lanchonete,"Rua Pirambo, 5",Santa Cruz,-19.881838,-43.943913
+192002,Lanchonete em Familia,Lanchonete,"Rua Pirambo, 5",Santa Cruz,-19.881838,-43.943913
 192005,Ki Sandubao Lanches,Lanchonete,"Rua Rouxinol, 110",Goiânia,-19.865620,-43.899109
 192022,Luzia de Castro,Bar,"Avenida Padre Jose Mauricio, 1203",Vista Alegre,-19.955795,-43.998852
 192023,Lanchonete Garcia Nascimento,Lanchonete,"Rua Fernão Dias, 728",Mariano de Abreu,-19.898051,-43.891480
@@ -7266,7 +7266,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 192805,Getulio Marques,Bar,"Rua Geralda Roque Guaceroni, 158",Confisco,-19.867916,-44.017842
 192836,Petisqueira Grill,Bar,"Avenida Amintas Jacques de Moraes, 1911",Novo Glória,-19.904627,-44.018074
 192843,Pizzaria do Lorin,Restaurante,"Rua Professor Adolfo Guilherme, 36",Goiânia,-19.861518,-43.903651
-192863,Restaurante Boi Na Brasa,Restaurante,"Alameda Diogo de Souza, 381",Vila Formosa,-19.997281,-44.029694
+192863,Restaurante Boi na Brasa,Restaurante,"Alameda Diogo de Souza, 381",Vila Formosa,-19.997281,-44.029694
 192865,Restaurante da Baiana,Restaurante,"Rua Icaraí, 366",Caiçaras,-19.908103,-43.969453
 192880,Kacai,Lanchonete,"Rua dos Partidos, 411",Maria Goretti,-19.867055,-43.911236
 192908,Petrus'hamburgueria,Lanchonete,"Rua Vinte, 10",Grotinha,-19.850916,-43.893342
@@ -7280,7 +7280,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 193121,Dogueria do Bozo,Restaurante,"Rua Armando Tauil, 149",Pilar,-20.000392,-43.970281
 193136,Casa Calixto,Restaurante,"Rua Padre Odorico, 81",São Pedro,-19.941036,-43.936262
 193161,Saude & Sabor Sucos Naturais,Lanchonete,"Rua Pedro Corrotti, 118",Céu Azul,-19.822183,-44.006539
-193172,Pastel Com Cana,Lanchonete,"Avenida Coronel José Dias Bicalho, 220",São Luíz,-19.857592,-43.961500
+193172,Pastel com Cana,Lanchonete,"Avenida Coronel José Dias Bicalho, 220",São Luíz,-19.857592,-43.961500
 193179,Ostenta Bar e Restaurante,Restaurante,"Rua Boacha, 125",Dom Bosco,-19.914984,-43.997906
 193210,Oak Beky Alimentacao Saudavel Ltda,Lanchonete,"Rua Bernardo Guimarães, 2612",Santo Agostinho,-19.926957,-43.948888
 193241,Denilson Variedades,Restaurante,"Rua Silva Guimarães, 74",Jatobá,-19.992567,-44.055511
@@ -7305,7 +7305,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 193623,Spit Burguer,Lanchonete,"Rua Reis de Abreu, 197",Vila Sumaré,-19.888653,-43.963937
 193682,Henriques Restaurante,Restaurante,"Rua Santo Inácio, 197",Cabana do Pai Tomás,-19.950854,-43.997503
 193687,Lanchonete Do Ednilson,Lanchonete,"Avenida Olegário Maciel, 385",Centro,-19.918190,-43.943724
-193717,Boi No Espeto,Bar,"Rua dos Goitacazes, 490",Centro,-19.922134,-43.941904
+193717,Boi no Espeto,Bar,"Rua dos Goitacazes, 490",Centro,-19.922134,-43.941904
 193720,Rsn Espeteria Ltda,Bar,"Rua Flor de Cerejeira, 76",Tupi B,-19.826724,-43.914429
 193721,Alto Astral J&f,Restaurante,"Rua dos Borges, 367",Jardim Vitória,-19.850604,-43.887234
 193740,Renato Servicos,Lanchonete,"Rua Ministro Oliveira Salazar, 1089",Santa Mônica,-19.818547,-43.974181
@@ -7319,7 +7319,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 193831,Restaurante Familia Campos,Restaurante,"Rua Soares Nogueira, 377",Camargos,-19.940194,-44.021490
 193840,Point do Acaraje,Lanchonete,"Rua Edith Mello Silva, 465",Vila Vista Alegre,-19.952789,-43.992546
 193857,Leonardo Camata Venturim,Restaurante,"Rua Coronel Egídio Benício de Abreu, 166",Paraíso,-19.921336,-43.909658
-193870,Tudo No Pao,Restaurante,"Rua Saí, 159",Concórdia,-19.898288,-43.935330
+193870,Tudo no Pao,Restaurante,"Rua Saí, 159",Concórdia,-19.898288,-43.935330
 193877,Carlos Henrique Eventos,Bar,"Rua Henriqueto Cardinalli, 25",Olhos d'Água,-19.988882,-43.967476
 193924,Empada Gourmet,Lanchonete,"Rua São Paulo, 1496",Lourdes,-19.926631,-43.942163
 193936,Bar da Lora e Bar Restarurante da Lora,Restaurante,"Avenida Augusto de Lima, 885",Centro,-19.923118,-43.944241
@@ -7370,7 +7370,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 194752,Bar W-e,Bar,"Rua Saulo de Tarso Goulart, 142",Candelária,-19.811836,-43.968956
 194758,Lanches & Cia,Lanchonete,"Rua Amanda, 645",Betânia,-19.955806,-43.992270
 194788,Sabor e Tal,Lanchonete,"Avenida Cristiano Machado, 640",Sagrada Família,-19.903421,-43.930749
-194811,Restaurante e Lanchonete To Em Casa,Restaurante,"Rua Eduardo Carlos, 340",Araguaia,-19.989298,-44.002059
+194811,Restaurante e Lanchonete To em Casa,Restaurante,"Rua Eduardo Carlos, 340",Araguaia,-19.989298,-44.002059
 194812,Cassio,Bar,"Rua Tomé de Souza, 999",Savassi,-19.936824,-43.936081
 194829,Meu Espeto e Chopp Caicara,Bar,"Rua Nadir, 450",Caiçara-Adelaide,-19.903659,-43.976552
 194843,Nataniel Barboza dos Santos,Lanchonete,"Rua Maria Eustáquia de Souza, 85",Jardim Guanabara,-19.833050,-43.935004
@@ -7621,7 +7621,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 200404,Bar do Plantao,Bar,"Rua dos Tupis, 1655",Barro Preto,-19.918461,-43.952410
 200447,Marcia Beatriz Braga,Lanchonete,"Rua Montalvânia, 204",Santa Inês,-19.891330,-43.910559
 200463,Boburgers,Bar,"Rua Gonçalves Ferreira, 252",Universitário,-19.868146,-43.942614
-200469,Fino Trato,Lanchonete,"Rua Gloria Nas Alturas, 9",Castanheira,-19.998003,-44.032351
+200469,Fino Trato,Lanchonete,"Rua Gloria nas Alturas, 9",Castanheira,-19.998003,-44.032351
 200494,Dp1 Restaurante Ltda,Restaurante,"Avenida Aggeo Pio Sobrinho, 400",Buritis,-19.976429,-43.977524
 200495,Dp1 Restaurante Ltda,Restaurante,"Rua Alberto Cintra, 137",União,-19.880840,-43.928203
 200496,Dp1 Restaurante Ltda,Restaurante,"Avenida do Contorno, 9163",Prado,-19.928309,-43.957799
@@ -7656,7 +7656,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 201051,Adelaide Aparecida,Restaurante,"Rua Joaquim Monteiro, 26",Havaí,-19.958092,-43.974705
 201080,Lanchonte Sucos E Muito Mais..,Lanchonete,"Rua São Tomaz de Aquino, 515",Santa Rita de Cássia,-19.952591,-43.941027
 201088,Familia Santos,Restaurante,"Rua Abadia dos Dourados, 275",Minaslândia,-19.851605,-43.930093
-201094,Restaurante Tudo Na Brasa.com,Restaurante,"Rua dos Borges, 63",Jardim Vitória,-19.851100,-43.887594
+201094,Restaurante Tudo na Brasa.com,Restaurante,"Rua dos Borges, 63",Jardim Vitória,-19.851100,-43.887594
 201104,Parada,Lanchonete,"Rua Aquidaban, 717",Padre Eustáquio,-19.920033,-43.976566
 201110,Thaina Moura de Lima,Lanchonete,"Avenida Afonso Pena, 1112",Centro,-19.922712,-43.936660
 201131,Mercearia Nossa Senhora Aparecida,Bar,"Rua Cipreste, 531",Parque São José,-19.961336,-43.977983
@@ -7727,7 +7727,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 202193,Negocios B Batista,Lanchonete,"Rua Flor D'Água, 594",Jardim Alvorada,-19.893772,-43.990424
 202203,Edivane Inaiara Silva Brito,Restaurante,"Rua Visconde de Itaboraí, 122",Jardim Leblon,-19.828561,-43.985389
 202209,Cantinho Da Rosaurinha,Bar,"Rua Monsenhor Pinheiro, 193",Novo Glória,-19.901569,-44.014597
-202211,Deck Boi Na Brasa,Restaurante,"Rua Iole Monteiro de Lima, 42",Castelo,-19.887554,-43.996455
+202211,Deck Boi na Brasa,Restaurante,"Rua Iole Monteiro de Lima, 42",Castelo,-19.887554,-43.996455
 202220,Leila da Silva Cardoso,Restaurante,"Rua Expedicionário Celso Racioppi, 185",São Luíz,-19.860757,-43.980938
 202250,Quintal das Meninas,Bar,"Rua Alberto Martins, 95",Jaqueline,-19.802728,-43.945098
 202310,Espeto Da Sol,Restaurante,"Rua José Maria Botelho, 300",Santa Mônica,-19.825269,-43.971119
@@ -7838,14 +7838,14 @@ id,nome,categoria,endereco,bairro,lat,lon
 204621,Don Viana - Tropeiro e Lanches,Lanchonete,"Rua Bacuri, 676",João Pinheiro,-19.929961,-44.001760
 204623,Erick Pinheiro Mariz,Lanchonete,"Rua Itajaí, 364",Pindorama,-19.912933,-44.018025
 204624,Espetinho Jardim America Beer,Bar,"Rua Indiana, 584",Jardim América,-19.941638,-43.974213
-204626,Expresso No Cone& Peppa Frangos,Restaurante,"Rua Jacareí, 1360",Pindorama,-19.914739,-44.022891
+204626,Expresso no Cone& Peppa Frangos,Restaurante,"Rua Jacareí, 1360",Pindorama,-19.914739,-44.022891
 204744,Sorveteria Almeida,Lanchonete,"Rua Pouso Alegre, 1077",Floresta,-19.912068,-43.929620
 204755,Bar da Meire,Bar,"Rua Brasiléia, 84",Ouro Preto,-19.869188,-43.988406
 204818,Swg Eventos,Restaurante,"Avenida Otacílio Negrão de Lima, 17790",Jardim Atlântico,-19.843496,-43.969055
 204833,Rsmamores,Restaurante,"Rua José Rachel de Pinho, 427",Jardim Vitória,-19.851368,-43.883358
 204848,Andressa Lanches,Lanchonete,"Rua Córrego Capão da Posse, 14",Camilo Torres,-20.008519,-44.028330
 204877,Spoleto Via Shopping,Restaurante,"Avenida Afonso Vaz de Melo, 640",Barreiro,-19.974304,-44.020858
-204915,Eleve - Fitness Com Sabor,Restaurante,"Avenida Sinfrônio Brochado, 266",Barreiro,-19.975849,-44.015204
+204915,Eleve - Fitness com Sabor,Restaurante,"Avenida Sinfrônio Brochado, 266",Barreiro,-19.975849,-44.015204
 204919,Nal Lanches,Restaurante,"Rua Elisio de Brito, 464",Boa Vista,-19.895713,-43.903747
 204965,Ki Pastel,Lanchonete,"Rua Domingos Vieira, 585",Santa Efigênia,-19.922245,-43.926265
 204969,Bar e Restaurante 32.5,Restaurante,"Rua Saturnino de Brito, 17",Centro,-19.914193,-43.940830
@@ -7909,7 +7909,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 206210,Santa Comidaria,Restaurante,"Avenida Brasil, 40",Santa Efigênia,-19.923611,-43.920944
 206221,Jp Hamburguer,Lanchonete,"Rua Gararu, 131",Sagrada Família,-19.900323,-43.921596
 206304,La Casa Burguer,Restaurante,"Rua Cassiolandia, 102",Mariquinhas,-19.813540,-43.938923
-206310,Acai No Ponto,Lanchonete,"Avenida Senador Levindo Coelho, 599",Olaria,-19.993082,-44.034643
+206310,Acai no Ponto,Lanchonete,"Avenida Senador Levindo Coelho, 599",Olaria,-19.993082,-44.034643
 206324,Welisson Fabiano,Bar,"Rua Passabem, 2",São Paulo,-19.871648,-43.924181
 206345,Bar Aqui Tudo e Bom Ltda,Bar,"Rua Guarda Custódio, 635",Ouro Preto,-19.870168,-43.981063
 206346,Bar Aqui Tudo e Bom Ltda,Bar,"Avenida Saramenha, 1315",Tupi B,-19.841675,-43.920746
@@ -8001,12 +8001,12 @@ id,nome,categoria,endereco,bairro,lat,lon
 208147,Fundinho do Sabor,Restaurante,"Avenida Abílio Machado, 1234",Inconfidência,-19.905965,-43.999679
 208152,Formoso Cozinha Natural,Restaurante,"Rua Ouro Fino, 452",Cruzeiro,-19.941877,-43.925938
 208172,Boranda Lanches,Lanchonete,"Avenida Olegário Maciel, 742",Centro,-19.920399,-43.944698
-208181,Tudo No Espeto,Bar,"Avenida dos Bandeirantes, 1299",Anchieta,-19.952341,-43.923071
+208181,Tudo no Espeto,Bar,"Avenida dos Bandeirantes, 1299",Anchieta,-19.952341,-43.923071
 208189,Cantina e Lanchonete Porcoes de Sabor,Lanchonete,"Avenida Dom Pedro II, 1611",Carlos Prates,-19.909586,-43.956767
 208194,Copa do Capitao,Lanchonete,"Avenida Nossa Senhora da Piedade, 335",São Gonçalo,-19.846723,-43.923143
 208282,Satoru Silva Lobo,Restaurante,"Avenida Silva Lobo, 1348",Nova Granada,-19.936897,-43.970067
 208308,Loop Cafe,Lanchonete,"Avenida Getúlio Vargas, 318",Funcionários,-19.933242,-43.927061
-208332,Tudo No Espeto,Bar,"Avenida Getúlio Vargas, 1705",Savassi,-19.939814,-43.938191
+208332,Tudo no Espeto,Bar,"Avenida Getúlio Vargas, 1705",Savassi,-19.939814,-43.938191
 208333,Familia Tne Bar e Restaurante Ltda,Lanchonete,"Rua Soares Nogueira, 501",Camargos,-19.940613,-44.020453
 208341,Restaurante e Lanchonete da Cida,Restaurante,"Rua Theodoro Bonfim, 10",Conjunto Taquaril,-19.917608,-43.883347
 208345,Acai Expresso Delivery,Restaurante,"Rua Vicente Feola, 151",Campo Alegre,-19.829736,-43.945895
@@ -8201,7 +8201,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 212854,Pastelaria Bom Sabor,Restaurante,"Rua José Ferreira dos Santos, 150",Jardim dos Comerciários,-19.801090,-43.972724
 212865,Bhz Restaurante Ltda,Restaurante,"Rua Curitiba, 2076",Lourdes,-19.930972,-43.944737
 212901,Junior Ltda,Restaurante,"Rua Dom Silvério Gomes Pimenta, 185",Beira-Linha,-19.844283,-43.898784
-212928,Foca Na Batata,Restaurante,"Rua Silvestre Ferraz, 461",Sagrada Família,-19.907344,-43.923222
+212928,Foca na Batata,Restaurante,"Rua Silvestre Ferraz, 461",Sagrada Família,-19.907344,-43.923222
 212963,Food Truck Ledy Day,Lanchonete,"Rodovia Anel Rodoviário Celso Mello Azevedo, 9889",Califórnia,-19.929059,-44.007348
 212976,Lara Lanches & Cia,Restaurante,"Rua Siri, 206",Guarani,-19.844787,-43.931319
 212984,Bar do Tio Lau,Bar,"Rua Aladin Correa de Faria, 1058",Miramar,-19.995192,-44.016716
@@ -8238,7 +8238,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 213432,Luzmarina Pereira das Neves,Restaurante,"Rua Geralda Marinho, 42",São João Batista,-19.827116,-43.964099
 213455,Celinho Burguer e Pizza,Lanchonete,"Rua Dario Gonçalves, 367",Floramar,-19.839530,-43.929692
 213478,Lanches do Tigrao,Lanchonete,"Rua Estrelitzia, 135",Havaí,-19.955110,-43.977774
-213492,Sabor Em Familia,Restaurante,"Rua Itaituba, 184",São Geraldo,-19.898101,-43.903440
+213492,Sabor em Familia,Restaurante,"Rua Itaituba, 184",São Geraldo,-19.898101,-43.903440
 213502,Clara Juliana,Bar,"Rua Vinte e Nove de Outubro, 110",João Pinheiro,-19.922763,-44.002263
 213505,Burguer Express Cn,Lanchonete,"Rua Serra da Moeda, 120",Ribeiro de Abreu,-19.826501,-43.902812
 213517,Reidoacaidelivery,Lanchonete,"Rua Coronel João Câmara, 265",Rio Branco,-19.819482,-43.983920
@@ -8303,7 +8303,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 214973,Lanchonete Oliver,Lanchonete,"Rua Cândido de Souza, 750",Nova Gameleira,-19.944425,-43.990183
 214994,Diego Alves,Restaurante,"Rua Aguiar, 95",Ventosa,-19.951569,-43.974194
 215000,Lanchonete Point Du Cafe !!!,Lanchonete,"Rua Pedro Lessa, 51",Senhor dos Passos,-19.904813,-43.946946
-215001,Porcolino Lanches - Nos Temos O Melhor,Restaurante,"Rua Camilo Gomes Nogueira, 201",Itaipu,-19.991500,-44.048441
+215001,Porcolino Lanches - nos Temos O Melhor,Restaurante,"Rua Camilo Gomes Nogueira, 201",Itaipu,-19.991500,-44.048441
 215012,Af Atacadao,Restaurante,"Rua Felipe dos Santos, 869",Santo Agostinho,-19.933935,-43.949838
 215080,Ka Tina,Restaurante,"Rua Rio Petrópolis, 582",Pindorama,-19.915544,-44.026713
 215101,Bruno Henrique Goncalves Miranda,Lanchonete,"Rua Altivo Marcio Ribeiro, 55",Santa Margarida,-19.975129,-44.027153
@@ -8445,7 +8445,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 217513,Rei dos Assados,Restaurante,"Rua Galba, 212",Glória,-19.909707,-44.003740
 217529,Farney Vieira Santos Pires,Bar,"Alameda Maturí, 160",Dom Cabral,-19.923557,-43.998522
 217558,Comercio de Alimentos e Bebidas Oliveira Torres Ltda,Restaurante,"Rodovia Anel Rodoviário Celso Mello Azevedo, 10820",João Pinheiro,-19.922724,-44.002945
-217573,Petisco Em Casa,Bar,"Rua Newton Pinto de Souza, 84",Santa Mônica,-19.824128,-43.975748
+217573,Petisco em Casa,Bar,"Rua Newton Pinto de Souza, 84",Santa Mônica,-19.824128,-43.975748
 217577,Velo Ville Cafe,Lanchonete,"Avenida Brasil, 1590",Boa Viagem,-19.930939,-43.934125
 217601,Bigodesburguer,Restaurante,"Avenida Djalma Vieira Cristo, 201",Mangueiras,-20.011321,-44.035240
 217641,Jansen Gustavo Correa dos Santos,Lanchonete,"Rua Belfort Roxo, 265",Nova Granada,-19.944734,-43.965703
@@ -8570,7 +8570,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 219997,Romilda Geralda da Silva,Restaurante,"Rua Desembargador Cintra Neto, 1136",Milionários,-19.982715,-43.998953
 220024,Paula Fernanda de Oliveira Gomes,Restaurante,"Rua Um Mil Novecentos e Setenta e Sete, 39",São João Batista,-19.820465,-43.954603
 220041,D'elles Gourmet,Restaurante,"Rua Juruena, 135",Buritis,-19.974578,-43.964800
-220048,Acai Com Pao de Queijo,Lanchonete,"Rua da Bahia, 1295",Lourdes,-19.926449,-43.937773
+220048,Acai com Pao de Queijo,Lanchonete,"Rua da Bahia, 1295",Lourdes,-19.926449,-43.937773
 220065,Restaurante Classico Delivery,Restaurante,"Alameda das Acácias, 635",São Luíz,-19.858021,-43.964555
 220070,Profects Burger,Restaurante,"Rua Joaquim de Pinho, 194",São João Batista,-19.816860,-43.966120
 220082,Mega Bebedouros,Bar,"Rua Machado de Assis, 181",Senhor dos Passos,-19.905878,-43.948222
@@ -8593,7 +8593,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 220296,Acai do Estrela Unidade Confisco,Restaurante,"Rua Cecilia Magalhaes Gomes, 300",Confisco,-19.866117,-44.019356
 220312,Ze Mexido,Restaurante,"Rua Pedra Branca, 640",Araguaia,-19.988468,-44.004297
 220318,Lanchonete e Restaurante Sm,Lanchonete,"Rua José Lins do Rego, 653",Tupi A,-19.837490,-43.921695
-220319,Pizza Na Pedra,Lanchonete,"Rua São Roque, 76",Jardim Atlântico,-19.845434,-43.957246
+220319,Pizza na Pedra,Lanchonete,"Rua São Roque, 76",Jardim Atlântico,-19.845434,-43.957246
 220340,Sidnei Ribeiro da Silva,Lanchonete,"Avenida Padre Jose Mauricio, 470",Vila Vista Alegre,-19.952352,-43.992836
 220374,Careca Santa Maria,Bar,"Rua Doutor Pedro Ernesto, 27",Santa Maria,-19.933867,-44.012444
 220410,Lanchonete e Petiscos Thiagao,Restaurante,"Rua Cláudio Brandão, 180",Tupi A,-19.835049,-43.923724
@@ -8618,7 +8618,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 220711,Acai e Cia Lima,Restaurante,"Rua Tancredo Esteves, 376",Vila São Tomáz,-19.844770,-43.952544
 220716,Barzinho da de,Bar,"Rua Dom Helder Camara, 260",Belmonte,-19.844359,-43.901529
 220728,Bella Dogueria,Restaurante,"Rua Maestro Delê Andrade, 129",Santa Efigênia,-19.923457,-43.912882
-220740,Acai Ponto Com,Lanchonete,"Rua Vicente Surette, 97",Mangueiras,-20.013097,-44.038390
+220740,Acai Ponto com,Lanchonete,"Rua Vicente Surette, 97",Mangueiras,-20.013097,-44.038390
 220741,Ivanilda Xavier Pimenta da Silva,Restaurante,"Rua Treze de Setembro, 348",Leonina,-19.953134,-43.961990
 220747,Chapa de Minas,Restaurante,"Rua Santo Estevão, 139",São Marcos,-19.868304,-43.908283
 220767,Johnnie Grill,Lanchonete,"Rua José Rodrigues Pereira, 820",Buritis,-19.969281,-43.960981
@@ -8761,13 +8761,13 @@ id,nome,categoria,endereco,bairro,lat,lon
 222730,Jojo Lanches e Pizzas,Restaurante,"Avenida Artur Bernardes, 3116",Vila Barragem Santa Lúcia,-19.952616,-43.945334
 222774,Geral do Pastel,Lanchonete,"Rua Barao do Monte Alto, 111",Cardoso,-19.997273,-44.006779
 222815,2020 Alimentacao,Restaurante,"Avenida Consul Antônio Cadar, 127",Santa Lúcia,-19.954998,-43.950108
-222827,Ta Na Chapa Delivery,Lanchonete,"Rua Recreio, 225",Betânia,-19.950734,-43.983965
+222827,Ta na Chapa Delivery,Lanchonete,"Rua Recreio, 225",Betânia,-19.950734,-43.983965
 222831,Marquinhos Bar,Restaurante,"Rua Milton Dias, 240",Vitória,-19.859224,-43.881682
 222832,Frango Assado Mineiro,Lanchonete,"Rua da Abolição, 345",Jardim dos Comerciários,-19.793195,-43.972792
 222846,Rainha dos Lanches,Restaurante,"Rua Eduardo Leite Bacuri, 279",Alta Tensão I,-19.971503,-43.996602
-222866,To Com Fome Lanches,Lanchonete,"Rua Alicedro, 99",Pindorama,-19.918508,-44.020516
+222866,To com Fome Lanches,Lanchonete,"Rua Alicedro, 99",Pindorama,-19.918508,-44.020516
 222869,Oliveira's Restaurante,Restaurante,"Rua José Clemente, 35",Floramar,-19.840226,-43.926987
-222876,To Com Fome Lanches,Lanchonete,"Rua Alicedro, 99",Pindorama,-19.918508,-44.020516
+222876,To com Fome Lanches,Lanchonete,"Rua Alicedro, 99",Pindorama,-19.918508,-44.020516
 222883,Mercearia Uniao,Bar,"Rua União, 215",Santa Rita de Cássia,-19.953952,-43.943064
 222906,Mirian Moreira,Lanchonete,"Rua Berlim, 50",Europa,-19.800092,-43.968750
 222944,Cantina da Val,Lanchonete,"Rua José Alves de Souza, 370",Santa Terezinha,-19.871255,-44.010191
@@ -9007,7 +9007,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 227297,Mariana Carolina Moura Costa,Lanchonete,"Rua Desembargador Cintra Neto, 670",Milionários,-19.985599,-44.004453
 227309,Restaurante e Bar dos Amigos,Bar,"Rua Julita Nogueira Soares, 600",Santa Terezinha,-19.869732,-44.006590
 227432,Mc Bom,Restaurante,"Rua Lupércio Paixão, 306",Tirol,-19.993821,-44.045320
-227471,Restaurante Sabor Com Amor Ltda,Restaurante,"Rua dos Otoni, 726",Santa Efigênia,-19.925751,-43.927139
+227471,Restaurante Sabor com Amor Ltda,Restaurante,"Rua dos Otoni, 726",Santa Efigênia,-19.925751,-43.927139
 227477,Frango Dourado,Restaurante,"Rua Cecilia Magalhaes Gomes, 10",Confisco,-19.864529,-44.018746
 227478,Julio da Silva Lanches & Cia,Restaurante,"Rua Chácaras Reunidas, 90",Flávio Marques Lisboa,-19.990806,-43.989702
 227479,Gb Lanches,Restaurante,"Rua Rotary Club, 205",Conjunto Santa Maria,-19.952319,-43.956783
@@ -9169,7 +9169,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 231313,Ju Amaral Sabores,Restaurante,"Rua Professor Mozart Dolabella, 93",Minas Brasil,-19.918795,-43.988068
 231343,Cantina Jj,Restaurante,"Rua Doutor Athos Alkimim, 35",Vila Nova Gameleira II,-19.940247,-43.992108
 231355,Pdp Alimentacao Ltda,Bar,"Avenida Coronel Jose Benjamim, 821",Padre Eustáquio,-19.919026,-43.977036
-231393,Tudo Na Chapa,Restaurante,"Beco Ibia, 55",Senhor dos Passos,-19.907199,-43.949644
+231393,Tudo na Chapa,Restaurante,"Beco Ibia, 55",Senhor dos Passos,-19.907199,-43.949644
 231457,Lua Rosa,Lanchonete,"Rua Professor Alvino de Paula, 397",Chácara Leonina,-19.956172,-43.959758
 231488,Acai da Amizade,Restaurante,"Rua Pintor Renato Lima, 314",Novo Tupi,-19.840284,-43.912220
 231499,Na Brasa Burguer Bh,Lanchonete,"Rua Michel Garib, 447",Minascaixa,-19.806441,-43.960184
@@ -9232,7 +9232,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 232808,Yummy Acai +,Lanchonete,"Rua Carlos Estêvão, 112",Tupi A,-19.833217,-43.926498
 232821,Arte & Sabor Disk Marmitex,Restaurante,"Rua Itajaí, 68",Pindorama,-19.911260,-44.020022
 232854,Nosso Bar,Restaurante,"Rua Maria da Fe, 375",Salgado Filho,-19.942325,-43.984350
-232875,Agua Na Boca,Lanchonete,"Rua Fernandes Tourinho, 97",Savassi,-19.939504,-43.935742
+232875,Agua na Boca,Lanchonete,"Rua Fernandes Tourinho, 97",Savassi,-19.939504,-43.935742
 232881,Main Street Burger & Steaks,Lanchonete,"Rua Montes Claros, 1004",Anchieta,-19.947496,-43.926967
 232945,Afonso Pedro de Vasconcelos,Bar,"Rua Serra do Rola Moça, 109",Vila Formosa,-19.999000,-44.029556
 233033,Adelson do Torresmo,Bar,"Rua Henrique Gorceix, 1681",Monsenhor Messias,-19.909604,-43.979582
@@ -9248,7 +9248,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 233375,Brothers Burguer,Lanchonete,"Rua Ita, 33",Alto Vera Cruz,-19.916827,-43.888310
 233386,Liac Eventos Ltda,Restaurante,"Avenida Otacílio Negrão de Lima, 7170",Bandeirantes,-19.855044,-43.998319
 233416,Chaves Burger,Restaurante,"Rua Dom Marcos Teixeira, 201",Campo Alegre,-19.831764,-43.946989
-233418,Hidraulica Em Geral Sj,Bar,"Rua Doutor Geraldo Starling Soares, 339",Lindéia,-19.982529,-44.054453
+233418,Hidraulica em Geral Sj,Bar,"Rua Doutor Geraldo Starling Soares, 339",Lindéia,-19.982529,-44.054453
 233419,Frango Assado Dois Irmaos,Restaurante,"Rua Edivaldo Jardim, 247",Jardim dos Comerciários,-19.796174,-43.965533
 233434,Snack Bar Taquaril,Restaurante,"Rua Floresta, 10",Conjunto Taquaril,-19.918439,-43.874971
 233449,Bardagabi,Bar,"Rua Silvianópolis, 197",Santa Tereza,-19.912803,-43.910689
@@ -9296,13 +9296,13 @@ id,nome,categoria,endereco,bairro,lat,lon
 234218,Sobrado,Restaurante,"Rua Mármore, 450",Santa Tereza,-19.916343,-43.918384
 234295,O Seu Point do Hot Dog,Lanchonete,"Rua Otávio Carneiro, 808",Boa Vista,-19.891417,-43.901034
 234303,La Casa de Sandwish,Bar,"Rua Maurea de Oliveira Fantoni, 290",Candelária,-19.811643,-43.975307
-234308,Expetaculo Na Brasa,Bar,"Rua da Bahia, 1148",Centro,-19.924925,-43.937563
+234308,Expetaculo na Brasa,Bar,"Rua da Bahia, 1148",Centro,-19.924925,-43.937563
 234318,L.2 Alimentacao Ltda,Lanchonete,"Avenida Jose de Patrocinio Pontes, 1355",Mangabeiras,-19.958423,-43.912780
 234343,Acai Ls,Restaurante,"Rua Maria do Socorro Paranhos, 160",Jardim dos Comerciários,-19.793671,-43.962720
 234350,Ak Empreendimentos,Lanchonete,"Rua São Bento, 181",Vila São Tomáz,-19.845373,-43.954615
 234380,7 Copas Bar,Lanchonete,"Rua Barretos, 47",Mariquinhas,-19.813286,-43.937890
 234404,Restaurante Delicatto,Restaurante,"Rua Cícero Ferreira, 10",Serra,-19.934724,-43.923963
-234440,La No Mercado Bar e Restaurante,Bar,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
+234440,La no Mercado Bar e Restaurante,Bar,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
 234491,O Burgues,Restaurante,"Rua Jacuí, 2913",Ipiranga,-19.887918,-43.935931
 234492,Armazem Santa Amelia,Bar,"Avenida da Sinfonia, 253",Santa Amélia,-19.832763,-43.973244
 234515,Gabriela Lanches e Sobremesqw,Lanchonete,"Rua Arieta Bistene Farah, 13",Goiânia,-19.859291,-43.898315
@@ -9402,7 +9402,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 236844,Kayky Bar,Bar,"Rua Lassance, 422",São Geraldo,-19.894757,-43.894814
 236893,Mineirin Lanches,Lanchonete,"Rua Erásio Evangelista, 114",São Jorge III,-19.944866,-43.962221
 236958,Acai,Restaurante,"Rua Amazonita, 409",Pompéia,-19.913103,-43.903275
-236992,Acai No Mel,Restaurante,"Rua Artur de Sá, 2370",União,-19.881012,-43.916867
+236992,Acai no Mel,Restaurante,"Rua Artur de Sá, 2370",União,-19.881012,-43.916867
 237019,Lourdes Comercio de Alimentos,Restaurante,"Rua Lavras, 150",São Pedro,-19.941631,-43.935208
 237020,Acai Power Alberto Cintra,Lanchonete,"Rua Alberto Cintra, 133",União,-19.880769,-43.928188
 237073,Espeteria do Didi,Bar,"Rua São Paulo da Cruz, 357",Barreiro,-19.981359,-44.014512
@@ -9625,7 +9625,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 242092,Grupo Gennius Brasil Producao e Comercializacao de Alimentos S.a,Restaurante,"Avenida Afonso Pena, 861",Centro,-19.920502,-43.937519
 242112,Vera Lucia Batista,Restaurante,"Rua Barão de Coromandel, 830",Barreiro,-19.975901,-44.020998
 242127,Vibe Saudavel,Restaurante,"Rua Antônio Júlio Barreto, 165",Santa Amélia,-19.837626,-43.980690
-242141,Espetinho Na Brasa,Bar,"Rua Salinas, 1825",Santa Tereza,-19.915090,-43.917902
+242141,Espetinho na Brasa,Bar,"Rua Salinas, 1825",Santa Tereza,-19.915090,-43.917902
 242149,Chik Pasteis,Lanchonete,"Rua dos Tupinambás, 875",Centro,-19.916978,-43.942424
 242169,Greengo Produtora,Lanchonete,"Rua São João Batista do Glória, 106",Piratininga,-19.819835,-43.987629
 242202,Nathalia Borges de Pinho Trancoso,Restaurante,"Rua Maria Gomes de Almeida, 35",Planalto,-19.838290,-43.942083
@@ -9688,7 +9688,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 243510,Restaurante Sabor da Casa,Restaurante,"Avenida Afonso Pena, 1270",Centro,-19.924022,-43.935859
 243511,Athenas,Bar,"Praça Raul Soares, 269",Barro Preto,-19.922092,-43.945777
 243539,Manah Restaurante,Restaurante,"Rua Wilson Abrão Abdo, 132",Conjunto Minascaixa,-19.805661,-43.959818
-243560,Parada No Tempo,Lanchonete,"Avenida Avaí, 56",Vila Califórnia,-19.918193,-44.007279
+243560,Parada no Tempo,Lanchonete,"Avenida Avaí, 56",Vila Califórnia,-19.918193,-44.007279
 243586,Bar do Sandro,Bar,"Rua Dois, 62",Olhos d'Água,-19.994966,-43.963197
 243620,Mv Jardins,Lanchonete,"Rua Bernardes Carvalho, 100",Santa Terezinha,-19.871545,-44.011785
 243684,Frutaria do Capixaba,Lanchonete,"Rua João Ferreira da Silva, 1863",Maria Helena,-19.800464,-43.996001
@@ -9897,7 +9897,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 248264,In Casa Pizzaria,Restaurante,"Rua Onísio, 102",Dom Joaquim,-19.879432,-43.917047
 248271,Black Mamba Corporation,Lanchonete,"Rua Professor Primola, 79",Acaiaca,-19.845611,-43.895933
 248284,Pizzas Hot,Restaurante,"Rua Serrador, 20",Jatobá,-19.991206,-44.054749
-248285,Arroz Com Feijao Restaurante,Restaurante,"Avenida Nossa Senhora de Fátima, 1832",Carlos Prates,-19.913417,-43.947865
+248285,Arroz com Feijao Restaurante,Restaurante,"Avenida Nossa Senhora de Fátima, 1832",Carlos Prates,-19.913417,-43.947865
 248353,Tranquilus,Bar,"Rua Viana do Castelo, 687",São Francisco,-19.874355,-43.951288
 248367,Donizete Pereira,Restaurante,"Rua Contagem, 1877",Santa Inês,-19.879914,-43.908685
 248410,Manoel Reis,Bar,"Rua Estrela Brilhante, 40",Estrela do Oriente,-19.966926,-43.988110
@@ -9949,7 +9949,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 249531,L G Alimentos,Restaurante,"Rua Quitandinha, 104",Serrano,-19.889335,-44.011463
 249568,Assalada,Bar,"Rua das Canárias, 254",Santa Branca,-19.841554,-43.970657
 249583,Belem Espetos & Hamburguer,Restaurante,"Rua Padre Pedro Pinto, 2597",Letícia,-19.805597,-43.972169
-249584,Quintal Mamao Com Acucar Ltda,Bar,"Avenida Assis Chateaubriand, 573",Floresta,-19.918814,-43.932173
+249584,Quintal Mamao com Acucar Ltda,Bar,"Avenida Assis Chateaubriand, 573",Floresta,-19.918814,-43.932173
 249586,Pub Os Fidamae,Restaurante,"Rua Olinto Magalhães, 1506",Dom Bosco,-19.912518,-43.995186
 249590,Chale Mineiro,Restaurante,"Avenida Silva Lobo, 1403",Grajaú,-19.936784,-43.969849
 249594,Cafe da Serra,Lanchonete,"Avenida Jose de Patrocinio Pontes, 1355",Mangabeiras,-19.958423,-43.912780
@@ -10051,7 +10051,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 251592,Restaurante Tia Vanda,Bar,"Avenida Santos Dumont, 356",Centro,-19.915869,-43.937101
 251595,Cactus Beverage Shop,Bar,"Rua Rubens Caporali Ribeiro, 760",Buritis,-19.979063,-43.976749
 251602,Tupa Kaique,Lanchonete,"Rua Medeiros de Albuquerque, 120",Santa Mônica,-19.823034,-43.974113
-251621,Mr Bean Feijoada No Balde Carlos Prates Ltda,Restaurante,"Rua Mesquita, 31",Carlos Prates,-19.913324,-43.967440
+251621,Mr Bean Feijoada no Balde Carlos Prates Ltda,Restaurante,"Rua Mesquita, 31",Carlos Prates,-19.913324,-43.967440
 251623,Hot Dog Kero Kero,Lanchonete,"Rua Afonso Duarte Carapia, 290",Jardim Vitória,-19.858652,-43.877328
 251628,Vila Verde Eventos,Restaurante,"Avenida Joaquim José Diniz, 501",Fernão Dias,-19.874360,-43.919647
 251663,Veloso Comercio,Restaurante,"Rua Itororó, 993",Padre Eustáquio,-19.916948,-43.979178
@@ -10115,7 +10115,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 252905,Restaurante Familia Rosa,Restaurante,"Rua Nogueira da Gama, 864",Alto dos Pinheiros,-19.930150,-44.004434
 252932,Hot-dog do Papai,Lanchonete,"Rua Ilheus, 37",Vila Oeste,-19.936375,-44.003496
 253000,Gabiroba Butuquim,Bar,"Avenida Padre Vieira, 319",Minas Brasil,-19.916081,-43.991357
-253065,Josue Bar - Bebidas e Tira Gosto Em Geral,Bar,"Rua João Pires, 379",Cabana do Pai Tomás,-19.945161,-43.999306
+253065,Josue Bar - Bebidas e Tira Gosto em Geral,Bar,"Rua João Pires, 379",Cabana do Pai Tomás,-19.945161,-43.999306
 253078,Lancholandia,Bar,"Avenida Getúlio Vargas, 1187",Savassi,-19.937593,-43.934217
 253105,Atelie Burguer,Lanchonete,"Rua Quincas Borba, 65",Ademar Maldonado,-19.980063,-44.028334
 253130,Jv Servicos de Alimentacao,Restaurante,"Rua Vitório Magnavacca, 59",Buritis,-19.970226,-43.965574
@@ -10154,7 +10154,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 253989,Restaurante e Lanchonete Bernardo Monteiro,Restaurante,"Avenida Bernardo Monteiro, 461",Santa Efigênia,-19.922641,-43.926984
 254013,O Chefe Steak House,Restaurante,"Rua Desembargador Barcelos, 346",Calafate,-19.927688,-43.972889
 254045,Uai Acai,Lanchonete,"Rua Érico Veríssimo, 1827",Santa Mônica,-19.818820,-43.977405
-254062,Restaurante La Em Casa,Restaurante,"Rua dos Timbiras, 2022",Lourdes,-19.926010,-43.942084
+254062,Restaurante La em Casa,Restaurante,"Rua dos Timbiras, 2022",Lourdes,-19.926010,-43.942084
 254082,Stefanini Cia,Restaurante,"Rua Tucuman, 482",São Geraldo,-19.896914,-43.897757
 254084,Pastelaria Du Duduh,Lanchonete,"Rua José Jorge Fonte Boa, 51",Havaí,-19.959821,-43.975777
 254100,Massas e Sabores Gourmets,Restaurante,"Rua Felipe de Melo, 47",União,-19.878231,-43.928080
@@ -10194,12 +10194,12 @@ id,nome,categoria,endereco,bairro,lat,lon
 255192,Suco de Lourdes,Lanchonete,"Avenida Álvares Cabral, 1322",Lourdes,-19.930451,-43.946270
 255272,Romerito,Restaurante,"Avenida Celso Porfirio Machado, 150",Belvedere,-19.969887,-43.943663
 255311,Geralda Alves Trindade Castro,Lanchonete,"Rua Antônio Eustáquio Piazza, 2775",Tirol,-19.984845,-44.035829
-255313,Pizza No Tempo Certo,Restaurante,"Avenida Portugal, 2819",Santa Amélia,-19.843746,-43.971402
+255313,Pizza no Tempo Certo,Restaurante,"Avenida Portugal, 2819",Santa Amélia,-19.843746,-43.971402
 255325,Mariana Terraplanagem,Lanchonete,"Rua Amaraji, 38",São Gabriel,-19.856922,-43.911287
 255336,Quintal Savassi,Restaurante,"Rua Antônio de Albuquerque, 448",Savassi,-19.938273,-43.934676
 255337,Lanches Teodoro,Lanchonete,"Rua Flor de Maio, 121",Lindéia,-19.979051,-44.046533
 255373,Beef Smash Burger Savassi,Lanchonete,"Avenida Cristóvão Colombo, 476",Savassi,-19.936016,-43.936690
-255384,Agua Na Boca Confeitaria e Lanchonete,Lanchonete,"Rua Rio Grande do Sul, 409",Centro,-19.919525,-43.945541
+255384,Agua na Boca Confeitaria e Lanchonete,Lanchonete,"Rua Rio Grande do Sul, 409",Centro,-19.919525,-43.945541
 255401,Do Padrin,Restaurante,"Avenida Francisco Negrão de Lima, 737",Garças,-19.831852,-43.996191
 255421,El Mai,Restaurante,"Rua Antônio Aleixo, 592",Lourdes,-19.933011,-43.945469
 255427,Mae e Filha - Tempero de Casa,Restaurante,"Rua dos Javaés, 428",Santa Mônica,-19.826611,-43.981892
@@ -10284,7 +10284,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 257253,Subway Sao Geraldo,Restaurante,"Avenida Itaité, 529",São Geraldo,-19.898014,-43.899127
 257262,Sava Pub,Restaurante,"Rua Pains, 20",Sion,-19.954802,-43.930626
 257266,Rm Lanches Ki Delicia,Lanchonete,"Alameda Vereador Álvaro Celso, 241",Santa Efigênia,-19.923057,-43.930494
-257343,Espeto Boi Na Brasa,Restaurante,"Rua Ana de Alvarenga Campos, 417",Céu Azul,-19.822965,-44.007448
+257343,Espeto Boi na Brasa,Restaurante,"Rua Ana de Alvarenga Campos, 417",Céu Azul,-19.822965,-44.007448
 257360,Black Top,Restaurante,"Rua São Lázaro, 205",Sagrada Família,-19.903299,-43.926649
 257392,Sabores da Lica,Restaurante,"Rua Monteiro Lobato, 67",Ouro Preto,-19.871118,-43.983278
 257427,Ex Burguer,Lanchonete,"Rua Corrêa e Castro, 90",Santa Cruz,-19.874356,-43.942319
@@ -10605,7 +10605,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 264287,Fernandao,Restaurante,"Rua Jaboatão, 49",Nova Gameleira,-19.942381,-43.998593
 264320,Restaurante Tia Gil,Restaurante,"Rua Nossa Senhora Aparecida, 178",Corumbiara,-20.008184,-44.013977
 264323,Amazonas Lanches,Lanchonete,"Avenida Amazonas, 3404",Prado,-19.930829,-43.964489
-264345,Sopa No Pote,Restaurante,"Rua Alcobaça, 105",São Francisco,-19.869516,-43.954104
+264345,Sopa no Pote,Restaurante,"Rua Alcobaça, 105",São Francisco,-19.869516,-43.954104
 264379,Paulo Henrique Pereira da Costa,Bar,"Rua Joaquim Assis Ribeiro, 15",Califórnia,-19.921014,-44.013076
 264382,Delicias da Tata,Restaurante,"Rua Ribeirão Vermelho, 77",Piratininga,-19.817452,-43.990820
 264421,Bar e Restaurante da Nina,Restaurante,"Rua Francisco Duarte Mendonça, 820",Teixeira Dias,-19.989286,-44.014300
@@ -10674,7 +10674,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 265904,Lb Burguer,Restaurante,"Rua dos Guaranis, 49",Vila Ecológica,-20.009578,-44.019250
 265905,Junio Malabartes,Bar,"Rua Manoel Soares Costa, 22",Mantiqueira,-19.792253,-43.984834
 266015,Natalia Souza Ferreira,Lanchonete,"Rua Deputado Raimundo Albergária, 106",Xodó-Marize,-19.823459,-43.940797
-266019,Show Na Brasa,Bar,"Avenida Doutor Cristiano Guimarães, 1108",Planalto,-19.830698,-43.953763
+266019,Show na Brasa,Bar,"Avenida Doutor Cristiano Guimarães, 1108",Planalto,-19.830698,-43.953763
 266035,Lava Jato Paris,Lanchonete,"Avenida Prudente de Morais, 1133",Santo Antônio,-19.945589,-43.949194
 266073,Ap Restaurante Ltda,Restaurante,"Rua Alvarenga Peixoto, 551",Lourdes,-19.931011,-43.943782
 266078,Chopp da Praca,Bar,"Rua Coração Eucarístico de Jesus, 165",Coração Eucarístico,-19.926049,-43.989586
@@ -10777,7 +10777,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 268406,Bitaca do Alizin,Restaurante,"Rua Faustino Cardoso, 22",Novo Glória,-19.907625,-44.012366
 268412,Oyacon Alimentos,Restaurante,"Rua Inacio Parreira Neves, 738",Havaí,-19.966889,-43.974759
 268416,Salgados da Jo,Restaurante,"Rua Terezinha Viana de Assis, 168",Vila Pinho,-20.001193,-44.024143
-268419,Bar do No,Bar,"Avenida Menelick de Carvalho, 446",Flávio Marques Lisboa,-19.993687,-43.999852
+268419,Bar do no,Bar,"Avenida Menelick de Carvalho, 446",Flávio Marques Lisboa,-19.993687,-43.999852
 268425,Super Games Acai,Lanchonete,"Rua Hudson Magalhaes Marques, 272",Serrano,-19.883129,-44.012733
 268438,Rsp Alimentacao,Restaurante,"Rua Ilacir Pereira Lima, 518",Silveira,-19.889951,-43.929859
 268457,Tete Lanches,Lanchonete,"Rua Tebas, 892",Alto Vera Cruz,-19.908150,-43.890603
@@ -10862,7 +10862,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 270399,Cunha's Bar - Bar e Restaurante,Restaurante,"Rua Tenente Vitorino, 269",Santa Tereza,-19.916312,-43.914350
 270408,Lanchonete Ponto do Caldo de Cana,Lanchonete,"Rua Guanabara, 266",Urca,-19.870073,-44.017646
 270417,Restaurante Pimenta do Reino,Restaurante,"Rua Aquiles Lobo, 535",Floresta,-19.920131,-43.930952
-270464,Ta Na Mao Vitaminas e Lanches,Lanchonete,"Rua Coronel Joaquim dos Santos, 137",Céu Azul,-19.824739,-44.000888
+270464,Ta na Mao Vitaminas e Lanches,Lanchonete,"Rua Coronel Joaquim dos Santos, 137",Céu Azul,-19.824739,-44.000888
 270521,After Burgers,Lanchonete,"Rua Buritis, 157",Candelária,-19.813613,-43.967098
 270536,Esquina da Brasa,Restaurante,"Rua Campos Sales, 347",Nova Suissa,-19.927430,-43.976326
 270568,Monkey Saladas Grelhados e Crepes,Restaurante,"Rua Alabandina, 90",Caiçaras,-19.898846,-43.968828
@@ -10879,7 +10879,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 270876,Bamp Entretenimentos,Bar,"Rua Algas, 216",Boa Vista,-19.893670,-43.898255
 270936,Bom Sabor,Restaurante,"Rua Amaro Neves Barreto, 8",Goiânia,-19.863748,-43.899570
 270939,Paulo Henrique Moreira D Assuncao,Bar,"Rua Lajedo, 487",São Gabriel,-19.852318,-43.906215
-270966,Ta Na Mao Lounge Beer,Bar,"Rua Algas, 412",Boa Vista,-19.893243,-43.896841
+270966,Ta na Mao Lounge Beer,Bar,"Rua Algas, 412",Boa Vista,-19.893243,-43.896841
 270975,Emporio Beer,Bar,"Avenida Itaité, 420",São Geraldo,-19.898464,-43.899983
 271064,Vivacai Sucos e Vitaminas,Lanchonete,"Rua Professor Moraes, 562",Savassi,-19.938031,-43.931489
 271094,Yeshua Restaurante e Lanchonete Ltda,Restaurante,"Rua Lassance, 354",São Geraldo,-19.894004,-43.895057
@@ -10935,7 +10935,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 272395,Pizza Pezzi,Restaurante,"Avenida Professor Mário Werneck, 1662",Buritis,-19.970708,-43.965357
 272406,Up Drinks Bh,Bar,"Rua Brumadinho, 130",Prado,-19.929341,-43.961138
 272409,Samos Beer,Bar,"Avenida Guarapari, 52",Santa Amélia,-19.845374,-43.976965
-272517,Bar Mercearia Cafe No Ponto,Bar,"Rua Anjo Azul, 375",Conjunto Paulo VI,-19.830036,-43.888132
+272517,Bar Mercearia Cafe no Ponto,Bar,"Rua Anjo Azul, 375",Conjunto Paulo VI,-19.830036,-43.888132
 272523,Sushi Japa Barreiro,Restaurante,"Avenida Sinfrônio Brochado, 1390",Barreiro,-19.978077,-44.025643
 272535,Mc dos S Silva Restaurante Ltda,Restaurante,"Avenida Clara Nunes, 433",Renascença,-19.886662,-43.940038
 272553,Savassi Alimentacao,Restaurante,"Rua Antônio de Albuquerque, 1000",Savassi,-19.937071,-43.939606
@@ -10947,7 +10947,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 272702,Noventa Burguer,Restaurante,"Rua Madre dos Anjos, 796",Providência,-19.851453,-43.926175
 272719,Hamoni Alimentos,Restaurante,"Rua Doutor José Silva Martins, 289",Cidade Nova,-19.888400,-43.923786
 272720,Hamoni Alimentos,Restaurante,"Avenida Professor Mário Werneck, 3210",Buritis,-19.976362,-43.975017
-272733,Churrasco No Palito,Bar,"Rua Ivan Ferreira Alves, 546",Jardim dos Comerciários,-19.791649,-43.965533
+272733,Churrasco no Palito,Bar,"Rua Ivan Ferreira Alves, 546",Jardim dos Comerciários,-19.791649,-43.965533
 272734,Pastelaria O Pastelao,Lanchonete,"Rua Volts, 15",Vila Primeiro de Maio,-19.863129,-43.928476
 272752,Ju Cosmeticos e Utenssilios Domesticos,Bar,"Rua dos Carijós, 424",Centro,-19.918857,-43.939227
 272757,Produtos da Fran e do Rafa,Restaurante,"Rua Pinheiros, 51",Vila Independência I,-20.016738,-44.026233
@@ -11065,7 +11065,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 276049,Restaurante Santissimo,Restaurante,"Rua dos Aimorés, 67",Funcionários,-19.931681,-43.925076
 276144,Iupi Lanches,Lanchonete,"Rua Jacuí, 775",Colégio Batista,-19.906312,-43.932299
 276156,Margo Drinkeria Ltda,Bar,"Avenida Olegário Maciel, 742",Centro,-19.920399,-43.944698
-276173,Frango's No Balde - Pampulha,Restaurante,"Avenida Guarapari, 464",Santa Amélia,-19.842529,-43.977516
+276173,Frango's no Balde - Pampulha,Restaurante,"Avenida Guarapari, 464",Santa Amélia,-19.842529,-43.977516
 276196,Thais Goncaves Morais Amorim,Restaurante,"Rua Joao Batista Belfi, 400",Brasil Industrial,-19.998254,-44.018893
 276205,Teccseg,Lanchonete,"Rua Dom Pedrito, 80",Nova Vista,-19.889347,-43.904811
 276239,Zeus Self-service e Pizzaria,Restaurante,"Rua Padre Argemiro Moreira, 17",Beira-Linha,-19.832284,-43.890568
@@ -11249,7 +11249,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 280960,Mania Mineira,Restaurante,"Avenida Miguel Perrela, 379",Castelo,-19.879048,-43.997424
 280970,Wk Varejista,Bar,"Rua João Gualberto dos Santos, 176",Céu Azul,-19.825716,-43.998198
 281031,Alkaidas Bar,Bar,"Rua Gleucy José de Oliveira, 34",Conjunto Taquaril,-19.920839,-43.879411
-281222,Trem Na Brasa Food,Restaurante,"Avenida General Carlos Guedes, 6",Planalto,-19.840076,-43.950740
+281222,Trem na Brasa Food,Restaurante,"Avenida General Carlos Guedes, 6",Planalto,-19.840076,-43.950740
 281245,Nutri Goncalves,Restaurante,"Rua Dinamico, 32",Santana do Cafezal,-19.935851,-43.909510
 281259,Foka Distribuidora,Restaurante,"Rua Goiabeira, 38",Jardim Leblon,-19.822880,-43.988282
 281302,Neo Af Gil Ltda,Lanchonete,"Avenida Amazonas, 580",Centro,-19.920139,-43.940806
@@ -11349,7 +11349,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 283815,Lanchonete Hist,Lanchonete,"Rua São Teófilo, 104",Beira-Linha,-19.832297,-43.889573
 283908,Pizzaria e Hamburgueria Farah,Restaurante,"Rua Terracota, 351",Vitória,-19.862744,-43.888072
 283920,Sql Sistemas,Lanchonete,"Rua Antônio Ferreira da Cruz, 107",Parque São Pedro,-19.817658,-43.951682
-283976,Cafe Com Letras_humanas Empreendimentos,Lanchonete,"Rua São Teófilo, 131",Paulo VI,-19.836500,-43.890731
+283976,Cafe com Letras_humanas Empreendimentos,Lanchonete,"Rua São Teófilo, 131",Paulo VI,-19.836500,-43.890731
 284008,Bar da Ana,Bar,"Rua Pará de Minas, 1002",Padre Eustáquio,-19.913844,-43.990846
 284019,Frutos de Goias,Lanchonete,"Avenida Professor Mário Werneck, 1360",Buritis,-19.968694,-43.964701
 284022,Sonia Neves Alcantara,Restaurante,"Rua Doutor Elbert Pimenta, 54",Jonas Veiga,-19.916343,-43.893103
@@ -11427,7 +11427,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 286064,Icekero,Lanchonete,"Avenida Mem de Sá, 271",Paraíso,-19.920146,-43.910645
 286096,Garagebar,Bar,"Rua Algarve, 100",São Francisco,-19.878895,-43.954279
 286106,Lindinha Lanches,Restaurante,"Rua das Dracenas, 62",Lindéia,-19.980514,-44.052897
-286149,Acai No Grau Premium Oficial,Lanchonete,"Rua Águas Belas, 134",Ermelinda,-19.890414,-43.958195
+286149,Acai no Grau Premium Oficial,Lanchonete,"Rua Águas Belas, 134",Ermelinda,-19.890414,-43.958195
 286154,Restaurante Saborear,Restaurante,"Avenida Parana, 17",Centro,-19.916102,-43.941283
 286213,Bar do Marcelo,Bar,"Rua Barao do Monte Alto, 655",Cardoso,-20.002258,-44.005855
 286215,Bar do Pai,Bar,"Rua José Cleto, 1490",Maria Virgínia,-19.871182,-43.944325
@@ -11544,7 +11544,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 289076,Manaca Cafe e Restaurante,Lanchonete,"Avenida Raja Gabaglia, 1048",Gutierrez,-19.942811,-43.956559
 289111,Sorveteria Be Happy Ltda,Lanchonete,"Rua Maria Madalena Esteves, 175",Minaslândia,-19.851207,-43.931507
 289121,Bh Food,Restaurante,"Rua Império, 10",Maria Goretti,-19.861452,-43.912174
-289179,La Na Lala,Bar,"Rua Coronel Fulgêncio, 186",São Lucas,-19.928199,-43.918716
+289179,La na Lala,Bar,"Rua Coronel Fulgêncio, 186",São Lucas,-19.928199,-43.918716
 289269,Pizzaria do Fael,Lanchonete,"Rua Saí, 198",Concórdia,-19.898401,-43.934950
 289271,Salgaderia Londres,Lanchonete,"Rua Belmiro Braga, 705",Caiçara-Adelaide,-19.906431,-43.971684
 289279,Restaurante Fazenda Boulevard Bh Ltda,Restaurante,"Avenida dos Andradas, 3000",Santa Efigênia,-19.920124,-43.920657
@@ -11563,7 +11563,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 289863,L.1 Alimentos Ltda,Lanchonete,"Alameda Ezequiel Dias, 389",Santa Efigênia,-19.925918,-43.932105
 289884,Japan Sushi Food,Restaurante,"Rua Espírito Santo, 1972",Lourdes,-19.931913,-43.940862
 289929,Sorveteria Bom Gosto,Lanchonete,"Rua Iara, 324",Pompéia,-19.912304,-43.904825
-289936,Werneck Na Brasa,Restaurante,"Avenida Professor Mário Werneck, 678",Estoril,-19.967081,-43.958282
+289936,Werneck na Brasa,Restaurante,"Avenida Professor Mário Werneck, 678",Estoril,-19.967081,-43.958282
 289942,Vino! Bh,Restaurante,"Rua Sergipe, 1341",Savassi,-19.938363,-43.938274
 289964,Restaurante e Lanchonete,Restaurante,"Rua Flor de Maio, 63",Nossa Senhora de Fátima,-19.940799,-43.908801
 289974,Zangove Burger,Lanchonete,"Rua Célio Diniz, 105",Rio Branco,-19.815280,-43.981209
@@ -11651,9 +11651,9 @@ id,nome,categoria,endereco,bairro,lat,lon
 292374,Boizao II,Restaurante,"Avenida Santa Terezinha, 1000",Santa Terezinha,-19.872431,-44.004064
 292375,Aki Du Lado,Bar,"Rua Camões, 648",Copacabana,-19.833970,-43.986910
 292401,Villa Castelo Choperia e Restaurante Ltda,Restaurante,"Rua Cipotânea, 41",Cardoso,-20.000035,-44.005290
-292445,Tudo No Espeto Delivery,Bar,"Rua Germano Torres, 166",Carmo,-19.941260,-43.930596
+292445,Tudo no Espeto Delivery,Bar,"Rua Germano Torres, 166",Carmo,-19.941260,-43.930596
 292492,Panela de Pedra,Restaurante,"Avenida Brigadeiro Eduardo Gomes, 1135",Glória,-19.906355,-44.005108
-292493,Centro Esportivo Bola Na Rede,Bar,"Rua Intendente Câmara, 100",Indaiá,-19.864506,-43.955421
+292493,Centro Esportivo Bola na Rede,Bar,"Rua Intendente Câmara, 100",Indaiá,-19.864506,-43.955421
 292499,Valdinei Bar e Distribuidora,Bar,"Rua Vinte, 155",Vista do Sol,-19.848269,-43.891412
 292508,Restaurante Belvedere Ltda,Restaurante,"Rua Jornalista Djalma Andrade, 24",Belvedere,-19.971365,-43.944430
 292509,Restaurante Belvedere Ltda,Lanchonete,"Rua Jornalista Djalma Andrade, 24",Belvedere,-19.971365,-43.944430
@@ -11716,13 +11716,13 @@ id,nome,categoria,endereco,bairro,lat,lon
 293860,Restaurante P.f,Restaurante,"Rua da Estrada, 55",Goiânia,-19.858960,-43.905169
 293940,Restaurante e Lanchonete Uaitche,Restaurante,"Avenida Senador Levindo Coelho, 436",Marieta I,-19.991718,-44.034998
 293946,Paralela Park,Restaurante,"Rua Álvares Maciel, 322",Santa Efigênia,-19.924233,-43.922692
-293947,Restaurante Tempero Com Alho,Restaurante,"Avenida Serrana, 380",Serrano,-19.882150,-44.011744
+293947,Restaurante Tempero com Alho,Restaurante,"Avenida Serrana, 380",Serrano,-19.882150,-44.011744
 293971,Ailson,Bar,"Rua Maria Gertrudes Santos, 335",Céu Azul,-19.817355,-44.001218
 294005,Fera Eats,Bar,"Avenida Barão Homem de Melo, 400",Nova Suissa,-19.937597,-43.972729
 294010,Barcenaria,Bar,"Rua Desembargador Veloso, 219",Paraíso,-19.920753,-43.901823
 294041,Bar da Lorraine,Restaurante,"Rua Volts, 17",Vila Primeiro de Maio,-19.863059,-43.928569
 294047,Cantinho da Sil,Restaurante,"Rua Paquetá, 243",Lagoinha Leblon,-19.804475,-43.999673
-294096,Pizza No Tempo Certo,Restaurante,"Rua Maria Gertrudes Santos, 201",Céu Azul,-19.818409,-43.999113
+294096,Pizza no Tempo Certo,Restaurante,"Rua Maria Gertrudes Santos, 201",Céu Azul,-19.818409,-43.999113
 294119,Bm Store,Lanchonete,"Rua Quarenta e Dois, 19",Novo Aarão Reis,-19.840043,-43.909459
 294176,Chef Maga,Restaurante,"Rua Manoel Guilherme Roscoe, 98",Santa Lúcia,-19.957991,-43.946207
 294185,Itaquara Alimentos Ltda,Restaurante,"Rua Professora Gabriela Varela, 888",Jardim Guanabara,-19.828317,-43.932073
@@ -11763,7 +11763,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 295270,Jet's Pizzaria e Amburgueria,Restaurante,"Rua Edmar Colini Ferreira, 441",Mantiqueira,-19.789586,-43.989743
 295303,Dona Ju Gastro Bar,Restaurante,"Rua dos Borges, 1520",Jardim Vitória,-19.844711,-43.880239
 295306,Ivan da Silva Nogueira,Lanchonete,"Rua da Olaria, 1004",Diamante,-19.995551,-44.026263
-295323,Dois Em Um - Acaiteria e Lanches,Lanchonete,"Rua Julita Nogueira Soares, 545",Santa Terezinha,-19.869968,-44.007379
+295323,Dois em Um - Acaiteria e Lanches,Lanchonete,"Rua Julita Nogueira Soares, 545",Santa Terezinha,-19.869968,-44.007379
 295352,Cafelandia,Lanchonete,"Rua Pouso Alegre, 2359",Horto,-19.912096,-43.917586
 295387,Siao Bar,Bar,"Rua Pium i, 86",Carmo,-19.940453,-43.929365
 295388,So Madruga Bar e Restaurante,Lanchonete,"Rua Jordânia, 166",Ouro Preto,-19.872329,-43.987299
@@ -11787,7 +11787,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 295763,Mario de Souza Ramos Junior,Restaurante,"Avenida Cristiano Machado, 8045",Vila Suzana I,-19.861428,-43.933409
 295814,Santo Risoteria,Restaurante,"Rua Paulo Afonso, 695",Santo Antônio,-19.943028,-43.945905
 295817,Boteco Raiz Bh,Bar,"Rua Marques de Lavradio, 12",João Pinheiro,-19.924299,-43.999553
-295820,Mg Sabores Em Massa Ltda,Lanchonete,"Avenida Brigadeiro Eduardo Gomes, 2375",Glória,-19.895765,-44.010383
+295820,Mg Sabores em Massa Ltda,Lanchonete,"Avenida Brigadeiro Eduardo Gomes, 2375",Glória,-19.895765,-44.010383
 295841,Bk Lanches,Lanchonete,"Rua Júlio de Castilho, 1187",Parque São José,-19.964866,-43.981041
 295940,Mont's Burguer,Lanchonete,"Avenida Professor Mário Werneck, 2330",Buritis,-19.975733,-43.968801
 295960,Bar e Espeteria da Bruna,Bar,"Avenida dos Jardins, 221",Lindéia,-19.980055,-44.043900
@@ -11887,7 +11887,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 298406,Recanto dos Amigos,Bar,"Avenida Doutor Cristiano Guimarães, 1343",Planalto,-19.832492,-43.955304
 298503,Casa Nuts,Lanchonete,"Avenida Assis Chateaubriand, 25",Floresta,-19.916291,-43.927632
 298527,S4 Alimentacao Ltda,Bar,"Avenida Olegário Maciel, 1600",Santo Agostinho,-19.928219,-43.946824
-298535,Noite Em Dubai,Bar,"Avenida dos Engenheiros, 277",Manacás,-19.892778,-43.995584
+298535,Noite em Dubai,Bar,"Avenida dos Engenheiros, 277",Manacás,-19.892778,-43.995584
 298551,Lc Espetinho,Bar,"Rua das Orquídeas, 27",Jardim Getsemani,-19.849341,-43.880324
 298559,Bar da Nenna,Bar,"Rua Goiatuba, 48",Mariquinhas,-19.812288,-43.940118
 298569,Galdinus,Restaurante,"Rua Enéas, 347",Novo Glória,-19.902355,-44.011494
@@ -11987,7 +11987,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 301662,Silzi Gomes de Godoi,Restaurante,"Rua Desembargador Cerqueira Leite, 68",Salgado Filho,-19.941795,-43.982165
 301668,Mcda Comercio de Alimentos Ltda,Lanchonete,"Avenida Cristiano Machado, 11833",Vila Clóris,-19.821519,-43.945933
 301692,Stephanie Silva Pinheiro,Lanchonete,"Rua Professora Gabriela Varela, 250",Tupi A,-19.834006,-43.930397
-301696,Sabor de Minas Em Familia,Restaurante,"Avenida Senador Levindo Coelho, 1883",Santa Cecília,-20.004037,-44.035102
+301696,Sabor de Minas em Familia,Restaurante,"Avenida Senador Levindo Coelho, 1883",Santa Cecília,-20.004037,-44.035102
 301710,Bel Cacau Bolos e Doces Personalizados,Lanchonete,"Rua Araxá, 272",Colégio Batista,-19.909347,-43.938998
 301765,Tom Lanchonete,Lanchonete,"Rua Coronel Siebra de Brito, 74",Bonsucesso,-19.983112,-43.989484
 301843,Bar da de,Bar,"Rua do Grupo, 19",Granja de Freitas,-19.907461,-43.882546
@@ -12079,7 +12079,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 304316,No Ponto do Pagode,Bar,"Rua Margarida Praxedes Torres, 1282",Nova Esperança,-19.898890,-43.960234
 304326,Cantina da Dina,Lanchonete,"Avenida Presidente Antônio Carlos, 4640",Indaiá,-19.868313,-43.955757
 304341,Acai's Home,Restaurante,"Rua Iara, 528",Pompéia,-19.914466,-43.904323
-304350,To Na Broca,Lanchonete,"Rua Minduri, 476",Santa Inês,-19.885450,-43.907684
+304350,To na Broca,Lanchonete,"Rua Minduri, 476",Santa Inês,-19.885450,-43.907684
 304352,Defumando O Mundo,Restaurante,"Rua Antônio de Albuquerque, 848",Savassi,-19.937377,-43.938353
 304370,Blak Bar 9,Bar,"Rua da Cultura, 19",Conjunto Paulo VI,-19.831491,-43.889134
 304379,Brutos e Assados,Lanchonete,"Rua Lajedo, 427",São Gabriel,-19.852116,-43.906998
@@ -12242,7 +12242,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 308521,Vilma Lanches,Lanchonete,"Rua Cosme Damiao, 400",Universitário,-19.869462,-43.945742
 308524,Pedro Batista Alves,Lanchonete,"Rua Cosme Damiao, 400",Universitário,-19.869462,-43.945742
 308584,Amelia Cafeteria,Lanchonete,"Rua Rubens Caporali Ribeiro, 715",Buritis,-19.979330,-43.976947
-308602,Delicias Na Chapa Pizzaria,Lanchonete,"Rua Matildes Augusta de Jesus, 25",Diamante,-19.988826,-44.028494
+308602,Delicias na Chapa Pizzaria,Lanchonete,"Rua Matildes Augusta de Jesus, 25",Diamante,-19.988826,-44.028494
 308619,Recanto Verde,Restaurante,"Rua João Carlos, 258",Sagrada Família,-19.906088,-43.915859
 308635,Burgz One Table,Lanchonete,"Rua Cônego Trindade, 1430",Piratininga,-19.819285,-43.991201
 308751,R.o.s. Cafeteria Gourmet Ltda,Lanchonete,"Rua Sergipe, 33",Boa Viagem,-19.926904,-43.935138
@@ -12312,7 +12312,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 310226,Bilions,Lanchonete,"Avenida Getúlio Vargas, 122",Funcionários,-19.932381,-43.925521
 310237,American Cheeser Burger,Lanchonete,"Rua Rui Barbosa da Silva, 240",Petrópolis,-20.013457,-44.029925
 310245,Essas Donas,Restaurante,"Rua Helga Taveira de Souza, 266",Céu Azul,-19.823613,-44.009653
-310265,Espeto Na Brasa,Restaurante,"Praça Nossa Senhora Aparecida, 100",Milionários,-19.982637,-44.003921
+310265,Espeto na Brasa,Restaurante,"Praça Nossa Senhora Aparecida, 100",Milionários,-19.982637,-44.003921
 310266,Bar da Bya,Bar,"Rua Olavo Bilac, 766",Santa Mônica,-19.819668,-43.973069
 310336,Casa Alvorada,Lanchonete,"Avenida do Contorno, 3415",Santa Efigênia,-19.924583,-43.919233
 310423,Restaurante El Shaddai,Restaurante,"Avenida Vilarinho, 3915",Letícia,-19.803496,-43.972796
@@ -12493,7 +12493,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 315439,Jts Distribuidora,Bar,"Rua Senador Milton Campos, 952",Santa Maria,-19.933703,-44.010532
 315466,Maria Regina Sousa de Jesus Mendes,Lanchonete,"Rua Dona Helena, 162",Nova Cintra,-19.952285,-43.988276
 315479,Ws Lanches,Lanchonete,"Rua Augusta Andrade Lage, 216",Jaqueline,-19.800436,-43.941067
-315482,Ta Na Mao,Bar,"Avenida Prudente de Morais, 767",Santo Antônio,-19.943703,-43.948277
+315482,Ta na Mao,Bar,"Avenida Prudente de Morais, 767",Santo Antônio,-19.943703,-43.948277
 315559,Delicias da Ale,Lanchonete,"Rua Tenente Helim, 30",Santa Cruz,-19.876883,-43.947805
 315591,Luiz Felipe dos Santos Lima,Restaurante,"Rua Doutor Cristiano Rezende, 1962",Araguaia,-19.987826,-43.990357
 315592,Central do Lanche,Lanchonete,"Rua Central, 40",Vila Antena,-19.949226,-43.962018
@@ -12514,14 +12514,14 @@ id,nome,categoria,endereco,bairro,lat,lon
 316217,Marcelo Eduardo Rezende Silveira,Bar,"Rua Barra Longa, 34",Salgado Filho,-19.946837,-43.984237
 316229,D' Maria Saladas,Restaurante,"Rodovia Papa João Paulo II, 3701",Serra Verde,-19.788013,-43.949886
 316304,Cripburguer,Lanchonete,"Rua Teixeira Soares, 965",Santa Tereza,-19.913742,-43.916920
-316312,Excelencia Em Lanchonetes Escolares Ltda,Lanchonete,"Rua Bueno Brandão, 151",Floresta,-19.915148,-43.926767
+316312,Excelencia em Lanchonetes Escolares Ltda,Lanchonete,"Rua Bueno Brandão, 151",Floresta,-19.915148,-43.926767
 316346,Sentinela Star Quality,Restaurante,"Rua Pastor Casimiro de Oliveira, 245",Céu Azul,-19.818921,-44.000474
 316356,Donas Burgers,Lanchonete,"Rua Neblina, 3",Conjunto Paulo VI,-19.832265,-43.886938
 316400,Falcao Burger,Lanchonete,"Rua Maria de Lourdes da Cruz, 483",Mantiqueira,-19.788276,-43.985436
 316434,Nyx Bar e Restaurante Ltda,Restaurante,"Avenida Carandaí, 761",Funcionários,-19.928033,-43.929588
 316459,Arthur Henrique Simoes,Lanchonete,"Rua Montese, 958",Santa Branca,-19.834696,-43.967748
 316481,Dsa Alimentacao,Bar,"Rua Araguari, 1453",Santo Agostinho,-19.931335,-43.951509
-316497,Churrasco Na Brasa,Restaurante,"Avenida dos Andradas, 367",Centro,-19.918196,-43.934622
+316497,Churrasco na Brasa,Restaurante,"Avenida dos Andradas, 367",Centro,-19.918196,-43.934622
 316512,Restaurante Familia e Cia.,Restaurante,"Rua Gleucy José de Oliveira, 420",Conjunto Taquaril,-19.917441,-43.879502
 316545,Milk Moo,Lanchonete,"Avenida Afonso Vaz de Melo, 640",Barreiro,-19.974304,-44.020858
 316552,Restaurante Fazenda Via Barreiro Ltda,Restaurante,"Avenida Afonso Vaz de Melo, 640",Barreiro,-19.974304,-44.020858
@@ -12550,7 +12550,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 317417,Millylanches,Lanchonete,"Rua Doutor Álvaro Camargos, 1871",Santa Branca,-19.828255,-43.965285
 317428,Bar da Lu,Bar,"Avenida Raul Mourão Guimarães, 413",Palmeiras,-19.967696,-43.979110
 317432,Alprazolanches,Lanchonete,"Rua Ana Francisca de Jesus, 29",Jardim Felicidade,-19.832352,-43.929479
-317449,Lanchonete e Pastelaria Pastel No Ponto,Restaurante,"Rua José Felix Martins, 1921",Mantiqueira,-19.789194,-43.982743
+317449,Lanchonete e Pastelaria Pastel no Ponto,Restaurante,"Rua José Felix Martins, 1921",Mantiqueira,-19.789194,-43.982743
 317485,Suchi Mineiro,Restaurante,"Rua Guarda Custódio, 315",Ouro Preto,-19.867289,-43.981738
 317497,Sthephania,Lanchonete,"Rua Cirilo Gaspar de Araújo, 375",Aparecida Sétima Seção,-19.891645,-43.963110
 317537,Tropicana,Bar,"Avenida Professor Mário Werneck, 2112",Buritis,-19.973793,-43.968070
@@ -12601,8 +12601,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 318799,Denise Odete da Fonseca,Lanchonete,"Avenida Presidente Antônio Carlos, 7951",São Luíz,-19.851588,-43.963366
 318808,Restaurante Trem Saboroso,Restaurante,"Rua Itapetinga, 421",Cachoeirinha,-19.895142,-43.947362
 318814,Cantina do Sabor,Restaurante,"Rua dos Industriários, 76",Bairro das Indústrias I,-19.960961,-44.001490
-318819,Lm Solucao Em Alimentacao Ltda,Lanchonete,"Rua Ministro Orozimbo Nonato, 640",Dona Clara,-19.857735,-43.939314
-318820,Lm Solucao Em Alimentacao Ltda,Lanchonete,"Avenida Sebastião de Brito, 780",Dona Clara,-19.862081,-43.939710
+318819,Lm Solucao em Alimentacao Ltda,Lanchonete,"Rua Ministro Orozimbo Nonato, 640",Dona Clara,-19.857735,-43.939314
+318820,Lm Solucao em Alimentacao Ltda,Lanchonete,"Avenida Sebastião de Brito, 780",Dona Clara,-19.862081,-43.939710
 318823,Acai da Mudinha,Lanchonete,"Rua Indiana, 1194",Jardim América,-19.946515,-43.971339
 318860,Deus do Amor,Bar,"Rua Areado, 48",Carlos Prates,-19.908355,-43.960088
 318863,Acai do Bocao,Lanchonete,"Rua Serro Azul, 152",Mariquinhas,-19.813895,-43.940133
@@ -12621,7 +12621,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 319132,Under Growler Castelo,Bar,"Avenida Altamiro Avelino Soares, 510",Castelo,-19.882415,-43.998984
 319186,Tangerina Restaurante Ltda,Restaurante,"Rua Rio de Janeiro, 371",Centro,-19.917608,-43.938119
 319217,Comidaria Dia e Noite,Restaurante,"Rua Doutor Cezar Campos, 145",Vila Vista Alegre,-19.953760,-43.992515
-319240,Refeicoes La Em Casa,Lanchonete,"Rua Pacífico Mascarenhas, 26",Santa Efigênia,-19.921643,-43.921265
+319240,Refeicoes La em Casa,Lanchonete,"Rua Pacífico Mascarenhas, 26",Santa Efigênia,-19.921643,-43.921265
 319291,*****,Restaurante,"Rua Rio de Janeiro, 1651",Lourdes,-19.928728,-43.941161
 319311,Kero Bis Restaurante e Lanchonete,Restaurante,"Avenida Brigadeiro Eduardo Gomes, 1921",Glória,-19.898546,-44.009292
 319366,Wanderson Henrique Vargas Nascimento,Restaurante,"Rua Alberto Ferreira Fontes, 105",Goiânia,-19.861655,-43.902878
@@ -12796,7 +12796,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 323795,Rota88 Delivery,Restaurante,"Rua Dalila Maia, 15",Santa Helena,-19.984138,-44.010434
 323796,Delivery88 Ltda,Restaurante,"Avenida Presidente Tancredo Neves, 2193",Castelo,-19.890244,-43.993471
 323821,Silva Empreendimentos,Lanchonete,"Rua Eli Seabra Filho, 510",Buritis,-19.975625,-43.976710
-323892,Restaurante Bife Com Fritas,Restaurante,"Rua Geraldo Menezes Soares, 792",Sagrada Família,-19.900700,-43.924307
+323892,Restaurante Bife com Fritas,Restaurante,"Rua Geraldo Menezes Soares, 792",Sagrada Família,-19.900700,-43.924307
 323912,Brazuca Hamburgueria,Restaurante,"Rua Jaques Roberto, 249",São Marcos,-19.870205,-43.910943
 323923,Quintal Mineiro,Restaurante,"Rua Macapá, 272",Renascença,-19.891103,-43.938834
 323977,Bar & Restaurante Fernandes,Restaurante,"Avenida Santos Dumont, 360",Centro,-19.915886,-43.937032
@@ -12816,7 +12816,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 324107,Delivery88 Ltda,Restaurante,"Rua Servilio de Moro, 134",Santa Helena,-19.983732,-44.010352
 324108,Delivery88 Ltda,Restaurante,"Avenida Presidente Tancredo Neves, 2193",Castelo,-19.890244,-43.993471
 324126,Customer S.a,Restaurante,"Rua Estrela Vespertina, 263",Estrela do Oriente,-19.968515,-43.984596
-324147,L&s Nos Pes da Cruz,Restaurante,"Rua Raul Seixas, 381",Manacás,-19.898156,-43.997833
+324147,L&s nos Pes da Cruz,Restaurante,"Rua Raul Seixas, 381",Manacás,-19.898156,-43.997833
 324159,H&r Alimentacao e Marketing Ltda,Restaurante,"Rua Cruzeiro da Fortaleza, 55",Candelária,-19.814816,-43.965609
 324160,Hr Alimentacao e Eventos,Lanchonete,"Rua Apatita, 134",Candelária,-19.809938,-43.970738
 324161,H&r Alimentacao e Marketing Ltda,Restaurante,"Avenida Antônio Abrahão Caram, 764",São José,-19.862085,-43.968260
@@ -12825,7 +12825,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 324174,R&a Restaurante e Pizzaria,Restaurante,"Rua Érico Veríssimo, 632",Candelária,-19.815657,-43.968468
 324187,Quintal Espeto Bar,Lanchonete,"Avenida General Carlos Guedes, 405",Planalto,-19.837398,-43.948176
 324226,Billy The Grill,Restaurante,"Rua Rio de Janeiro, 910",Centro,-19.922236,-43.939585
-324285,La Na Graca,Bar,"Rua João Carlos, 1760",Graça,-19.901485,-43.929259
+324285,La na Graca,Bar,"Rua João Carlos, 1760",Graça,-19.901485,-43.929259
 324296,Lanchonete Lagoa do Nado,Lanchonete,"Rua Desembargador Lincoln Prates, 240",Itapoã,-19.833525,-43.957925
 324298,Lflanches,Lanchonete,"Rua Oscar Trompowsky, 1687",São Jorge I,-19.945145,-43.964876
 324324,Tolentino Ristoranti Ltda,Restaurante,"Rua André Cavalcanti, 650",Gutierrez,-19.932136,-43.959743
@@ -12994,7 +12994,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 329264,Restaurante Flor de Sal Lourdes,Restaurante,"Rua Espírito Santo, 1489",Lourdes,-19.927744,-43.939512
 329368,Savassi Oriental,Restaurante,"Rua Pernambuco, 1292",Savassi,-19.938732,-43.935812
 329390,Bia Hot Dog,Lanchonete,"Avenida Djalma Vieira Cristo, 1445",Vale do Jatobá,-20.006609,-44.034963
-329396,Cafe Com Flores,Lanchonete,"Avenida dos Engenheiros, 671",Alípio de Melo,-19.890565,-44.000532
+329396,Cafe com Flores,Lanchonete,"Avenida dos Engenheiros, 671",Alípio de Melo,-19.890565,-44.000532
 329487,Ferreira Santos,Lanchonete,"Rua Alameda das Flores, 106",Vila Nova,-19.802869,-43.946931
 329497,Acai Gameleira Lb,Restaurante,"Rua Carlos Schettino, 403",Nova Gameleira,-19.942032,-43.992914
 329522,Hilton Adriano Almeida Fonseca,Bar,"Rua Ouro Fino, 452",Cruzeiro,-19.941877,-43.925938
@@ -13045,7 +13045,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 330541,Super Natural,Restaurante,"Rua José Felix Martins, 2315",Mantiqueira,-19.786023,-43.981918
 330559,Marcia Aparecida da Silva,Bar,"Rua Fernão Dias, 736",Alto Vera Cruz,-19.907629,-43.891902
 330771,Nosso...,Restaurante,"Rua Salutares, 191",São Lucas,-19.932887,-43.918248
-330835,Churrascos Na Chapa,Restaurante,"Rua Flor de Trigo, 22",Pindorama,-19.917972,-44.026546
+330835,Churrascos na Chapa,Restaurante,"Rua Flor de Trigo, 22",Pindorama,-19.917972,-44.026546
 330912,Biruley,Bar,"Rua Oscar Galdino, 47",Mangueiras,-20.013980,-44.034279
 330964,Empada Brasil,Lanchonete,"Avenida Brasil, 1334",Funcionários,-19.929465,-43.931477
 330972,Dira Solucoes,Restaurante,"Rua José Vieira Muniz, 25",Floramar,-19.830825,-43.936876
@@ -13146,7 +13146,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 333708,Bar Restaurante Lpb Empreendimento Ltda,Restaurante,"Rua Progresso, 841",Padre Eustáquio,-19.915897,-43.976638
 333743,Fusqueria 53,Bar,"Rua Manoel de Almeida Manhaes, 53",Novo Aarão Reis,-19.840066,-43.907205
 333753,Lanchonete do Jo Soares,Lanchonete,"Avenida Dom João VI, 1350",Palmeiras,-19.967572,-43.981440
-333767,Caldo Na Janela,Restaurante,"Rua Nossa Senhora de Fátima, 1008",Nossa Senhora de Fátima,-19.937912,-43.907664
+333767,Caldo na Janela,Restaurante,"Rua Nossa Senhora de Fátima, 1008",Nossa Senhora de Fátima,-19.937912,-43.907664
 333815,Coma Bem Gourmet,Lanchonete,"Rua Rita Marcelina, 210",Boa Vista,-19.893695,-43.893076
 333824,Erika Pereira Protti Machado,Lanchonete,"Rua Dom José Maria Pires, 102",Dandara,-19.828099,-44.008699
 333829,Organizacoes Sp Ltda,Restaurante,"Rua Rio Negro, 502",Prado,-19.929386,-43.966084
@@ -13186,7 +13186,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 334659,Estefania Francielle Calixto Cunha,Bar,"Rua Alabandina, 599",Caiçaras,-19.892738,-43.969044
 334691,Delivery Nobre Paladar,Lanchonete,"Rua Tarcísio Pacheco, 71",Jardim dos Comerciários,-19.795405,-43.971019
 334715,Dondoca Beer Bar e Espeteria,Restaurante,"Rua Henrique Badaró Portugal, 273",Buritis,-19.974101,-43.976016
-334752,Hamburgueria No Ponto Certo,Lanchonete,"Rua Santa Margarida, 32",Conjunto Jardim Filadélfia,-19.911531,-44.007405
+334752,Hamburgueria no Ponto Certo,Lanchonete,"Rua Santa Margarida, 32",Conjunto Jardim Filadélfia,-19.911531,-44.007405
 334764,Contemplaria do Camarao,Restaurante,"Rua Cuiabá, 1231",Prado,-19.929977,-43.969778
 334787,Tap House Alipio,Bar,"Rua Leonil Prata, 532",Alípio de Melo,-19.893671,-44.002771
 334804,Restaurante & Lanchonete A Hora do Lanche,Restaurante,"Rua Monte Simplon, 159",Nova Suissa,-19.929580,-43.982268
@@ -13291,7 +13291,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 337740,Araujo e Catizane Ltda,Bar,"Rua Marques de Lavradio, 12",João Pinheiro,-19.924299,-43.999553
 337772,Kiwi Superfoods Sesi,Restaurante,"Rua Manaus, 434",Santa Efigênia,-19.926264,-43.921357
 337785,Restaurante Gostinho de Minas,Restaurante,"Avenida dos Andradas, 2283",Santa Efigênia,-19.921050,-43.924585
-337805,Espeto Boi Na Brasa 2,Restaurante,"Rua Ana de Alvarenga Campos, 402",Céu Azul,-19.822997,-44.007329
+337805,Espeto Boi na Brasa 2,Restaurante,"Rua Ana de Alvarenga Campos, 402",Céu Azul,-19.822997,-44.007329
 337908,Feijoada Pampulha Delivery Ltda,Restaurante,"Avenida Coronel José Dias Bicalho, 647",São José,-19.859034,-43.965192
 337934,Churrasquinho da Dri e do Cadeira,Restaurante,"Rua Enéas, 280",Novo Glória,-19.902187,-44.010681
 337944,Acai E+ Deju,Lanchonete,"Rua Padre Eustáquio, 2490",Padre Eustáquio,-19.914950,-43.976150
@@ -13598,7 +13598,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 345754,Euzebio Frade Lopes Ltda,Lanchonete,"Rua Maria Atir Peixoto, 140",Jonas Veiga,-19.918544,-43.891993
 345757,Villa Massas,Restaurante,"Avenida Vilarinho, 1590",Minascaixa,-19.813740,-43.956249
 345816,Casa de Racao Brilhante,Lanchonete,"Rua Ursulina de Melo, 151",Alípio de Melo,-19.903012,-44.002869
-345822,Restaurante Sabor Na Mesa,Restaurante,"Rua das Princesas, 375",Oeste,-19.938759,-44.005462
+345822,Restaurante Sabor na Mesa,Restaurante,"Rua das Princesas, 375",Oeste,-19.938759,-44.005462
 345866,Vinis Esfiharia e Pizzaria Ltda,Lanchonete,"Rua Doutor Pedro Pinto, 77",Alto Caiçaras,-19.901462,-43.970876
 345911,Ed Burguer,Lanchonete,"Rua Adriano Modesto, 51",Cachoeirinha,-19.893486,-43.948645
 345932,Primo's Family Bar,Bar,"Rua José Cleto, 1075",Santa Cruz,-19.872588,-43.941161
@@ -13621,7 +13621,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 346354,Casa da China,Restaurante,"Avenida Barbacena, 1009",Santo Agostinho,-19.926847,-43.951167
 346357,Cheirin Bao,Lanchonete,"Avenida do Contorno, 4614",Funcionários,-19.934741,-43.925131
 346443,Primus Bar,Bar,"Rua Juno, 256",Glória,-19.910796,-44.003451
-346459,Cafe Com Proza,Lanchonete,"Avenida Raja Gabaglia, 3950",Estoril,-19.965913,-43.954328
+346459,Cafe com Proza,Lanchonete,"Avenida Raja Gabaglia, 3950",Estoril,-19.965913,-43.954328
 346538,Emporio Itapoa,Lanchonete,"Rua São Miguel, 356",Itapoã,-19.841754,-43.962718
 346615,Famiglia Nino Comercio de Alimentos e Bebidas Ltda,Restaurante,"Rua Curitiba, 2090",Lourdes,-19.931094,-43.944770
 346616,Ninetto Bh,Restaurante,"Rodovia Br Trezentos e Cinquenta e Seis, 3049",Belvedere,-19.974544,-43.946185
@@ -13634,7 +13634,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 346848,Vino Wine Bar Buritis,Restaurante,"Avenida Professor Mário Werneck, 3210",Buritis,-19.976362,-43.975017
 346854,Tenda do Espetinho,Restaurante,"Rua Waldomiro Lobo, 2191",São Bernardo,-19.847026,-43.936592
 346855,Naip-modas e Acessorios,Lanchonete,"Rua Cônego Trindade, 800",Jardim Leblon,-19.821419,-43.990964
-346869,Tudo Na Chapa Ll,Restaurante,"Rua Furtado Nunes, 166",Padre Eustáquio,-19.918117,-43.984579
+346869,Tudo na Chapa Ll,Restaurante,"Rua Furtado Nunes, 166",Padre Eustáquio,-19.918117,-43.984579
 346887,Casa Carazolli,Lanchonete,"Rua Turibaté, 96",Sion,-19.956036,-43.932042
 346888,Panetteria Carazolli Ltda,Lanchonete,"Avenida Celso Porfirio Machado, 114",Belvedere,-19.970172,-43.944015
 346889,Panetteria Carazolli Ltda,Lanchonete,"Rua Manoel Couto, 295",Cidade Jardim,-19.939899,-43.952987
@@ -13816,7 +13816,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 352029,Humm Real,Lanchonete,"Rua dos Tupinambás, 524",Centro,-19.917567,-43.939228
 352082,Edilane Evangelista Fonseca,Bar,"Rua Luiz Ferreira de Araújo, 14",Parque São Pedro,-19.816397,-43.952936
 352084,Jose Roberto Sardinha,Bar,"Rua Jordelina Maria do Carmo, 260",Mantiqueira,-19.797152,-43.986580
-352087,Sabor No Alho,Restaurante,"Rua Coletora, 224",Vila Pinho,-19.997457,-44.026421
+352087,Sabor no Alho,Restaurante,"Rua Coletora, 224",Vila Pinho,-19.997457,-44.026421
 352105,Zirmazio Aparecido Mauricio Pinheiro,Lanchonete,"Rua Ipê Mirim, 317",Etelvina Carneiro,-19.810442,-43.934862
 352116,Lidia Ramos de Freitas,Restaurante,"Rua Lago do Junco, 53",Jardim Atlântico,-19.845348,-43.956380
 352123,Pablo Luiz Apolinario Pereira,Restaurante,"Rua Antônio Mariano de Abreu, 1030",Paulo VI,-19.838104,-43.892049
@@ -14042,7 +14042,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 358170,Stela Nogueira Soares,Lanchonete,"Rua Conde Ribeiro do Vale, 543",Sagrada Família,-19.903113,-43.923972
 358195,Emporio Trem de Mineiro,Lanchonete,"Avenida do Contorno, 7086",Lourdes,-19.937574,-43.944516
 358243,Andaluz Club,Bar,"Rua Mármore, 644",Santa Tereza,-19.916808,-43.916481
-358246,Caverna Na Veia,Bar,"Rua Cuiabá, 450",Prado,-19.928490,-43.962535
+358246,Caverna na Veia,Bar,"Rua Cuiabá, 450",Prado,-19.928490,-43.962535
 358249,Produtos Ac,Lanchonete,"Avenida Dom João VI, 1280",Parque São José,-19.966718,-43.981682
 358288,Wk Prod,Lanchonete,"Avenida Senador Levindo Coelho, 2540",Vale do Jatobá,-20.009596,-44.033888
 358315,Bistro Encanto,Restaurante,"Rua Ceará, 1205",Funcionários,-19.931814,-43.928191
@@ -14093,7 +14093,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 359750,Acai do Marcelinho - Loja Mineirao,Lanchonete,"Rua Flor de Pitangueira, 475",Mineirão,-20.023540,-44.027893
 359766,Marcus Felipe de Lima Goulart,Restaurante,"Rua Solar, 52",Miramar,-19.992936,-44.013031
 359858,Bar do Sidnei,Bar,"Rua Padre Eustáquio, 1378",Carlos Prates,-19.912702,-43.965937
-359864,Boi Na Brasa,Restaurante,"Rua Luzia Salomão, 150",Mantiqueira,-19.802807,-43.979631
+359864,Boi na Brasa,Restaurante,"Rua Luzia Salomão, 150",Mantiqueira,-19.802807,-43.979631
 359926,Bom Clima Sorvetes Ltda,Lanchonete,"Rua Vitório Marçola, 59",Cruzeiro,-19.944328,-43.929375
 359956,Senhor Asia Restaurante Ltda,Restaurante,"Avenida Oiapoque, 156",Centro,-19.913528,-43.939410
 359961,Ana Carolina de Azevedo Prata,Restaurante,"Rua Raimunda Simões da Silva, 126",Manacás,-19.896698,-43.996801
@@ -14158,7 +14158,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 361600,Rl Pizzaria Ltda,Lanchonete,"Rua da Bahia, 2244",Lourdes,-19.935462,-43.940463
 361613,Thiago Marques da Silva,Bar,"Rua Marley Moura Abreu, 155",Ernesto do Nascimento,-20.009075,-44.032595
 361676,Tereza Leite de Aguiar Trindade,Lanchonete,"Rua dos Aimorés, 2724",Santo Agostinho,-19.925529,-43.949396
-361689,Fernanda Lucia da Silva,Bar,"Rua Gloria Nas Alturas, 209",Castanheira,-20.000062,-44.032167
+361689,Fernanda Lucia da Silva,Bar,"Rua Gloria nas Alturas, 209",Castanheira,-20.000062,-44.032167
 361850,Fazendinha Sao Bento,Bar,"Rua Kepler, 802",Santa Lúcia,-19.966212,-43.951034
 361852,Pretinha's Cakes,Restaurante,"Rua Euclásio, 739",Santa Efigênia,-19.926047,-43.909726
 361866,Betania Cristina Soares Sales,Restaurante,"Rua Itapecerica, 592",Lagoinha,-19.908242,-43.944476
@@ -14533,7 +14533,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 373159,Amor & Acai,Lanchonete,"Rua Industrial, 45",Cachoeirinha,-19.889452,-43.949305
 373164,Fino Bar,Bar,"Avenida Brasil, 75",Santa Efigênia,-19.924030,-43.921022
 373190,Camila Nazareth Mendez Sanchez,Restaurante,"Rua João Samaha, 58",São João Batista,-19.829495,-43.962362
-373210,Combina Com Cerveja,Bar,"Rua Ilacir Pereira Lima, 95",Silveira,-19.893527,-43.928919
+373210,Combina com Cerveja,Bar,"Rua Ilacir Pereira Lima, 95",Silveira,-19.893527,-43.928919
 373216,Pizzaria La Firenze Ltda,Restaurante,"Avenida Clara Nunes, 685",Cachoeirinha,-19.884808,-43.940074
 373241,Daiane Souza Santos,Restaurante,"Rua Afonso Pereira da Silva, 150",Mantiqueira,-19.790693,-43.981114
 373252,Luciene Mendes Pinheiro,Bar,"Rua Amsterda, 28",Trevo,-19.840557,-44.006149
@@ -14878,8 +14878,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 382491,Regina Salgados,Lanchonete,"Rua Afonso Lobato, 110",Ribeiro de Abreu,-19.839649,-43.904442
 382503,Daniela Almeida Dias,Lanchonete,"Rua Campo Verde, 505",Juliana,-19.817424,-43.944931
 382538,Sheila Aparecida de Lima Oliveira,Lanchonete,"Rua Ismar Francisco da Silva, 216",Maria Helena,-19.796894,-43.994845
-382642,Cafe Com Elas,Lanchonete,"Avenida Getúlio Vargas, 1585",Savassi,-19.939373,-43.937417
-382643,Cafe Com Elas Ltda,Lanchonete,"Avenida Cristiano Machado, 11833",Vila Clóris,-19.821519,-43.945933
+382642,Cafe com Elas,Lanchonete,"Avenida Getúlio Vargas, 1585",Savassi,-19.939373,-43.937417
+382643,Cafe com Elas Ltda,Lanchonete,"Avenida Cristiano Machado, 11833",Vila Clóris,-19.821519,-43.945933
 382737,Daniel Alves Gomes,Lanchonete,"Avenida Artur Guimarães, 462",Santa Cruz,-19.877447,-43.938281
 382745,Gustavo Vinicius Ferreira Luz,Restaurante,"Rua Érico Veríssimo, 232",São João Batista,-19.818093,-43.965254
 382764,Rosilene Fernandes Dias Sousa,Restaurante,"Rua Santa Cruz, 133",Venda Nova,-19.815003,-43.961143
@@ -15070,7 +15070,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 387961,Divinnus Gasttro,Restaurante,"Rua Eli Seabra Filho, 510",Buritis,-19.975625,-43.976710
 387995,Ovidio Lopes da Silva,Bar,"Rua Cônego Trindade, 1390",Piratininga,-19.820091,-43.991106
 388028,Leandro Borges Raggi,Restaurante,"Rua Florida, 101",Sion,-19.948661,-43.933298
-388063,Tudo No Espeto,Restaurante,"Avenida José Maria Alkimim, 86",Belvedere,-19.967161,-43.941912
+388063,Tudo no Espeto,Restaurante,"Avenida José Maria Alkimim, 86",Belvedere,-19.967161,-43.941912
 388076,Leticia Antonia Pereira de Oliveira,Restaurante,"Rua Ramiro Siqueira, 490",Conjunto Taquaril,-19.917572,-43.882349
 388149,Otavio Junio Bittencourt Gusmao,Lanchonete,"Rua Padre Paulo Fernandes, 39",Jardim Guanabara,-19.829951,-43.933691
 388177,So Espetos,Bar,"Rua dos Guaranis, 525",Centro,-19.919463,-43.943175
@@ -15144,7 +15144,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 390292,Hamburgueria Garcia Esteves Ltda,Lanchonete,"Rua Gávea, 230",Nova Suissa,-19.939063,-43.975813
 390325,Santa Pizza,Restaurante,"Rua Santo Agostinho, 1069",Sagrada Família,-19.897815,-43.916443
 390328,Pedro Antonio Jose da Silva,Restaurante,"Rua Rio Grande do Norte, 1065",Savassi,-19.934812,-43.931786
-390366,Ta Na Brasa Burguer,Lanchonete,"Rua Michel Garib, 447",Minascaixa,-19.806441,-43.960184
+390366,Ta na Brasa Burguer,Lanchonete,"Rua Michel Garib, 447",Minascaixa,-19.806441,-43.960184
 390369,Joyce Cristina Camilozi de Jesus,Lanchonete,"Rua das Oficinas, 685",Esplanada,-19.907663,-43.906269
 390402,Pao de Queijo Legal,Lanchonete,"Rua Jacuí, 2616",Nova Floresta,-19.890970,-43.936073
 390429,Isabelle Vieira Foureaux,Lanchonete,"Avenida Olavo Brasil Junior, 21",Nova Pampulha,-19.833472,-44.017016
@@ -15277,7 +15277,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 394356,Santine Food,Lanchonete,"Rua Marcelo Coimbra Tavares, 244",Califórnia,-19.923904,-44.011438
 394359,Estacao da Cerveja,Bar,"Rua Doutor Álvaro Camargos, 2480",Santa Mônica,-19.828872,-43.970581
 394409,Ariana de Freitas Lessa,Bar,"Avenida Ximango, 775",Serra do Curral,-19.999686,-43.999788
-394421,Bom No Balde,Restaurante,"Rua Francisco Rodrigues de Miranda, 51",Dom Joaquim,-19.878290,-43.912463
+394421,Bom no Balde,Restaurante,"Rua Francisco Rodrigues de Miranda, 51",Dom Joaquim,-19.878290,-43.912463
 394459,Amanda Lelis da Silva Paula,Lanchonete,"Rua Nove de Abril, 175",Dandara,-19.827482,-44.007830
 394462,Pacaki Lanches,Lanchonete,"Rua Waldomiro Lobo, 133",Aarão Reis,-19.846087,-43.920435
 394473,Lanchonete da Dri,Lanchonete,"Rua Fernão Gomes, 20",Conjunto Taquaril,-19.916978,-43.883324
@@ -15424,7 +15424,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 398782,Jesus Felix Vieira,Restaurante,"Rua Peçanha, 100",Carlos Prates,-19.913622,-43.946152
 398784,Jeniffer Davini Fernandes da Silva Alves,Lanchonete,"Rua Nossa Senhora de Fátima, 980",Nossa Senhora de Fátima,-19.938432,-43.907685
 398801,Carlos Alberto Ribeiro de Souza Junior,Bar,"Rua São Paulo, 146",Urca,-19.870275,-44.016419
-398900,Churrascaria Picanha Maturada Na Brasa Ltda,Restaurante,"Avenida Leontino Francisco Alves, 275",Serra Verde,-19.799479,-43.955990
+398900,Churrascaria Picanha Maturada na Brasa Ltda,Restaurante,"Avenida Leontino Francisco Alves, 275",Serra Verde,-19.799479,-43.955990
 398903,Denis Henrique de Moura Silva Braz,Lanchonete,"Avenida Nossa Senhora da Saúde, 205",Maria Goretti,-19.866770,-43.911563
 398909,Delicias Lanches Ltda,Lanchonete,"Rua São Paulo, 777",Centro,-19.920471,-43.940274
 398927,Sthefany Patrielle Fernandes de Sousa,Restaurante,"Rua Gentios, 583",Conjunto Santa Maria,-19.951400,-43.959360
@@ -15981,7 +15981,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 415144,Cantinho Doce da Di Ltda,Lanchonete,"Rua Bráulio Gomes Nogueira, 1501",Tirol,-19.992034,-44.045771
 415145,Daiane Gomes dos Santos Jesus,Restaurante,"Rua Maria Francisca da Silva, 208",Independência,-20.019549,-44.022700
 415155,Iolanda Christiane de Cassia Toledo,Bar,"Rua Úrsula Paulino, 1782",Betânia,-19.963257,-43.990980
-415221,Deck Boi Na Brasa Ltda,Restaurante,"Rua Iole Monteiro de Lima, 42",Castelo,-19.887554,-43.996455
+415221,Deck Boi na Brasa Ltda,Restaurante,"Rua Iole Monteiro de Lima, 42",Castelo,-19.887554,-43.996455
 415229,Acai Macaco Prego,Lanchonete,"Rua Brasiléia, 50",Ouro Preto,-19.870743,-43.983790
 415235,Luiz Gustavo Gomes Passos,Lanchonete,"Rua Conceição da Aparecida, 611",Santa Terezinha,-19.869532,-44.002229
 415236,Larissa Jesus dos Santos,Lanchonete,"Rua Manoel Miranda dos Santos, 165",Serra Verde,-19.797698,-43.956132
@@ -16347,7 +16347,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 426501,Wilson Resende Pereira de Oliveira,Restaurante,"Avenida Joaquim de Oliveira, 125",Alta Tensão I,-19.970716,-43.995974
 426537,Roseane Gomes Carneiro Teles,Lanchonete,"Rua Mato Grosso, 1265",Santo Agostinho,-19.929080,-43.949530
 426544,Silvana Coelho Fagundes,Lanchonete,"Rua Conde de Linhares, 811",Coração de Jesus,-19.943158,-43.949667
-426615,Pe Na Tabua Butiquim,Bar,"Rua Contagem, 656",Boa Vista,-19.891062,-43.906769
+426615,Pe na Tabua Butiquim,Bar,"Rua Contagem, 656",Boa Vista,-19.891062,-43.906769
 426639,Daniel Xavier de Castro,Bar,"Rua Galba, 9",Glória,-19.908097,-44.002916
 426718,Welberth Rocha Moreira,Lanchonete,"Rua Professor Estêvão Pinto, 783",Serra,-19.941708,-43.922054
 426793,Suzana Marilaque de Araujo Fernandes,Restaurante,"Rua Buenópolis, 105",Santa Tereza,-19.913434,-43.923495
@@ -16904,7 +16904,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 446018,Ailza Almeida Goncalves,Lanchonete,"Avenida Professor Mário Werneck, 2250",Buritis,-19.975267,-43.967999
 446043,Viking Valhalla Bh Burguer Ltda,Restaurante,"Rua Professor Estêvão Pinto, 875",Serra,-19.942450,-43.921831
 446091,Chalezinho G3,Bar,"Praça Jose de Almeida Netto, 2196",Santa Helena,-19.987189,-44.009015
-446115,Serralheria Artes No Ferro,Lanchonete,"Rodovia Mg Cinco, 1525",Goiânia,-19.876182,-43.901512
+446115,Serralheria Artes no Ferro,Lanchonete,"Rodovia Mg Cinco, 1525",Goiânia,-19.876182,-43.901512
 446153,Mariana de Paula Costa,Restaurante,"Rua Dom Henrique, 350",Taquaril,-19.914814,-43.885542
 446155,Litoral Mineiro,Lanchonete,"Rua Antônio Teixeira Dias, 1910",Teixeira Dias,-19.988122,-44.014949
 446206,Lanchonete do Nego,Lanchonete,"Rua Lírios do Campo, 25",Etelvina Carneiro,-19.811997,-43.937837
@@ -17220,7 +17220,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 455308,Cantina Vieira,Restaurante,"Rua Margarida Assis Fonseca, 7",Califórnia,-19.928916,-44.009717
 455347,Mjt Comercial Santa Clara,Restaurante,"Avenida Augusto de Lima, 1514",Barro Preto,-19.921224,-43.950712
 455349,Trintaeum,Restaurante,"Rua Antônio Aleixo, 20",Lourdes,-19.934300,-43.940264
-455448,Tudo Na Brasa Delivery,Restaurante,"Avenida dos Engenheiros, 1110",Castelo,-19.888684,-44.002355
+455448,Tudo na Brasa Delivery,Restaurante,"Avenida dos Engenheiros, 1110",Castelo,-19.888684,-44.002355
 455461,Gustavo Henrique do Carmo,Bar,"Rua Vera Cruz, 194",Nossa Senhora da Aparecida,-19.930990,-43.918984
 455529,Louise Sousa Silva dos Anjos,Bar,"Rua Maria Conceição Bonfim, 327",Goiânia,-19.857540,-43.896204
 455552,Varanda do Seu Ze,Bar,"Rua Kimberlita, 205",Santa Tereza,-19.915195,-43.913851
@@ -17390,8 +17390,8 @@ id,nome,categoria,endereco,bairro,lat,lon
 460713,Ronaldo Ferreira de Araujo,Lanchonete,"Rua das Perpétuas, 704",Lindéia,-19.980012,-44.049320
 460742,Ilton Jose Vieira Rocha,Bar,"Rua Deputado Claudio Pinheiro de Lima, 49",Glória,-19.911145,-44.002642
 460752,Aluisio Machado de Oliveira,Restaurante,"Via Geraldo Dias, 60",Serra do Curral,-20.016044,-44.002881
-460850,Trem Na Brasa,Restaurante,"Avenida General Carlos Guedes, 22",Planalto,-19.839941,-43.950590
-460888,Cozinha Com Afeto Ltda,Restaurante,"Rua São Paulo, 2003",Lourdes,-19.931196,-43.943207
+460850,Trem na Brasa,Restaurante,"Avenida General Carlos Guedes, 22",Planalto,-19.839941,-43.950590
+460888,Cozinha com Afeto Ltda,Restaurante,"Rua São Paulo, 2003",Lourdes,-19.931196,-43.943207
 460890,Joao Vitor Silva Reis,Restaurante,"Rua Treze de Setembro, 280",Leonina,-19.953465,-43.963407
 460899,Luiz Paulo de Souza,Restaurante,"Rua Genoveva de Souza, 336",Sagrada Família,-19.905751,-43.928948
 460908,Dayanne Paulino Santos de Jesus,Lanchonete,"Rua da Horta, 18",Vila Ecológica,-20.009895,-44.020298
@@ -17405,7 +17405,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 461251,Renata Cristina de Sousa Alves,Lanchonete,"Rua Astolfo Dutra, 2415",Alto Vera Cruz,-19.906839,-43.891465
 461266,Frederico Carlos Silva Barbosa,Lanchonete,"Rua São Geraldo, 301",Cabana do Pai Tomás,-19.948570,-43.999212
 461298,Nathalia Cristina Pereira Verissimo Costa,Lanchonete,"Rua Jose Santiago Silva, 41",Maria Goretti,-19.861872,-43.912091
-461304,Skina Com Feijoada Ltda,Bar,"Avenida dos Engenheiros, 795",Alípio de Melo,-19.889773,-44.001434
+461304,Skina com Feijoada Ltda,Bar,"Avenida dos Engenheiros, 795",Alípio de Melo,-19.889773,-44.001434
 461330,Acai da Fabrica,Lanchonete,"Rua Anapurus, 312",São Gabriel,-19.855477,-43.917155
 461342,Spetim do Podrin,Restaurante,"Rua Celso Aquino Ribeiro, 111",Céu Azul,-19.821583,-44.006638
 461350,Bdr Negocios Ltda,Restaurante,"Rua Pouso Alegre, 2217",Horto,-19.912953,-43.918522
@@ -17487,7 +17487,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 463934,Da Fruta Express Sucos e Acai Ltda,Lanchonete,"Rua Paraíba, 1102",Savassi,-19.936218,-43.933747
 463961,Maurelio Robson da Silva,Restaurante,"Rua F, 250",Brasil Industrial,-19.998483,-44.017329
 463976,Evelyn da Costa Alves,Restaurante,"Rua Melro, 17",Goiânia,-19.868381,-43.898356
-463979,Cafeteria La No Mercado,Lanchonete,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
+463979,Cafeteria La no Mercado,Lanchonete,"Avenida Augusto de Lima, 744",Centro,-19.923022,-43.943333
 464014,Joao Pedro Nascimento Barbosa de Aguiar,Bar,"Rua Curral del Rei, 142",Padre Eustáquio,-19.916256,-43.973474
 464048,Jonathan Esteves de Jesus,Lanchonete,"Rua Santa Amélia, 208",São Marcos,-19.869578,-43.912811
 464149,Sushi Japa Delivery,Restaurante,"Rua Antônio de Albuquerque, 360",Savassi,-19.938488,-43.933798
@@ -18134,7 +18134,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 484795,Ismael de Abreu Barcellos,Lanchonete,"Rua Medeiros, 45",Minaslândia,-19.852044,-43.927461
 484799,Mateus Santos Barbosa,Bar,"Rua dos Pintassilgos, 100",Vila Clóris,-19.826461,-43.949050
 484880,Renato Michel Martins Matias,Lanchonete,"Rua Paulo Alves da Silva, 539",Mantiqueira,-19.785397,-43.988774
-484907,Choperia La No Mercado,Restaurante,"Avenida Augusto de Lima, 707",Centro,-19.923568,-43.942484
+484907,Choperia La no Mercado,Restaurante,"Avenida Augusto de Lima, 707",Centro,-19.923568,-43.942484
 485002,Coco Y Cana,Lanchonete,"Avenida Vereador Cícero Ildefonso, 1000",João Pinheiro,-19.925641,-44.001642
 485012,Barbara Stefanne dos Santos Santana,Bar,"Rua Maria, 15",Santa Maria,-19.935414,-44.012812
 485037,Kechimba,Restaurante,"Rua Leopoldina, 85",Santo Antônio,-19.940570,-43.940295
@@ -18574,7 +18574,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 497767,Ponto Alpha Bernardo Monteiro Ltda,Lanchonete,"Avenida Bernardo Monteiro, 367",Santa Efigênia,-19.921366,-43.926643
 497771,Quintas Bistro e Cervejaria Ltda,Restaurante,"Avenida Nélio Cerqueira, 771",Tirol,-19.991289,-44.038527
 497864,Doce Raro,Lanchonete,"Rua Crisanto Muniz, 462",Rio Branco,-19.811609,-43.980282
-497869,Um Trem Na Brasa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
+497869,Um Trem na Brasa,Restaurante,"Avenida Cristiano Machado, 1950",Cidade Nova,-19.890460,-43.928558
 497918,Italo Gustavo Silva Chaves,Restaurante,"Rua Monte Pascoal, 547",Santa Cruz,-19.878650,-43.947595
 497951,Hamburgueria Amsterda Burguer,Lanchonete,"Rua Mato Grosso, 347",Barro Preto,-19.921117,-43.947356
 497996,Pontape Bhar,Bar,"Rua José Benevides da Silveira, 380",Letícia,-19.808348,-43.981200
@@ -19427,7 +19427,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 525116,Maria Marlene de Oliveira Cardoso,Bar,"Praça Chui, 311",João Pinheiro,-19.927469,-44.001408
 525128,Rodnelson Leonardo Silva Morais,Lanchonete,"Avenida Senador José Augusto, 80",Buritis,-19.982239,-43.979389
 525175,Alan Kayke da Rocha Silva,Restaurante,"Rua Antônio Mariano de Abreu, 481",Paulo VI,-19.842007,-43.894825
-525195,Capim Em Casa,Restaurante,"Rua dos Timbiras, 3352",Barro Preto,-19.923038,-43.954274
+525195,Capim em Casa,Restaurante,"Rua dos Timbiras, 3352",Barro Preto,-19.923038,-43.954274
 525206,Antonio Marcos Soares Junior,Lanchonete,"Rua do Leblon, 590",Urca,-19.871815,-44.018068
 525208,Richardson Mateus Pereira Silva,Bar,"Avenida Presidente Carlos Luz, 2674",Vila Sumaré,-19.889056,-43.967219
 525223,Ana Paula Rocha Falcao,Lanchonete,"Rua Coronel Antônio Sia, 260",Califórnia,-19.921393,-44.010083
@@ -19457,7 +19457,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 525998,Raiz e Resenha,Restaurante,"Rua Tenente Brito Melo, 72",Barro Preto,-19.918462,-43.953728
 526021,Elson Silva Goncalves,Bar,"Rua Flor da Noiva, 242",Jardim Alvorada,-19.898579,-43.985890
 526064,Ricardo Gusmao Confeitaria e Confeitaria,Lanchonete,"Rua Leopoldina, 161",Santo Antônio,-19.941291,-43.940495
-526107,Joyce Neres Valentim,Bar,"Rua Gloria Nas Alturas, 343",Santa Cecília,-20.000969,-44.032087
+526107,Joyce Neres Valentim,Bar,"Rua Gloria nas Alturas, 343",Santa Cecília,-20.000969,-44.032087
 526116,Weverton Afonso Gomes da Silva,Lanchonete,"Rua Jornalista Osvaldina Nobre, 259",Eymard,-19.860406,-43.915374
 526142,Rosivaldo Antonio Isidoro,Lanchonete,"Rua Eduardo Carlos, 330",Araguaia,-19.989366,-44.001968
 526201,Maria das Gracas Oliveira Goncalves,Lanchonete,"Rua Vigia, 114",São Geraldo,-19.903224,-43.896774
@@ -19696,7 +19696,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 533396,Restaurante Fernao Dias,Restaurante,"Avenida Joaquim José Diniz, 944",Dom Joaquim,-19.875903,-43.915886
 533425,Jose Eustaquio Fernandes Restaurante Ltda,Restaurante,"Rua Pará de Minas, 353",Padre Eustáquio,-19.914835,-43.984497
 533441,Salseiro Beer,Bar,"Rua Alberto Cintra, 38",União,-19.879645,-43.928795
-533493,Pizzaria Tudo Na Brasa Delivery Ltda,Restaurante,"Avenida dos Engenheiros, 1144",Castelo,-19.888479,-44.002588
+533493,Pizzaria Tudo na Brasa Delivery Ltda,Restaurante,"Avenida dos Engenheiros, 1144",Castelo,-19.888479,-44.002588
 533505,Tadeu Antonio de Oliveira,Restaurante,"Avenida Amintas Jacques de Moraes, 2260",Pindorama,-19.908484,-44.016330
 533533,Noeme Gomes David,Lanchonete,"Rua Salinas, 2135",Santa Tereza,-19.914024,-43.915122
 533560,Filipe Ricardo Falcao da Cunha Galery,Lanchonete,"Rua Alfredo Nohmi Filho, 292",Bairro das Indústrias I,-19.962803,-44.002315
@@ -19953,13 +19953,13 @@ id,nome,categoria,endereco,bairro,lat,lon
 540867,Guilherme de Almeida Samora,Restaurante,"Rua Edmon de Sousa Melo, 33",Vila Tirol,-19.983308,-44.034731
 540898,Rebecca Glaissa Costa Cordeiro,Lanchonete,"Avenida Guarapari, 1090",Santa Amélia,-19.836553,-43.975542
 541010,Varanda 1389 Delivery Sion Ltda,Restaurante,"Rua Grão Mogol, 99",Carmo,-19.940891,-43.932078
-541059,Cha Com Mel Restaurante e Buffet,Restaurante,"Avenida Américo Vespúcio, 1137",Aparecida,-19.894021,-43.959623
+541059,Cha com Mel Restaurante e Buffet,Restaurante,"Avenida Américo Vespúcio, 1137",Aparecida,-19.894021,-43.959623
 541064,Driele Expedita Rosa Caetano,Restaurante,"Rua el Shadai, 237",Vitória da Conquista,-20.013636,-44.025038
 541073,Paulo Henrique Pereira de Sousa,Lanchonete,"Rua dos Borges, 1390",Jardim Vitória,-19.845157,-43.881294
 541088,Gabriel Ferreira da Silva,Lanchonete,"Rua Ana Lúcia, 210",Bairro Novo das Indústrias,-19.975990,-43.993555
 541118,V&c Choperia Ltda,Restaurante,"Avenida Heráclito Mourão de Miranda, 2230",Castelo,-19.875932,-44.002224
 541129,Kelly Cristina dos Anjos,Lanchonete,"Rua João Neiva, 522",Boa Vista,-19.894466,-43.891665
-541181,Bocao Na Brasa,Lanchonete,"Rua Padre Eustáquio, 717",Carlos Prates,-19.912521,-43.960211
+541181,Bocao na Brasa,Lanchonete,"Rua Padre Eustáquio, 717",Carlos Prates,-19.912521,-43.960211
 541194,Brendon Vinicius Cruz Ferreira,Lanchonete,"Rua Cirandinha, 80",Floramar,-19.831158,-43.938318
 541210,Mateus Alves dos Santos,Restaurante,"Rua Mãe d'Água, 1215",São Gabriel,-19.849230,-43.916822
 541225,Daniel Silva de Souza,Lanchonete,"Rua P Sete, 81",Conjunto Minascaixa,-19.804858,-43.959373
@@ -19998,7 +19998,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 542159,Heric Gabriel Martins Santos,Lanchonete,"Rua Dom Oscar Romero, 160",Vila Nova Gameleira II,-19.939382,-43.990753
 542189,Vitelin Grill,Restaurante,"Rua Doutor Álvaro Camargos, 2023",Santa Mônica,-19.827501,-43.966351
 542194,Restaurante Medalhao,Restaurante,"Avenida Deputado Último de Carvalho, 890",Planalto,-19.836338,-43.943608
-542226,Sabor Na Medida Ltda,Restaurante,"Rua Francisco Bicalho, 1955",Caiçara-Adelaide,-19.905079,-43.977439
+542226,Sabor na Medida Ltda,Restaurante,"Rua Francisco Bicalho, 1955",Caiçara-Adelaide,-19.905079,-43.977439
 542234,Geovani Soares Mendes,Bar,"Rua Doutor Cristiano Rezende, 1936",Araguaia,-19.987540,-43.989894
 542278,Restaurante La Cabrera,Restaurante,"Avenida Celso Porfirio Machado, 150",Belvedere,-19.969887,-43.943663
 542328,Veronica Rodrigues dos Santos,Restaurante,"Rua Mãe d'Água, 215",São Gabriel,-19.847223,-43.912585
@@ -20051,7 +20051,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 543377,Daniel Fernandes da Silva,Lanchonete,"Avenida Artur Bernardes, 1580",Vila Barragem Santa Lúcia,-19.954251,-43.945385
 543468,Juliana Samara Andrade Rodrigues,Lanchonete,"Rua Manoel de Almeida Manhaes, 53",Novo Aarão Reis,-19.840066,-43.907205
 543485,Beatriz Rafaele de Souza Silva,Lanchonete,"Rua Doutor Brochado, 1076",Alto Vera Cruz,-19.914330,-43.892238
-543503,Komida Com Bebida Ltda,Lanchonete,"Rua Lidia, 230",Pirajá,-19.864391,-43.917143
+543503,Komida com Bebida Ltda,Lanchonete,"Rua Lidia, 230",Pirajá,-19.864391,-43.917143
 543605,Antonio Gomes de Souza,Bar,"Rua Córrego da Mata, 400",Horto,-19.911033,-43.918623
 543634,A Pao de Queijaria,Lanchonete,"Rua Pará de Minas, 821",Padre Eustáquio,-19.914359,-43.988697
 543660,Alessandra de Jesus Souza Silva,Lanchonete,"Rua Doutor João Miranda, 252",Dona Clara,-19.861580,-43.935258
@@ -20302,7 +20302,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 551921,Sabrina Alves Benevides,Lanchonete,"Rua Caissara, 1363",São Geraldo,-19.899060,-43.891555
 551962,Casa Caju,Restaurante,"Avenida dos Andradas, 3760",Pompéia,-19.914139,-43.908028
 552027,Steak Me,Restaurante,"Rua Fernandes Tourinho, 363",Savassi,-19.938924,-43.938132
-552051,Mg Sabores Em Massa Artesanais,Lanchonete,"Avenida Brigadeiro Eduardo Gomes, 2375",Glória,-19.895765,-44.010383
+552051,Mg Sabores em Massa Artesanais,Lanchonete,"Avenida Brigadeiro Eduardo Gomes, 2375",Glória,-19.895765,-44.010383
 552056,Kaique Lesley de Sousa Alcunha,Lanchonete,"Rua Rodolfo Fritsch, 55",Vila Pinho,-19.999899,-44.025536
 552069,Maria Izabela da Silva Penido,Lanchonete,"Rua Aleixo Lourenco de Gouveia, 382",Cardoso,-20.003861,-44.006419
 552088,Priscila Raquel Santos da Silva,Restaurante,"Rua Catadupas, 60",Salgado Filho,-19.946356,-43.978818
@@ -20537,7 +20537,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 559071,Carolina Costa Silva Cardoso,Lanchonete,"Rua Alecrim da Serra, 100",Paulo VI,-19.837727,-43.893029
 559072,Eder da Costa Lourenco,Lanchonete,"Rua Padre Argemiro Moreira, 4765",Beira-Linha,-19.834411,-43.894214
 559075,Maria de Fatima da Silva,Restaurante,"Rua Dona Ambrosina, 451",Ribeiro de Abreu,-19.835330,-43.902224
-559136,Casarao Na Brasa Ltda,Restaurante,"Rua Santa Catarina, 663",Lourdes,-19.926635,-43.944732
+559136,Casarao na Brasa Ltda,Restaurante,"Rua Santa Catarina, 663",Lourdes,-19.926635,-43.944732
 559139,Sensacao Bh,Restaurante,"Rua Capim Branco, 347",Vista Alegre,-19.952174,-43.999611
 559150,Felipe Gomes Brito,Lanchonete,"Rua Arisco, 256",Vila Maria,-19.851270,-43.885365
 559206,Eliane Alves de Souza,Bar,"Avenida Senador Levindo Coelho, 416",Marieta I,-19.991673,-44.035035
@@ -20690,7 +20690,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 563639,Rafael Gomes da Silva,Lanchonete,"Rua Setecentos e Vinte e Oito, 50",Jardim Vitória,-19.858697,-43.876568
 563693,Camila Fernanda Vieira da Rosa,Bar,"Rua Rita Marcelina, 160",Boa Vista,-19.894183,-43.893257
 563742,Alexis Moreira Pacheco,Lanchonete,"Rua Carmésia, 575",Santa Inês,-19.886633,-43.908428
-563822,Tudo No Espeto,Restaurante,"Avenida dos Bandeirantes, 1299",Anchieta,-19.952341,-43.923071
+563822,Tudo no Espeto,Restaurante,"Avenida dos Bandeirantes, 1299",Anchieta,-19.952341,-43.923071
 563846,Luisa Cardoso Pacheco,Lanchonete,"Avenida Afonso Xiii, 488",Gutierrez,-19.934992,-43.957430
 563851,Deborah Cristina Alves Ribeiro,Lanchonete,"Rua Maestro Lobo de Mesquita, 182",Tupi B,-19.842388,-43.915165
 563891,Gabriela Ketlen de Almeida,Lanchonete,"Rua Manoel Magalhães, 96",Coqueiros,-19.900246,-44.020639
@@ -20703,7 +20703,7 @@ id,nome,categoria,endereco,bairro,lat,lon
 564270,Luiza Gabriela Ribeiro de Jesus,Lanchonete,"Rua Dona Luci, 171",Palmeiras,-19.967220,-43.980576
 564358,Ariana Gomes Ferraz,Lanchonete,"Avenida Clara Nunes, 678",Renascença,-19.885131,-43.939870
 564377,Gabriel Roberto da Silva,Lanchonete,"Rua Castanho Taques, 60",Nova Esperança,-19.901809,-43.958344
-564382,Batata No Cone Savassi,Lanchonete,"Avenida Cristóvão Colombo, 64",Savassi,-19.939171,-43.934746
+564382,Batata no Cone Savassi,Lanchonete,"Avenida Cristóvão Colombo, 64",Savassi,-19.939171,-43.934746
 564393,Antonio Gustavo Moreira,Bar,"Rua Diamantina, 642",Lagoinha,-19.906742,-43.942458
 564396,Nicolas Zanella Bento de Matos,Lanchonete,"Rua João Carlos, 1083",Sagrada Família,-19.902575,-43.922780
 564406,Igor Souza Oliveira,Bar,"Rua Maria Martins Guimarães, 749",Sagrada Família,-19.901842,-43.917132
