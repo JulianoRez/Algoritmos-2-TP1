@@ -353,7 +353,7 @@ def consultar(restaurante_id, raio_km, _):
     viewport = no_update
     if ctx.triggered_id != "versao-frota":
         lat_min, lat_max, lon_min, lon_max = caixa_envolvente(r.lat, r.lon, raio_m * 1.1)
-        viewport = {"bounds": [[lat_min, lon_min], [lat_max, lon_max]], "transition": "flyToBounds"}
+        viewport = {"bounds": [[lat_min, lon_min], [lat_max, lon_max]], "transition": "fitBounds"}
 
     return (
         atendem, descartados, retangulos(resultado.celulas), restaurante, circulo,
