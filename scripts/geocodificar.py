@@ -6,10 +6,12 @@ import urllib.request
 from collections import defaultdict
 from pathlib import Path
 
+import osmnx as ox
 from pyproj import Transformer
 
 RAIZ = Path(__file__).resolve().parent.parent
 BARES = RAIZ / "data" / "bares.csv.gz"
+MALHA = RAIZ / "data" / "malha_bh.graphml.gz"
 SAIDA = RAIZ / "data" / "restaurantes.csv"
 ENDERECOS = RAIZ / ".cache" / "endereco_pbh.csv"
 URL_ENDERECOS = (
@@ -56,6 +58,20 @@ def nome_exibicao(fantasia, razao_social):
     nome = re.sub(r"^\d{2}\.\d{3}\.\d{3}\s+", "", nome)
     nome = re.sub(r"\s+\d{11}$", "", nome)
     return titulo(nome)
+
+
+def nomes_de_vias_osm():
+    """Nomes das vias no OSM, indexados pela forma sem acentos e em maiúsculas."""
+    if not MALHA.exists():
+        return {}
+    with gzip.open(MALHA, "rt", encoding="utf-8") as f:
+        G = ox.load_graphml(graphml_str=f.read())
+    nomes = {}
+    for _, _, nome in G.edges(data="name"):
+        for n in nome if isinstance(nome, list) else [nome]:
+            if isinstance(n, str):
+                nomes[normalizar(n)] = n
+    return nomes
 
 
 def baixar_enderecos():
@@ -109,6 +125,7 @@ def localizar(indice, bar):
 def main():
     baixar_enderecos()
     indice = carregar_enderecos()
+    vias_osm = nomes_de_vias_osm()
     utm_para_geo = Transformer.from_crs("EPSG:31983", "EPSG:4326", always_xy=True)
 
     contagem = defaultdict(int)
@@ -123,6 +140,7 @@ def main():
             lon, lat = utm_para_geo.transform(x, y)
             tipo = TIPOS.get(bar["DESC_LOGRADOURO"], bar["DESC_LOGRADOURO"].title())
             via = f"{tipo} {titulo(bar['NOME_LOGRADOURO'], False)}"
+            via = vias_osm.get(normalizar(via), via)
             saida.append({
                 "id": bar["_id"],
                 "nome": nome_exibicao(bar["NOME_FANTASIA"], bar["NOME"]),
