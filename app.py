@@ -340,7 +340,7 @@ def consultar(restaurante_id, raio_km, _):
     r = restaurantes.por_id[restaurante_id]
     raio_km = min(max(raio_km or 2, 0.5), 5)
     raio_m = raio_km * 1000
-    resultado = frota.buscar(r.lat, r.lon, raio_m)
+    resultado = frota.buscar(r, raio_m)
 
     no_raio = {a.id for a in resultado.atendem}
     atendem = pontos(

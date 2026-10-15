@@ -61,9 +61,8 @@ def carregar_limite_utm(caminho_geojson):
 class Frota:
     def __init__(self, malha, restaurantes, caminho_limite):
         self.malha = malha
-        lat = np.array([r.lat for r in restaurantes.lista])
-        lon = np.array([r.lon for r in restaurantes.lista])
-        self._centro_x, self._centro_y = para_utm(lat, lon)
+        self._centro_x = np.array([r.x for r in restaurantes.lista])
+        self._centro_y = np.array([r.y for r in restaurantes.lista])
         self._limite = carregar_limite_utm(caminho_limite)
         shapely.prepare(self._limite)
 
@@ -115,12 +114,13 @@ class Frota:
         self.dispersao_m = dispersao_m
         self._aresta, self._desloc = aresta, desloc
 
-    def buscar(self, lat, lon, raio_m, precisao=None):
-        """Entregadores a até `raio_m` metros (em linha reta) do ponto.
+    def buscar(self, restaurante, raio_m, precisao=None):
+        """Entregadores a até `raio_m` metros (em linha reta) do restaurante.
 
         `precisao` fixa o tamanho das células consultadas; sem ela, usa escolher_precisao.
         """
         inicio = perf_counter()
+        lat, lon = restaurante.lat, restaurante.lon
         caixa = caixa_envolvente(lat, lon, raio_m)
         precisao = precisao or escolher_precisao(caixa)
         celulas = geohash.cobertura(*caixa, precisao)
@@ -138,8 +138,7 @@ class Frota:
 
         atendem = []
         if dentro:
-            x, y = para_utm(lat, lon)
-            _, _, aresta, desloc = self.malha.projetar([x], [y])
+            _, _, aresta, desloc = self.malha.projetar([restaurante.x], [restaurante.y])
             indices = np.array([i for i, _ in dentro])
             rua = self.malha.distancias_ate(
                 aresta[0], desloc[0], self._aresta[indices], self._desloc[indices],

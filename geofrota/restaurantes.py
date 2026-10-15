@@ -3,6 +3,7 @@ import re
 import unicodedata
 from dataclasses import dataclass
 
+from .geo import para_utm
 from .trie import TrieCompacta
 
 
@@ -15,6 +16,8 @@ class Restaurante:
     bairro: str
     lat: float
     lon: float
+    x: float  # UTM 23S, em metros
+    y: float
 
 
 def normalizar(texto):
@@ -32,11 +35,14 @@ class Restaurantes:
 
     def __init__(self, caminho_csv):
         with open(caminho_csv, encoding="utf-8") as f:
-            self.lista = [
-                Restaurante(r["id"], r["nome"], r["categoria"], r["endereco"], r["bairro"],
-                            float(r["lat"]), float(r["lon"]))
-                for r in csv.DictReader(f)
-            ]
+            linhas = list(csv.DictReader(f))
+        lat = [float(r["lat"]) for r in linhas]
+        lon = [float(r["lon"]) for r in linhas]
+        x, y = para_utm(lat, lon)
+        self.lista = [
+            Restaurante(r["id"], r["nome"], r["categoria"], r["endereco"], r["bairro"], *coords)
+            for r, *coords in zip(linhas, lat, lon, x, y)
+        ]
         self.por_id = {r.id: r for r in self.lista}
         self._nomes = [" ".join(normalizar(r.nome)) for r in self.lista]
         self._palavras = TrieCompacta()
