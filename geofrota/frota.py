@@ -70,6 +70,7 @@ class Frota:
         self.lat = []
         self.lon = []
         self.geohashes = []
+        self.dispersao_m = None
         self._aresta = np.empty(0, dtype=int)
         self._desloc = np.empty(0)
 
@@ -109,6 +110,7 @@ class Frota:
         for i, gh in enumerate(geohashes):
             self.indice.inserir(gh, i)
         self.ids, self.lat, self.lon, self.geohashes = ids, lat, lon, geohashes
+        self.dispersao_m = dispersao_m
         self._aresta, self._desloc = aresta, desloc
 
     def buscar(self, lat, lon, raio_m, precisao=None):

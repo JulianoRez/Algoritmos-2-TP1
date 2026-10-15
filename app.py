@@ -99,59 +99,61 @@ def resumo_indice():
     return f"{numero(len(frota))} entregadores · {numero(frota.indice.contar_nos())} nós na Trie"
 
 
-painel = html.Aside(className="painel", children=[
-    secao(
-        "Restaurante",
-        html.Label("Buscar por nome, rua ou bairro", htmlFor="restaurante", className="rotulo"),
-        dcc.Dropdown(
-            id="restaurante",
-            options=[],
-            placeholder="Ex.: Xapuri, Rua da Bahia, Savassi",
-            labels={
-                "search": "Digite pelo menos 2 letras",
-                "no_options_found": "Nenhum restaurante encontrado",
-                "clear_selection": "Limpar",
-                "clear_search": "Limpar busca",
-            },
-            maxHeight=360,
+def painel():
+    return html.Aside(className="painel", children=[
+        secao(
+            "Restaurante",
+            html.Label("Buscar por nome, rua ou bairro", htmlFor="restaurante", className="rotulo"),
+            dcc.Dropdown(
+                id="restaurante",
+                options=[],
+                placeholder="Ex.: Xapuri, Rua da Bahia, Savassi",
+                labels={
+                    "search": "Digite pelo menos 2 letras",
+                    "no_options_found": "Nenhum restaurante encontrado",
+                    "clear_selection": "Limpar",
+                    "clear_search": "Limpar busca",
+                },
+                maxHeight=360,
+            ),
+            html.Div(id="restaurante-detalhe", className="restaurante-detalhe"),
         ),
-        html.Div(id="restaurante-detalhe", className="restaurante-detalhe"),
-    ),
-    secao(
-        "Raio de atendimento",
-        html.Label("Distância máxima em linha reta (km)", htmlFor="raio", className="rotulo"),
-        dcc.Slider(
-            id="raio", min=0.5, max=5, step=0.1, value=2,
-            marks={v: f"{numero(v, 1) if v % 1 else int(v)}" for v in (0.5, 1, 2, 3, 4, 5)},
-            allow_direct_input=True,
-            updatemode="mouseup",
+        secao(
+            "Raio de atendimento",
+            html.Label("Distância máxima em linha reta (km)", htmlFor="raio", className="rotulo"),
+            dcc.Slider(
+                id="raio", min=0.5, max=5, step=0.1, value=2,
+                marks={v: f"{numero(v, 1) if v % 1 else int(v)}" for v in (0.5, 1, 2, 3, 4, 5)},
+                allow_direct_input=True,
+                updatemode="mouseup",
+            ),
         ),
-    ),
-    secao(
-        "Frota simulada",
-        html.Div(className="campos", children=[
-            html.Div([
-                html.Label("Entregadores", htmlFor="n-entregadores", className="rotulo"),
-                dcc.Input(id="n-entregadores", type="number", min=1, max=N_MAXIMO, step=1,
-                          value=N_INICIAL, className="campo"),
+        secao(
+            "Frota simulada",
+            html.Div(className="campos", children=[
+                html.Div([
+                    html.Label("Entregadores", htmlFor="n-entregadores", className="rotulo"),
+                    dcc.Input(id="n-entregadores", type="number", min=1, max=N_MAXIMO, step=1,
+                              value=len(frota), className="campo"),
+                ]),
+                html.Div([
+                    html.Label("Dispersão (m)", htmlFor="dispersao", className="rotulo"),
+                    dcc.Input(id="dispersao", type="number", min=50, max=3000, step=50,
+                              value=frota.dispersao_m, className="campo"),
+                ]),
             ]),
-            html.Div([
-                html.Label("Dispersão (m)", htmlFor="dispersao", className="rotulo"),
-                dcc.Input(id="dispersao", type="number", min=50, max=3000, step=50,
-                          value=DISPERSAO_INICIAL, className="campo"),
-            ]),
-        ]),
-        html.P(
-            "Posições sorteadas com distribuição normal em torno dos restaurantes "
-            "e projetadas na via mais próxima. A dispersão é o desvio padrão.",
-            className="ajuda",
+            html.P(
+                "Posições sorteadas com distribuição normal em torno dos restaurantes "
+                "e projetadas na via mais próxima. A dispersão é o desvio padrão.",
+                className="ajuda",
+            ),
+            html.Button("Gerar entregadores", id="gerar", className="botao", n_clicks=0),
+            html.P(id="status-frota", className="status", role="status",
+                   children=f"{numero(len(frota))} entregadores na frota atual."),
         ),
-        html.Button("Gerar entregadores", id="gerar", className="botao", n_clicks=0),
-        html.P(id="status-frota", className="status", role="status",
-               children=f"{numero(N_INICIAL)} entregadores gerados ao iniciar."),
-    ),
-    secao("Resultado", html.Div(id="resumo", **{"aria-live": "polite"})),
-])
+        secao("Resultado", html.Div(id="resumo", **{"aria-live": "polite"})),
+    ])
+
 
 mapa = html.Div(className="mapa", children=[
     dl.Map(
@@ -182,25 +184,31 @@ mapa = html.Div(className="mapa", children=[
 ])
 
 
+# A frota fica na memória do servidor, então o layout é montado a cada carregamento
+# da página para mostrar o estado atual dela.
+def layout():
+    return html.Div(className="app", children=[
+        html.Header(className="topo", children=[
+            html.Div([
+                html.H1("Frota BH"),
+                html.P("Entregadores próximos a restaurantes de Belo Horizonte", className="subtitulo"),
+            ]),
+            html.P(id="indice", className="indice", children=resumo_indice()),
+        ]),
+        html.Div(className="corpo", children=[
+            painel(),
+            html.Main(className="principal", children=[
+                mapa,
+                html.Section(id="lista", className="lista", **{"aria-label": "Entregadores no raio"}),
+            ]),
+        ]),
+        dcc.Store(id="versao-frota", data=0),
+    ])
+
+
 app = Dash(__name__, title="Frota BH", update_title=None)
 server = app.server
-app.layout = html.Div(className="app", children=[
-    html.Header(className="topo", children=[
-        html.Div([
-            html.H1("Frota BH"),
-            html.P("Entregadores próximos a restaurantes de Belo Horizonte", className="subtitulo"),
-        ]),
-        html.P(id="indice", className="indice", children=resumo_indice()),
-    ]),
-    html.Div(className="corpo", children=[
-        painel,
-        html.Main(className="principal", children=[
-            mapa,
-            html.Section(id="lista", className="lista", **{"aria-label": "Entregadores no raio"}),
-        ]),
-    ]),
-    dcc.Store(id="versao-frota", data=0),
-])
+app.layout = layout
 
 
 @app.callback(
