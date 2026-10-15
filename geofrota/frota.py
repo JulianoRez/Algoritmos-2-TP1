@@ -11,6 +11,8 @@ from .trie import TrieCompacta
 
 VELOCIDADE_MEDIA_KMH = 25
 MAX_CELULAS = 16
+# O Dijkstra das rotas para em LIMITE_ROTA vezes o raio (ver Malha.distancias_ate).
+LIMITE_ROTA = 4
 
 
 @dataclass
@@ -140,7 +142,8 @@ class Frota:
             _, _, aresta, desloc = self.malha.projetar([x], [y])
             indices = np.array([i for i, _ in dentro])
             rua = self.malha.distancias_ate(
-                aresta[0], desloc[0], self._aresta[indices], self._desloc[indices]
+                aresta[0], desloc[0], self._aresta[indices], self._desloc[indices],
+                limite_m=LIMITE_ROTA * raio_m,
             )
             for (i, d), r in zip(dentro, rua.tolist()):
                 minutos = r / 1000 / VELOCIDADE_MEDIA_KMH * 60

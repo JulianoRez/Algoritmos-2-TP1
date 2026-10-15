@@ -60,11 +60,24 @@ class Malha:
         projetados = shapely.line_interpolate_point(linhas, desloc)
         return shapely.get_x(projetados), shapely.get_y(projetados), aresta, desloc
 
-    def distancias_ate(self, aresta, desloc, arestas_origem, desloc_origem):
+    def distancias_ate(self, aresta, desloc, arestas_origem, desloc_origem, limite_m=np.inf):
         """Distância pela rua de cada posição de origem até a posição de destino,
-        respeitando a mão das vias."""
+        respeitando a mão das vias.
+
+        O Dijkstra para de expandir nós além de `limite_m`. Toda distância final até
+        `limite_m` é exata (um caminho por um nó não alcançado seria mais longo que
+        o limite); se alguma passar disso, o cálculo é refeito sem limite.
+        """
+        total = self._distancias(aresta, desloc, arestas_origem, desloc_origem, limite_m)
+        if np.isfinite(limite_m) and (total > limite_m).any():
+            total = self._distancias(aresta, desloc, arestas_origem, desloc_origem, np.inf)
+        return total
+
+    def _distancias(self, aresta, desloc, arestas_origem, desloc_origem, limite_m):
         L = self.comprimento[aresta]
-        dist_u, dist_v = dijkstra(self._reverso, indices=[self.origem[aresta], self.destino[aresta]])
+        dist_u, dist_v = dijkstra(
+            self._reverso, indices=[self.origem[aresta], self.destino[aresta]], limit=limite_m
+        )
         # Chegando pelo nó de origem da aresta, percorre `desloc`; chegando pelo
         # outro nó, só dá para seguir se a via for de mão dupla.
         ate = dist_u + desloc
