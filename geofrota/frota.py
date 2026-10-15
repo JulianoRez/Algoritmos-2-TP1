@@ -1,4 +1,5 @@
 import json
+import threading
 from dataclasses import dataclass
 from time import perf_counter
 
@@ -65,6 +66,7 @@ class Frota:
         self._centro_y = np.array([r.y for r in restaurantes.lista])
         self._limite = carregar_limite_utm(caminho_limite)
         shapely.prepare(self._limite)
+        self._trava = threading.Lock()
 
         self.indice = TrieCompacta()
         self.ids = []
@@ -107,18 +109,23 @@ class Frota:
         ids = [f"E{i + 1:0{largura}d}" for i in range(n)]
         geohashes = [geohash.codificar(a, b) for a, b in zip(lat, lon)]
 
-        self.indice.limpar()
-        for i, gh in enumerate(geohashes):
-            self.indice.inserir(gh, i)
-        self.ids, self.lat, self.lon, self.geohashes = ids, lat, lon, geohashes
-        self.dispersao_m = dispersao_m
-        self._aresta, self._desloc = aresta, desloc
+        with self._trava:
+            self.indice.limpar()
+            for i, gh in enumerate(geohashes):
+                self.indice.inserir(gh, i)
+            self.ids, self.lat, self.lon, self.geohashes = ids, lat, lon, geohashes
+            self.dispersao_m = dispersao_m
+            self._aresta, self._desloc = aresta, desloc
 
     def buscar(self, restaurante, raio_m, precisao=None):
         """Entregadores a até `raio_m` metros (em linha reta) do restaurante.
 
         `precisao` fixa o tamanho das células consultadas; sem ela, usa escolher_precisao.
         """
+        with self._trava:
+            return self._buscar(restaurante, raio_m, precisao)
+
+    def _buscar(self, restaurante, raio_m, precisao):
         inicio = perf_counter()
         lat, lon = restaurante.lat, restaurante.lon
         caixa = caixa_envolvente(lat, lon, raio_m)
