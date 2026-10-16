@@ -263,19 +263,19 @@ def tabela(r, raio_km, atendem):
             className="vazio",
         )
     cabecalho = html.Tr([
-        html.Th("#", scope="col", className="num"),
+        html.Th("#", scope="col", className="num opcional"),
         html.Th("Entregador", scope="col"),
         html.Th("Onde está", scope="col"),
-        html.Th("Linha reta", scope="col", className="num"),
+        html.Th("Linha reta", scope="col", className="num opcional"),
         html.Th("Pela rua", scope="col", className="num"),
         html.Th("Chegada", scope="col", className="num"),
     ])
     linhas = [
         html.Tr([
-            html.Td(i, className="num"),
+            html.Td(i, className="num opcional"),
             html.Td(a.id, className="id"),
             html.Td(a.via or "—"),
-            html.Td(distancia(a.distancia_m), className="num"),
+            html.Td(distancia(a.distancia_m), className="num opcional"),
             html.Td(distancia(a.distancia_rua_m), className="num"),
             html.Td(minutos(a.minutos), className="num"),
         ])
