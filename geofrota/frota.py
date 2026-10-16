@@ -11,7 +11,7 @@ from .geo import caixa_envolvente, haversine, para_geo, para_utm
 from .trie import TrieCompacta
 
 VELOCIDADE_MEDIA_KMH = 25
-MAX_CELULAS = 16
+MAX_CELULAS = 64
 # O Dijkstra das rotas para em LIMITE_ROTA vezes o raio (ver Malha.distancias_ate).
 LIMITE_ROTA = 4
 
