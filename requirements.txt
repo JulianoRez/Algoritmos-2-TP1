@@ -5,3 +5,4 @@ numpy==2.5.4
 scipy==1.18.1
 shapely==2.2.0
 pyproj==3.8.0
+gunicorn==26.2.0
