@@ -6,6 +6,8 @@ Sistema que encontra os entregadores que podem atender um restaurante de Belo Ho
 
 Integrantes: _preencher_
 
+![Consulta de 1 km a partir do Mercado Central](docs/img/consulta_centro_1km.png)
+
 ## Execução
 
 Requer Python 3.12. A partir da raiz do repositório:
@@ -261,3 +263,128 @@ Alguns cuidados de acessibilidade: todo campo tem rótulo associado; a diferenç
 </p>
 
 A frota fica na memória do servidor, compartilhada por todas as abas abertas. Por isso o layout é montado a cada carregamento da página, para mostrar o estado atual.
+
+### 8. Experimentos
+
+#### 8.1 Ambiente
+
+AMD Ryzen 7 7800X3D, Linux 7.0, Python 3.12.3. Os tempos são do lado do servidor, medidos com `time.perf_counter`, sem a transmissão e o desenho no navegador. As tabelas das seções 8.3 a 8.7 vêm de `python -m scripts.medir`, com frota de 5.000 entregadores, σ = 500 m e semente fixa; cada consulta foi repetida 30 vezes e reportamos a mediana.
+
+As consultas usam seis restaurantes em regiões com densidades diferentes: Casa Cheia (Mercado Central, Centro), Café com Letras (Savassi), Bolão (Santa Tereza), Restaurante Xapuri (Pampulha), Fazenda Mineira (Venda Nova) e Tatu Rei do Angu (Barreiro).
+
+#### 8.2 Consultas na interface
+
+Para as capturas geramos pela interface uma frota de 3.000 entregadores (56 ms) e fizemos três consultas. Os tempos são os mostrados no painel.
+
+| Consulta | Precisão | Células | Candidatos | No raio | Trie | Filtro | Rotas | Total |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Casa Cheia, 1 km | 6 | 12 | 340 | 161 | 0,25 ms | 0,20 ms | 1,4 ms | 1,8 ms |
+| Restaurante Xapuri, 2 km | 6 | 40 | 113 | 46 | 0,25 ms | 0,08 ms | 1,6 ms | 2,0 ms |
+| Café com Letras, 3 km | 5 | 4 | 1.032 | 613 | 0,49 ms | 0,54 ms | 4,5 ms | 5,5 ms |
+
+A primeira consulta está na imagem do início deste documento. No Centro o raio de 1 km já tem 161 entregadores, e o mais próximo está a 5 m pela rua.
+
+Na Pampulha a densidade é bem menor: 46 entregadores em 2 km. A lagoa ocupa parte do círculo e não tem nenhum pino, porque os pontos sorteados nela foram projetados para as avenidas em volta. As 40 células de precisão 6 formam uma grade de 5 colunas por 8 linhas em volta do círculo; as células dessa precisão são quase duas vezes mais largas que altas.
+
+![Consulta de 2 km no Restaurante Xapuri](docs/img/consulta_pampulha_2km.png)
+
+Com 3 km a precisão 6 exigiria mais de 64 células, e a cobertura usa 4 células de precisão 5. Elas formam um quadrado de cerca de 9 km de lado, e a Trie devolve 1.032 candidatos para 613 entregadores no raio. Mesmo assim a consulta inteira leva 5,5 ms, a maior parte no cálculo de rotas.
+
+![Consulta de 3 km no Café com Letras](docs/img/consulta_savassi_3km.png)
+
+#### 8.3 Tempo de resposta por consulta
+
+| Restaurante | Raio (km) | Precisão | Células | Candidatos | No raio | Trie (ms) | Filtro (ms) | Rotas (ms) | Total (ms) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Casa Cheia (Mercado Central, Centro) | 1 | 6 | 12 | 568 | 260 | 0,126 | 0,187 | 0,854 | 1,168 |
+| Casa Cheia (Mercado Central, Centro) | 2 | 6 | 32 | 1.006 | 728 | 0,257 | 0,330 | 2,533 | 3,121 |
+| Casa Cheia (Mercado Central, Centro) | 3 | 5 | 4 | 2.176 | 1.174 | 0,305 | 0,705 | 4,079 | 5,080 |
+| Café com Letras (Savassi) | 1 | 6 | 15 | 512 | 194 | 0,132 | 0,169 | 0,687 | 0,988 |
+| Café com Letras (Savassi) | 2 | 6 | 35 | 915 | 607 | 0,257 | 0,302 | 2,087 | 2,647 |
+| Café com Letras (Savassi) | 3 | 5 | 4 | 1.778 | 1.069 | 0,263 | 0,574 | 3,633 | 4,475 |
+| Bolão (Santa Tereza) | 1 | 6 | 15 | 358 | 106 | 0,109 | 0,118 | 0,577 | 0,802 |
+| Bolão (Santa Tereza) | 2 | 6 | 35 | 843 | 417 | 0,243 | 0,274 | 1,837 | 2,355 |
+| Bolão (Santa Tereza) | 3 | 5 | 6 | 2.357 | 894 | 0,337 | 0,753 | 3,512 | 4,614 |
+| Restaurante Xapuri (Pampulha) | 1 | 6 | 12 | 27 | 7 | 0,053 | 0,010 | 0,161 | 0,224 |
+| Restaurante Xapuri (Pampulha) | 2 | 6 | 40 | 170 | 66 | 0,171 | 0,058 | 0,989 | 1,221 |
+| Restaurante Xapuri (Pampulha) | 3 | 5 | 6 | 1.280 | 183 | 0,200 | 0,414 | 2,138 | 2,760 |
+| Fazenda Mineira (Venda Nova) | 1 | 6 | 8 | 106 | 74 | 0,054 | 0,036 | 5,140 | 5,230 |
+| Fazenda Mineira (Venda Nova) | 2 | 6 | 28 | 321 | 213 | 0,152 | 0,111 | 1,379 | 1,648 |
+| Fazenda Mineira (Venda Nova) | 3 | 5 | 4 | 1.022 | 439 | 0,154 | 0,341 | 2,448 | 2,946 |
+| Tatu Rei do Angu (Barreiro) | 1 | 6 | 12 | 109 | 60 | 0,064 | 0,037 | 0,285 | 0,388 |
+| Tatu Rei do Angu (Barreiro) | 2 | 6 | 40 | 313 | 156 | 0,188 | 0,104 | 1,042 | 1,340 |
+| Tatu Rei do Angu (Barreiro) | 3 | 6 | 60 | 465 | 307 | 0,278 | 0,156 | 1,793 | 2,227 |
+
+A etapa da Trie (calcular a cobertura e fazer as buscas de prefixo) fica entre 0,05 e 0,34 ms e cresce com o número de células e de candidatos, como esperado de O(m + k) por célula. O filtro é linear nos candidatos. As rotas dominam o tempo total e dependem da área que o Dijkstra precisa explorar, não de N. A linha da Fazenda Mineira com 1 km é o caso da seção 5.5: o Dijkstra limitado a 4 km não alcançou um dos entregadores e foi refeito na malha inteira (5,1 ms).
+
+O número de candidatos fica entre 1,4 e 3,9 vezes o número de entregadores no raio, com um caso de 7 vezes (Xapuri com 3 km: 1.280 candidatos para 183 no raio). A cobertura é um retângulo de células inteiras, maior que o círculo, e com as células de precisão 5 a sobra é maior.
+
+#### 8.4 Efeito da precisão
+
+Raio de 2 km com a precisão fixada, média dos seis restaurantes, sem o cálculo de rotas:
+
+| Precisão | Células | Candidatos | Trie + filtro (ms) |
+|---:|---:|---:|---:|
+| 4 | 1,5 | 2.194 | 0,959 |
+| 5 | 3,3 | 1.215 | 0,527 |
+| 6 | 35,0 | 595 | 0,367 |
+| 7 | 778,5 | 456 | 3,162 |
+
+Da precisão 4 para a 6 o número de candidatos cai para menos de um terço e o tempo acompanha. Na precisão 7 os candidatos quase não diminuem (as células de 144 m já seguem bem o contorno do círculo), mas são 778 buscas de prefixo, e o tempo fica 9 vezes maior. O limite de 64 células escolhe a precisão 6 para esse raio.
+
+#### 8.5 Trie x varredura linear
+
+Raio de 2 km, média dos seis restaurantes. A varredura linear calcula a haversine para todos os N entregadores. As duas devolvem exatamente o mesmo conjunto (o script confere).
+
+| N | Trie + filtro (ms) | Varredura linear (ms) | Razão |
+|---:|---:|---:|---:|
+| 1.000 | 0,166 | 0,306 | 1,8x |
+| 5.000 | 0,377 | 1,549 | 4,1x |
+| 20.000 | 1,134 | 6,170 | 5,4x |
+| 100.000 | 4,769 | 29,652 | 6,2x |
+
+A varredura cresce linearmente com N. A busca com a Trie cresce com o número de candidatos, que é proporcional à densidade de entregadores na região, e tem um custo fixo de cerca de 35 descidas de prefixo. Com 1.000 entregadores esse custo fixo ainda pesa e o ganho é pequeno; com 100.000 a Trie é 6 vezes mais rápida. O ganho é limitado porque os entregadores se concentram justamente perto dos restaurantes e a cobertura devolve o dobro de candidatos do necessário.
+
+#### 8.6 Problema de borda
+
+Sorteamos 1.000 restaurantes e, para cada raio, comparamos três buscas com a resposta exata (força bruta). A coluna "pares no raio" é a soma, nas 1.000 consultas, do número de entregadores no raio. As porcentagens são de pares perdidos.
+
+| Raio | Pares no raio | Só a célula do restaurante | Só uma célula grande (precisão 5) | Cobertura com vizinhas |
+|---:|---:|---:|---:|---:|
+| 500 m | 20.497 | 97,0% | 8,1% | 0,0% |
+| 1.000 m | 75.493 | 76,8% | 15,9% | 0,0% |
+| 2.000 m | 264.269 | 93,2% | 31,2% | 0,0% |
+
+"Só a célula do restaurante" usa a precisão que a nossa regra escolheria, mas sem as vizinhas, e perde quase tudo, porque a célula é bem menor que o círculo. "Só uma célula grande" usa a maior precisão cuja célula tem lado de pelo menos 2r, de modo que o círculo caberia nela se o restaurante estivesse no centro. Mesmo assim, como o restaurante pode estar perto da borda da célula, a perda vai de 8% a 31%. Com as vizinhas não há perda.
+
+#### 8.7 Carga e geração
+
+| Etapa | Tempo |
+|---|---:|
+| Malha viária (leitura do GraphML, projeção, índice espacial) | 3,95 s |
+| 20.855 restaurantes e Trie de palavras | 0,41 s |
+| Gerar 1.000 entregadores | 12 ms |
+| Gerar 5.000 entregadores | 61 ms |
+| Gerar 20.000 entregadores | 294 ms |
+| Gerar 100.000 entregadores | 1.570 ms |
+
+A geração inclui sorteio, reamostragem dos pontos fora do município, projeção na malha, conversão de coordenadas, cálculo dos Geohashes e inserção na Trie.
+
+### 9. Limitações
+
+- A velocidade de 25 km/h é constante. Não há trânsito, semáforo nem diferença entre avenida e rua residencial.
+- O raio de atendimento é em linha reta, como pede o enunciado. Um entregador dentro do raio pode estar longe pela rua (o caso da Av. Cristiano Machado); a tabela mostra as duas distâncias.
+- A malha `drive` do OSM não inclui vias de pedestres, que motos e bicicletas às vezes usam.
+- Estabelecimentos com o mesmo endereço ficam no mesmo ponto (há vários na Av. Augusto de Lima, 744, o Mercado Central).
+- A frota é um estado global do servidor: duas pessoas usando a página ao mesmo tempo veem a mesma frota, e quem gera uma frota nova troca a do outro.
+- Os mapas usam os tiles públicos do OpenStreetMap, cuja política de uso permite tráfego leve, adequado a um trabalho acadêmico mas não a um produto em produção.
+
+### Referências
+
+- G. Niemeyer. Geohash, 2008. http://geohash.org
+- D. R. Morrison. PATRICIA: Practical Algorithm To Retrieve Information Coded in Alphanumeric. Journal of the ACM, 15(4):514–534, 1968.
+- E. W. Dijkstra. A note on two problems in connexion with graphs. Numerische Mathematik, 1:269–271, 1959.
+- R. W. Sinnott. Virtues of the Haversine. Sky and Telescope, 68(2):159, 1984.
+- G. Boeing. OSMnx: New methods for acquiring, constructing, analyzing, and visualizing complex street networks. Computers, Environment and Urban Systems, 65:126–139, 2017.
+- Prefeitura de Belo Horizonte. Endereço Cadastro Técnico Municipal. https://dados.pbh.gov.br/dataset/endereco-cadastro-tecnico-municipal
+- OpenStreetMap contributors. https://www.openstreetmap.org
