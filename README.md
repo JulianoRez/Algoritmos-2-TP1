@@ -14,12 +14,12 @@ Requer Python 3.12. A partir da raiz do repositório:
 
 ```
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate        # no Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
 
-A interface abre em http://127.0.0.1:8050. A inicializaçao leva cerca de 5 segundos, quase todos gastos lendo a malha viária.
+A interface abre em http://127.0.0.1:8050. A inicialização leva cerca de 5 segundos, quase todos gastos lendo a malha viária.
 
 Com Docker:
 
