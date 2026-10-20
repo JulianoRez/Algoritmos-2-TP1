@@ -4,7 +4,7 @@ Trabalho Prático 1 de Algoritmos 2 (DCC207, UFMG, 2026/2).
 
 Sistema que encontra os entregadores que podem atender um restaurante de Belo Horizonte. As posições dos entregadores são codificadas em Geohash e guardadas em uma Trie compacta; a busca percorre a célula do restaurante e as vizinhas, filtra os candidatos pela distância e ordena o resultado pelo tempo estimado de chegada pela malha viária.
 
-Integrantes: _preencher_
+Integrantes: Juliano Gomes de Rezende
 
 ![Consulta de 1 km a partir do Mercado Central](docs/img/consulta_centro_1km.png)
 
@@ -268,7 +268,7 @@ A frota fica na memória do servidor, compartilhada por todas as abas abertas. P
 
 #### 8.1 Ambiente
 
-AMD Ryzen 7 7800X3D, Linux 7.0, Python 3.12.3. Os tempos são do lado do servidor, medidos com `time.perf_counter`, sem a transmissão e o desenho no navegador. As tabelas das seções 8.3 a 8.7 vêm de `python -m scripts.medir`, com frota de 5.000 entregadores, σ = 500 m e semente fixa; cada consulta foi repetida 30 vezes e reportamos a mediana.
+Linux 7.0, Python 3.12.3. Os tempos são do lado do servidor, medidos com `time.perf_counter`, sem a transmissão e o desenho no navegador. As tabelas das seções 8.3 a 8.7 vêm de `python -m scripts.medir`, com frota de 5.000 entregadores, σ = 500 m e semente fixa; cada consulta foi repetida 30 vezes e reportamos a mediana.
 
 As consultas usam seis restaurantes em regiões com densidades diferentes: Casa Cheia (Mercado Central, Centro), Café com Letras (Savassi), Bolão (Santa Tereza), Restaurante Xapuri (Pampulha), Fazenda Mineira (Venda Nova) e Tatu Rei do Angu (Barreiro).
 
